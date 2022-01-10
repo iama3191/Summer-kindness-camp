@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@500&family=Roboto&display=swap');
+
 * {
     /*box-sizing: border-box;*/
     margin: 0;
     padding: 0;
+    color: #000;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Big Shoulders Text', sans-serif;
+    letter-spacing: 1px;
+}
 /* Header */
 
 header {
     display: flex;
     width: 100%;
-    margin: 15px;
+    margin: 15px auto;
     padding: 15px;
     justify-content: center;
 }
@@ -46,4 +55,48 @@ header a {
     text-align: center; 
 }
 
+hr {
+    width: 90%;
+    margin: 30px auto;
+}
 
+/*About us section*/
+
+#about-us {
+    display: inline;
+    border: 2px solid black;
+}
+
+#about-us h2 {
+    margin: 0 80px;
+}
+
+#about-container {
+    display: flex;
+    border: 2px solid black;
+    background-color: thistle;
+    width: 80%;
+    margin: 5px auto;
+}
+
+/*.main-info {
+    display: inline;
+    width: 33.33%;
+    height:  150px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;  
+}*/
+
+.intern-info {
+    display: inline;
+    width: 33.33%;
+    height:  150px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#values-container {
+
+}
