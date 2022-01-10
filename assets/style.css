@@ -62,11 +62,6 @@ hr {
 
 /*About us section*/
 
-#about-us {
-    display: inline;
-    border: 2px solid black;
-}
-
 #about-us h2 {
     margin: 0 80px;
 }
