@@ -36,9 +36,14 @@ header a {
     background-size: cover;    
 }
 
-#hero-container span {
+#phrase {
     background-color: rgb(255, 255, 255, 0.3);
-    display: inline-block;
+    display: inline;
+    position: absolute;
+    top: 50%;
+    right: -20%;
+    padding: 2%;
+    text-align: center; 
 }
 
 
