@@ -214,18 +214,21 @@ hr {
     margin: 0 auto;
     width: 90%;
     border: 1px solid #000;
-    align-items: center;
 }
 
-form {
+#contact h2 {
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+
+#form-info {
+    background-color: lightslategray;
     max-width: 40%;
-    border: 2px solid #000;
-    background-color: lightcoral;
-    
-    
+    height: auto;
+    margin: inherit;
+    text-align: center;
+    padding: 3px;
 }
-
-
 /*Footer*/
 
 footer {
