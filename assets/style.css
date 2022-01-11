@@ -191,7 +191,7 @@ hr {
 
 #gallery {
     width: 90%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 /*Code from Love Running and modify the column-count and the column-gap, add margin and padding*/
 #photos {
@@ -200,13 +200,12 @@ hr {
     column-count: 3;
     column-gap: normal;
     border: 1px solid #000;
-    padding: 10px 0;
-    margin: 18px 0;
+    margin: 20px 0;
 }
 
 #photos > img {
     width: 100%;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 /*End of using the code from Love Running*/
 
