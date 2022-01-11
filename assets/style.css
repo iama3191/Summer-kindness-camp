@@ -161,3 +161,36 @@ hr {
     color: #fff;
     padding: 25px 0;
 }
+
+/*Gallery*/
+
+
+/*Contact Us*/
+
+/*Footer*/
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+#social-media {
+    margin: 10px auto;
+    
+}
+
+
+
+#social-media li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    
+}
+
+#social-media a {
+    text-decoration: none;
+}
