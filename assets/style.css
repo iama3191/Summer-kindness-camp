@@ -88,17 +88,6 @@ hr {
     width: 90%;
     margin: 30px auto;
     position: relative;
-    z-index: -3;
-}
-
-.main-info {
-    display: inline;
-    width: 25%;
-    height:  150px;
-    background-color: blue;
-    position: absolute;
-    top: 50px;  
-    z-index: -2;
 }
 
 .intern-info {
