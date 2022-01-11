@@ -133,6 +133,11 @@ hr {
     margin: 25px  30px;
 }
 
+.value p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
 /*Program*/
 
 #program h2 {
