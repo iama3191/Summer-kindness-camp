@@ -210,6 +210,21 @@ hr {
 /*End of using the code from Love Running*/
 
 /*Contact Us*/
+#contact {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid #000;
+    align-items: center;
+}
+
+form {
+    max-width: 40%;
+    border: 2px solid #000;
+    background-color: lightcoral;
+    
+    
+}
+
 
 /*Footer*/
 

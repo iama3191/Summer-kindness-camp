@@ -22,9 +22,8 @@
         </ul>
     </nav>        
     </header>
-    <main>
-        <!--Home section-->
-        <section id="home">
+    <!--Home section-->
+    <section id="home">
             <div id="hero-container">
                 <div id="main-name">
                     <h1>Summer Kindness Camp</h1>
@@ -34,10 +33,10 @@
                     <p>Because it is never too early to be kind!<!--add icon of a heart--></p>
                 </div>   
             </div>       
-        </section>
-        <hr>
-        <!--About Us section-->
-        <section id="about-us">
+    </section>
+    <hr>
+    <!--About Us section-->
+    <section id="about-us">
             <h2>About Us</h2> 
             <div id="about-container">
                     <div class="intern-info">
@@ -86,10 +85,10 @@
                     <p>Humility</p>
                 </div>               
             </div>
-        </section>
-        <hr>
-        <!--Program section-->
-        <section id="program">
+    </section>
+    <hr>
+    <!--Program section-->
+    <section id="program">
             <h2>Program</h2>
             <div id="program-container">
             <div class="program-description">
@@ -124,10 +123,11 @@
                 <div class="program-info">Our last day is to team up with kids from an orphanage and have fun playing different sports and getting the chance to win the "Kindness Cup."</div>
             </div>
             </div>
-        </section>
-        <hr>
-        <section id="gallery">
-            <h2>Gallery</h2>
+    </section>
+    <hr>
+    <!--Gallery Section-->
+    <section id="gallery">
+        <h2>Gallery</h2>
             <div id="photos">
                 <img src="assets/images/children-pulling-game.jpg" alt="Group of kids pulling the rope in a game">
                 <img src="assets/images/girls-recycling.jpg" alt="two little girls carrying a recycling box full of plastic bottles">
@@ -140,14 +140,22 @@
                 <img src="assets/images/grandma-kid-cooking.jpg" alt="Older woman teaching to a boy how to peel potatoes in a kitchen">
                 <img src="assets/images/kids-playing-soccer-grass.jpg" alt="Group of kids playing soccer in grass">
             </div>
-        </section>
-        <hr>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>If you want to get in touch and spread some love and kindness, please fill the form</p>
-            <form action="" method="">
-                
-            </form>
+    </section>
+    <hr>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/xpzbqalv" method="post"></form>
+            <p>Let's be kind together!</p>        
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required><br> 
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="example@email.com"><br>   
+            <label for="add-comment">Any additional comment?</label><br>
+            <textarea name="comment" id="add-comment" cols="30" rows="10"></textarea><br>
+            <input type="submit" id="send-info"  value="Send">
+        </form>
         </section>
         <hr>
     </main>
