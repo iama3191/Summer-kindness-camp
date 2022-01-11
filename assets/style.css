@@ -41,8 +41,22 @@ h3 {
     height: 521px;
     display: flex;
     position: relative;
-    background-image: url(../assets/images/home-hero-image.jpg);
+    background-image: url(../assets/images/home-hero-image-clean-board.jpg);
     background-size: cover;    
+}
+
+#main-name {
+    position: absolute;
+    top: 25%;
+    left: 34%;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+#main-name h1 {
+    color: #fff;
+    font-size: 60px;
 }
 
 #phrase {
