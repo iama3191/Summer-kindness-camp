@@ -185,6 +185,25 @@ hr {
 
 /*Gallery*/
 
+#gallery {
+    margin: 0 80px
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+     
+    
+    border: 1px solid #000;
+}
+
+#photos > img {
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+}
 
 /*Contact Us*/
 
