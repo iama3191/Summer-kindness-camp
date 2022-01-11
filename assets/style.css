@@ -186,23 +186,23 @@ hr {
 /*Gallery*/
 
 #gallery {
-    margin: 0 80px
+    margin: 0 auto;
+    width: 90%;
 }
 
+/*Code from Love Running*/
 #photos {
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0;
-     
-    
+    column-gap: normal;
     border: 1px solid #000;
 }
 
 #photos > img {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    align-content: center;
+    padding: 9px 0;
 }
 
 /*Contact Us*/
