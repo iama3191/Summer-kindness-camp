@@ -156,19 +156,25 @@ hr {
 
 .program-description {
     display: inline;
-    width: 34%;
-    margin: 15px;
+    width: 28%;
+    margin: 15px 26px;
     position: relative;
     text-align: center;
+    border: 1px solid #000;
 }
 
 .name-program {
     background-color: red;
-    color: #fff;
-    position: absolute;
-    top: -10px;
-    left: 20px;
+    position: absolute; 
+    top: -20px;
+    left: 38px;
     padding: 10px;
+    margin: 0 auto;
+    max-width: inherit;
+}
+
+.name-program h3 {
+    color: #fff;
 }
 
 .program-info {
