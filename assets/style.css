@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
 
 * {
     /*box-sizing: border-box;*/
     margin: 0;
     padding: 0;
     color: #000;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Big Shoulders Text', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     letter-spacing: 1px;
 }
 /* Header */
