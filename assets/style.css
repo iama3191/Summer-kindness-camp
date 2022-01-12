@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #00394C;
+    color: rgb(4, 14, 16);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
@@ -86,17 +86,15 @@ h3 {
 
 
 hr {
-    width: 90%;
-    margin: 30px auto;
-    color: #DD2C6A;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 2px solid #DD2C6A;
 }
 
 /*About us section*/
 
-#about-us h2 {
-    margin: 0 80px;
-    font-size: 1.4em;
-}
+
 
 #about-container {
     display: flex;
@@ -106,19 +104,38 @@ hr {
     position: relative;
 }
 
+#about-title {
+    display: inline-flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    background-color: #ff7ba9;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-container h2 {
+    font-size: 1.4em;
+    padding: 2px;
+    text-align: center;
+}
+
 .intern-info {
     display: inline;
-    width: 25%;
-    height: auto;
-    margin: 20px auto;
-    background-color: #053C4F;
+    width: 250px;
+    height: 250px;
+    margin: 50px auto;
     border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
 }
+
 
 .intern-info h3 {
     margin: 10px 0;
     text-align: center;
-    color: #EFF1F0;
+    color: rgb(6, 20, 23);
     font-size: 1.2em;
 }
 
@@ -126,7 +143,7 @@ hr {
     text-align: justify;
     padding: 15px;
     font-family: 'Roboto', sans-serif ;
-    color: #EFF1F0;
+    color: rgb(6, 21, 24);
 }
 
 #values-container {
@@ -141,7 +158,7 @@ hr {
     display: inline-flex;
     width: 120px;
     height: 120px;
-    background-color: #CAB03D;
+    background-color: rgb(207, 175, 31);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -151,7 +168,8 @@ hr {
 .value p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: #00394C;
+    font-weight: bold;
+    color: rgb(6, 20, 23);
 }
 
 /*Program*/
