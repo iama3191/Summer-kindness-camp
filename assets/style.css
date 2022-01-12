@@ -222,13 +222,41 @@ hr {
 }
 
 #form-info {
-    background-color: lightslategray;
+    border: 1px solid #000;
     max-width: 40%;
     height: auto;
     margin: inherit;
     text-align: center;
     padding: 3px;
 }
+
+.form-input {
+    border: 1px solid red;
+    font-size: 1.2em;
+    margin: 5px 0;
+    max-width: 90%;
+    padding: 5px;
+}
+
+#form-info p {
+    /*choose font-family*/
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#form-info textarea {
+    max-width: 100%;
+    margin: 10px 0;
+    resize: none;
+    border: 1px solid red; 
+}
+
+#send-info {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
 /*Footer*/
 
 footer {
