@@ -56,19 +56,34 @@ h3 {
 }
 
 #main-name h1 {
-    color: #EFF1F0;
+    color: rgb(239, 241, 240);
     font-size: 60px;
 }
 
-#phrase {
-    background-color: rgb(255, 255, 255, 0.3);
+.phrase {
+    background-color: rgb(207, 175, 31);
     display: inline;
     position: absolute;
-    top: 50%;
-    right: -20%;
     padding: 2%;
     text-align: center; 
+    
+    border-radius: 50%;
 }
+
+#top-phrase {
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    left: -4%;
+}
+
+#bottom-phrase {
+    width: 90px;
+    height: 90px;
+    top: 67%;
+    right: -8%;
+}
+
 
 hr {
     width: 90%;
@@ -126,8 +141,7 @@ hr {
     display: inline-flex;
     width: 120px;
     height: 120px;
-    background-color: #7F153A;
-    color: white;
+    background-color: #CAB03D;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -137,7 +151,7 @@ hr {
 .value p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: #EFF1F0;
+    color: #00394C;
 }
 
 /*Program*/
