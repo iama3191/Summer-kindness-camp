@@ -148,7 +148,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 30px auto;
+    margin: 30px auto 10px auto;
     justify-content: center;   
 }
 
@@ -186,8 +186,25 @@ hr {
 
 /*Program*/
 
-#program h2 {
-    margin: 0 80px;
+#program {
+    position: relative;
+}
+
+#program-title {
+    display: inline-flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    left: 112px;
+    background-color: rgb(245, 122, 165);
+    justify-content: center;
+    align-items: center;   
+}
+
+#program-title h2 {
+    font-size: 1.2em;
 }
 
 #program-container {
@@ -198,6 +215,7 @@ hr {
     background-color: lightblue;
     margin: 30px auto;
     justify-content: center;
+    padding-top: 30px;
 }
 
 .program-description {
