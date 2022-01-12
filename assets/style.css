@@ -164,10 +164,7 @@ hr {
 }
 
 .name-program {
-    background-color: red;
-    position: absolute; 
-    top: -20px;
-    left: 38px;
+    background-color: red;  
     padding: 10px;
     margin: 0 auto;
     max-width: inherit;
