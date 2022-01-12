@@ -86,10 +86,11 @@ h3 {
 
 
 hr {
-    width: 60%;
-    margin: 0 auto;
+    max-width: 70%;
+    margin-left: 147px;
     margin-top: 80px;
     border: 2px solid #DD2C6A;
+    justify-items: right;
 }
 
 /*About us section*/
