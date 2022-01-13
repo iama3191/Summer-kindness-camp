@@ -88,8 +88,7 @@ hr {
     max-width: 70%;
     margin-left: 147px;
     margin-top: 80px;
-    border: 2px solid rgb(0, 61, 82);
-    justify-items: right;
+    border: 2px solid #00BA9A;
 }
 
 /*About us section*/
@@ -99,11 +98,11 @@ hr {
     flex-wrap: wrap;
     width: 80%;
     margin: 30px auto;
-    position: relative;
+    position: relative;   
 }
 
 .section-title {
-    background-color: rgb(241 208 40);
+    background-color: rgb(241, 208, 40);
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -123,25 +122,25 @@ hr {
 }
 
 .intern-info {
-    display: inline;
+   /* display: inline;*/
     width: 250px;
-    height: 250px;
+    height: auto;
     margin: 50px auto;
     border-radius: 10%;
-    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(107, 180, 46);
 }
 
-.intern-info h3 {
+.intern-info h3 { /*I need to see the font color*/
     margin: 10px 0;
     text-align: center;
     color: rgb(6, 20, 23);
     font-size: 1.2em;
 }
 
-.intern-info p {
+.intern-info p { /*I need to see the font color*/
     text-align: justify;
     padding: 15px;
-    color: rgb(6, 21, 24);
+    color: rgb(6, 20, 23);
 }
 
 #values-container {
@@ -162,11 +161,18 @@ hr {
     display: inline-flex;
     width: 120px;
     height: 120px;
-    background-color: rgb(207, 175, 31);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     margin: 25px  30px;
+}
+
+.even-number {
+    background-color: #28CF7B;
+}
+
+.odd-number {
+    background-color: #8DC349;
 }
 
 .value p {
