@@ -230,14 +230,13 @@ hr {
 /*Gallery*/
 
 #gallery {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     position: relative;
 }
 
 #gallery-position {
     top: -130px;
-    left: 60px;
 }
 
 /*Code from Love Running and modify the column-count and the column-gap, add margin and padding*/
@@ -258,7 +257,7 @@ hr {
 
 /*Contact Us*/
 #contact {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 90%;
     position: relative;
 }
@@ -269,40 +268,47 @@ hr {
 }
 
 #form-info {
-    border: 1px solid #000;
-    max-width: 40%;
+    border: 2px solid rgb(175, 197, 32);
+    border-radius: 5%;
+    max-width: 30%;
     height: auto;
     margin: inherit;
     text-align: center;
     padding: 3px;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
 
 .form-input {
-    border: 1px solid red;
-    font-size: 1.2em;
+    border: 2px solid rgb(0, 158, 134);
     margin: 5px 0;
     max-width: 90%;
     padding: 5px;
+    background-color: rgb(40, 207, 123, 0.1);
 }
 
-#form-info p {
-    /*choose font-family*/
-    margin-bottom: 5px;
+#form-info h3 {
+    margin: 5px 0;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 #form-info textarea {
     max-width: 100%;
     margin: 10px 0;
     resize: none;
-    border: 1px solid red; 
+    border: 2px solid rgb(0, 158, 134); 
+    background-color: rgb(40, 207, 123, 0.1);
 }
 
 #send-info {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 5px;
+    background-color: rgb(241, 208, 40);
+    border: 1px solid rgb(4, 14, 16);
+    border-radius: 10%;
+    font-weight: bold;
+
 }
 
 /*Footer*/
