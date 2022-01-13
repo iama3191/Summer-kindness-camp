@@ -369,7 +369,7 @@ footer p {
     font-weight: bold;
 }
 
-/*media queries max-width: 1000px */
+/*media queries max-width: 1000px*/
 
 @media screen and  (max-width: 1000px) {
   
@@ -387,3 +387,11 @@ footer p {
     }
 }
 
+/*media queries max-width: 800px*/
+@media screen and  (max-width: 800px) {
+    #hero-container {  
+        width: 673px;
+        height: 422px;
+    }    
+    
+} 
