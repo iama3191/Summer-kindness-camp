@@ -122,7 +122,6 @@ hr {
 }
 
 .intern-info {
-   /* display: inline;*/
     width: 250px;
     height: auto;
     margin: 50px auto;
@@ -204,7 +203,7 @@ hr {
 }
 
 .program-description {
-    width: 222px;
+    width: 250px;
     height: auto;
     margin: 15px 26px;
     position: relative;
@@ -223,7 +222,7 @@ hr {
 }
 
 .program-info {
-    padding: 25px;
+    padding: 15px;
     text-align: justify;
 }
 
