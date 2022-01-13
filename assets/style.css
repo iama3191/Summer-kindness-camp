@@ -12,7 +12,6 @@ h1,
 h2,
 h3 {
     font-family: 'Finger Paint', cursive;
-    letter-spacing: 2px;
     text-transform: uppercase;
 }
 /* Header */
@@ -62,12 +61,11 @@ h3 {
 }
 
 .phrase {
-    background-color: rgb(207, 175, 31);
+    background-color: rgb(241 208 40);
     display: inline;
     position: absolute;
     padding: 2%;
-    text-align: center; 
-    
+    text-align: center;   
     border-radius: 50%;
 }
 
@@ -104,22 +102,24 @@ hr {
     position: relative;
 }
 
-#about-title {
-    display: inline-flex;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    position: absolute;
-    top: -100px;
-    background-color: rgb(207, 175, 31);
+.section-title {
+    background-color: rgb(241 208 40);
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-flex;
+    width: 130px;
+    height: 130px; 
 }
 
-#about-container h2 {
-    font-size: 1.4em;
-    padding: 2px;
+.section-title h2 {
     text-align: center;
+    font-size: 1.2em;
+}
+
+#about-position { 
+    top: -100px;  
 }
 
 .intern-info {
@@ -141,7 +141,6 @@ hr {
 .intern-info p {
     text-align: justify;
     padding: 15px;
-    font-family: 'Roboto', sans-serif ;
     color: rgb(6, 21, 24);
 }
 
@@ -153,21 +152,10 @@ hr {
     justify-content: center;   
 }
 
-#values-title {
-    display: inline-flex;
+#values-position {   
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    position: absolute;
     bottom: -65px;
-    background-color: rgb(0, 61, 82);
-    justify-content: center;
-    align-items: center;
-    font-size: medium;
-}
-
-#values-title h2 {
-    color: rgb(239, 241, 240);
 }
 
 .value {
@@ -182,7 +170,6 @@ hr {
 }
 
 .value p {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: rgb(6, 20, 23);
@@ -194,21 +181,9 @@ hr {
     position: relative;
 }
 
-#program-title {
-    display: inline-flex;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    position: absolute;
+#program-position {
     top: -100px;
-    left: 112px;
-    background-color: rgb(207, 175, 31);
-    justify-content: center;
-    align-items: center;   
-}
-
-#program-title h2 {
-    font-size: 1.2em;
+    left: 112px;   
 }
 
 #program-container {
@@ -255,20 +230,9 @@ hr {
     position: relative;
 }
 
-#gallery-title {
-    display: inline-flex;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    position: absolute;
+#gallery-position {
     top: -130px;
     left: 60px;
-    background-color: rgb(207, 175, 31);
-    justify-content: center;
-    align-items: center; 
-}
-#gallery h2 {
-    font-size: 1.2em;  
 }
 
 /*Code from Love Running and modify the column-count and the column-gap, add margin and padding*/
@@ -277,7 +241,7 @@ hr {
     line-height: 0;
     column-count: 3;
     column-gap: normal;
-    margin: 60px 0 10px;
+    margin: 60px 0 10px 0;
 }
 
 #photos > img {
@@ -294,22 +258,9 @@ hr {
     position: relative;
 }
 
-#contact-title {
-    display: inline-flex;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    position: absolute;
-    top: -60px;
+#contact-position {
+    top: -87px;
     left: 60px;
-    background-color: rgb(207, 175, 31);
-    justify-content: center;
-    align-items: center;
-}
-
-#contact-title h2 {
-    font-size: 1.2em;
-    text-align: center;
 }
 
 #form-info {
