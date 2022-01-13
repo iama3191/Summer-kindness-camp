@@ -88,7 +88,7 @@ hr {
     max-width: 70%;
     margin-left: 147px;
     margin-top: 80px;
-    border: 2px solid #00BA9A;
+    border: 2px solid rgb(0, 186, 154);
 }
 
 /*About us section*/
@@ -168,11 +168,13 @@ hr {
 }
 
 .even-number {
-    background-color: #28CF7B;
+    background-color: rgb(40, 207, 123);
+    border: 3px solid rgb(141, 195, 75);
 }
 
 .odd-number {
-    background-color: #8DC349;
+    background-color: rgb(141, 195, 75);
+    border: 3px solid rgb(40, 207, 123);
 }
 
 .value p {
@@ -195,31 +197,28 @@ hr {
 #program-container {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     margin: 30px auto;
     justify-content: center;
     padding-top: 30px;
 }
 
 .program-description {
-    display: inline;
-    width: 25%;
+    width: 222px;
+    height: auto;
     margin: 15px 26px;
     position: relative;
     text-align: center;
-    background-color: rgb(22, 182, 155, 0.4);
-    border-radius: 20%;
+    border: 3px solid rgb(107, 180, 46);
+    border-top: none;
 }
 
 .name-program {  
-    padding: 10px;
-    margin: 0 auto;
-    max-width: inherit;
-    background-color: rgb(11, 91, 78);
+    padding: 5px;
+    background-color: rgb(107, 180, 46);
 }
 
 .name-program h3 {
-    color: rgb(239, 241, 240);
     font-size: 1.2em;
 }
 
