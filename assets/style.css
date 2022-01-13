@@ -369,5 +369,21 @@ footer p {
     font-weight: bold;
 }
 
-/*media queries max-width: */
+/*media queries max-width: 1000px */
+
+@media screen and  (max-width: 1000px) {
+  
+    #hero-container {  
+        width: 673px;
+        height: 422px;     
+    }
+
+    #main-name {
+        left: 25%;
+    }
+
+    #main-name h1 {
+        font-size: 43px;
+    }
+}
 
