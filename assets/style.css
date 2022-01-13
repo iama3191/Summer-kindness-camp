@@ -49,7 +49,7 @@ a:hover {
 #hero-container {  
     margin: 0 auto; 
     width: 870px;
-    height: 521px;
+    height: 530px;
     display: flex;
     position: relative;
     background-image: url(../assets/images/home-hero-image-clean-board.jpg);
@@ -312,7 +312,7 @@ hr {
 }
 
 #add-comment {
-    max-width: 100%;
+    max-width: 90%;
     margin: 10px 0;
     resize: none;
     border: 2px solid rgb(0, 158, 134); 
