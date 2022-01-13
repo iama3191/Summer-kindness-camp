@@ -138,7 +138,7 @@ hr {
 .intern-info {
     width: 250px;
     height: auto;
-    margin: 50px auto;
+    margin: 40px auto 20px;
     border-radius: 10%;
     background-color: rgb(107, 180, 46);
 }
@@ -156,12 +156,6 @@ hr {
     color: rgb(6, 20, 23);
 }
 
-#values-position {   
-    width: 100px;
-    height: 100px;
-    top: 290px;
-}
-
 #values-container {
     display: flex;
     flex-wrap: wrap;
@@ -169,6 +163,13 @@ hr {
     margin: 30px auto;
     justify-content: center;   
 }
+
+/*#values-position {   
+    width: 100px;
+    height: 100px;
+    top: 290px;
+    justify-content: left;
+}*/
 
 .value {
     display: inline-flex;
@@ -283,7 +284,7 @@ hr {
 #form-info {
     border: 4px solid rgb(175, 197, 32);
     border-radius: 5%;
-    max-width: 30%;
+    max-width: 35%;
     height: auto;
     margin: 20px auto;
     text-align: center;
@@ -385,13 +386,85 @@ footer p {
     #main-name h1 {
         font-size: 43px;
     }
+
 }
 
 /*media queries max-width: 800px*/
-@media screen and  (max-width: 800px) {
-    #hero-container {  
-        width: 673px;
-        height: 422px;
-    }    
+@media screen and  (max-width: 800px) { 
+    * {
+        font-size: 16px;
+    }
     
+    #top-phrase {
+        width: 50px;
+        height: 50px;
+    }
+
+    #navbar ul {
+        padding: 5px;
+    }
+     
+    #hero-container {  
+        width: 513px;
+        height: 322px;
+    }  
+    
+    #main-name {
+        width: 280px;
+    }
+
+    #main-name h1 {
+        font-size: 36px;
+    }
+  
+    #bottom-phrase {
+        width: 82px;
+        height: 82px;
+    }
+
+    hr {
+        max-width: 60%;
+    }
+
+    .section-title  {
+        width: 110px;
+        height: 110px;
+    }
+
+    .section-title h2 {
+        font-size: 19px;
+    }
+
+    #about-position {
+        left: 50px;
+    }
+
+    .intern-info {
+        width: 220px;
+    }
+
+    .intern-info h3 {
+        font-size: 17px;
+    }
+
+    .name-program h3 {
+        font-size: 17px;   
+    }
+
+    #form-info {
+        border-radius: 9%;
+        max-width: 43%;
+        margin-top: 40px;
+    }
+
+    #form-info h3 {
+        font-size: 17px;
+    }
+
+    .value {
+        width: 107px;
+        height: 107px;
+    }
 } 
+
+/*750px*/
