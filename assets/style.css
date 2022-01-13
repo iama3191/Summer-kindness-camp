@@ -295,13 +295,17 @@ hr {
     background-color: rgb(40, 207, 123, 0.1);
 }
 
+.form-input:focus {
+    background-color: rgb(241, 208, 40);
+}
+
 #form-info h3 {
     margin: 5px 0;
     font-weight: bold;
     font-size: 1.2em;
 }
 
-#form-info textarea {
+#add-comment {
     max-width: 100%;
     margin: 10px 0;
     resize: none;
@@ -309,15 +313,24 @@ hr {
     background-color: rgb(40, 207, 123, 0.1);
 }
 
+#add-comment:focus {
+    background-color: rgb(241, 208, 40);
+}
+
 #send-info {
     font-size: 1.1em;
     margin-bottom: 15px;
     padding: 5px;
     background-color: rgb(241, 208, 40);
-    border: 1px solid rgb(4, 14, 16);
+    border: 2px solid rgb(4, 14, 16);
     border-radius: 10%;
     font-weight: bold;
+}
 
+#send-info:hover {
+    background-color: rgb(0, 186, 154);
+    border-color: rgb(175, 197, 32);
+    font-size: 1.3em;
 }
 
 /*Footer*/
@@ -326,7 +339,7 @@ footer {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    background-color: #8DC349;
+    background-color: rgb(141, 195, 73);
     padding: 10px;
 }
 
