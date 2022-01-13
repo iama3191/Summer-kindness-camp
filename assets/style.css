@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -11,8 +11,9 @@
 h1,
 h2,
 h3 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Finger Paint', cursive;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 /* Header */
 
