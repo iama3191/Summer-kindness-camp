@@ -144,7 +144,7 @@ hr {
 }
 
 .intern-info h3 { /*I need to see the font color*/
-    margin: 10px 0;
+    margin: 10px 0 5px;
     text-align: center;
     color: rgb(6, 20, 23);
     font-size: 1.2em;
@@ -539,6 +539,26 @@ footer p {
     }
 
     #form-info {
-        max-width: 53%;
+        max-width: 66%;
     }
 }
+
+/*media queries max-width: 482px*/
+
+@media screen and  (max-width: 480px) { 
+
+    #hero-container {
+        width: 323px;
+        height: 205px;
+    } 
+
+    #main-name {
+        width: 180px;
+    }
+
+    #main-name h1 {
+        font-size: 23px;
+    }
+}
+
+
