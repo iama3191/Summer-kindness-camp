@@ -19,7 +19,7 @@ h3 {
 #navbar {
     display: flex;
     width: 70%;
-    margin: 10px auto;
+    margin: 0 auto;
     justify-content: center;   
 }
 
@@ -163,13 +163,6 @@ hr {
     margin: 30px auto;
     justify-content: center;   
 }
-
-/*#values-position {   
-    width: 100px;
-    height: 100px;
-    top: 290px;
-    justify-content: left;
-}*/
 
 .value {
     display: inline-flex;
@@ -561,4 +554,44 @@ footer p {
     }
 }
 
+/*media queries max-width: 393px*/
 
+@media screen and  (max-width: 393px) {
+      
+    * {
+        font-size: 11px;
+    }
+
+    #navbar li {
+        padding: 2px;
+    }
+
+    #hero-container {
+        width: 280px;
+        height: 176px;
+    }
+
+    #main-name {
+        width: 154px;
+    }
+
+    #main-name h1 {
+        font-size: 20px;
+    }
+
+    #top-phrase {
+        width: 43px;
+        height: 43px;
+        top: -4%;
+    }
+
+    #bottom-phrase {
+        width: 60px;
+        height: 60px;
+        right: -6%;
+    }
+
+    hr {
+        max-width: 40%;
+    }
+}
