@@ -123,8 +123,8 @@ hr {
     font-size: 1.2em;
 }
 
-#about-position { 
-    top: -130px;  
+.section-title-position {
+    top: -130px;
     left: 100px;
 }
 
@@ -203,11 +203,6 @@ hr {
     position: relative;
 }
 
-#program-position {
-    top: -100px;
-    left: 100px;   
-}
-
 #program-container {
     display: flex;
     flex-wrap: wrap;
@@ -247,11 +242,6 @@ hr {
     position: relative;
 }
 
-#gallery-position {
-    top: -130px;
-    left: 100px;
-}
-
 /*Code from Love Running and modify the column-count, the column-gap, add margin and padding*/
 #photos {
     clear: both;
@@ -278,11 +268,6 @@ hr {
 
 #form-container {
     margin: 60px auto 40px;
-}
-
-#contact-position {
-    top: -130px;
-    left: 100px;
 }
 
 #form-info {
@@ -420,8 +405,8 @@ footer p {
     }
   
     #bottom-phrase {
-        width: 82px;
-        height: 82px;
+        width: 75px;
+        height: 75px;
     }
 
     hr {
@@ -437,19 +422,7 @@ footer p {
         font-size: 16px;
     }
 
-    #about-position {
-        top: -114px;
-    }
-
-    #program-position {
-        top: -114px;
-    }
-
-    #gallery-position {
-        top: -114px;
-    }
-
-    #contact-position {
+    .section-title-position {
         top: -114px;
     }
 
@@ -521,24 +494,10 @@ footer p {
         font-size: 17px;
     }
 
-    #about-position {
+    #section-title-position {
         top: -112px;
         left: 59px;
     }
 
-    #program-position {
-        top: -112px;
-        left: 59px;
-    }    
-
-    #gallery-position {
-        top: -112px;
-        left: 59px;
-    }
-
-    #contact-position {
-        top: -112px;
-        left: 59px;
-    }
 }
 */
