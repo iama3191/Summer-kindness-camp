@@ -178,7 +178,7 @@ hr {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin: 25px  30px;
+    margin: 25px 30px;
 }
 
 .even-number {
@@ -224,7 +224,7 @@ hr {
     position: relative;
     text-align: center;
     border: 3px solid rgb(107, 180, 46);
-    border-top: none;
+   
 }
 
 .name-program {  
@@ -276,6 +276,10 @@ hr {
     position: relative;
 }
 
+#form-container {
+    margin: 60px auto 40px;
+}
+
 #contact-position {
     top: -130px;
     left: 100px;
@@ -286,9 +290,9 @@ hr {
     border-radius: 5%;
     max-width: 350px;
     height: auto;
-    margin: 60px auto 40px;
     text-align: center;
-    padding: 3px;   
+    padding: 3px;
+    margin: 0 auto;   
 }
 
 .form-input {
@@ -350,15 +354,13 @@ footer {
 }
 
 #social-media {
-    margin: 10px auto;
-    
+    margin: 10px auto;   
 }
 
 #social-media li {
     list-style: none;
     display: inline;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 #social-media a {
@@ -380,7 +382,7 @@ footer p {
     }
 
     #main-name {
-        left: 25%;
+        left: 24%;
     }
 
     #main-name h1 {
@@ -467,4 +469,4 @@ footer p {
     }
 } 
 
-/*730px*/
+/*media queries max-width: 630px*
