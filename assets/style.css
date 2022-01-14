@@ -242,6 +242,19 @@ hr {
     text-align: justify;
 }
 
+#typical-day {
+    width: 90%;
+    margin: 0 auto;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
 /*Gallery*/
 
 #gallery {
