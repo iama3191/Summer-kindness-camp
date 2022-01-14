@@ -138,7 +138,7 @@ hr {
 .intern-info {
     width: 250px;
     height: auto;
-    margin: 40px auto 20px;
+    margin: 20px auto;
     border-radius: 10%;
     background-color: rgb(107, 180, 46);
 }
@@ -424,6 +424,7 @@ footer p {
 
     .section-title-position {
         top: -114px;
+        left: 57px;
     }
 
     .intern-info {
@@ -459,17 +460,19 @@ footer p {
 } 
 
 /*media queries max-width: 630px*/
-/*
+
 @media screen and  (max-width: 630px) {
+    * {
+        font-size: 13px;
+    }
 
-
-    #navbar li {
-        padding: 2px 5px;
+    #navbar {
+        width: 90%;
     }
 
     #hero-container {  
-    width: 474px;
-    height: 297px;
+        width: 420px;
+        height: 265px;
     }
 
     #bottom-phrase {
@@ -478,26 +481,64 @@ footer p {
     }
 
     #main-name {
-        width: 260px;
+        width: 236px;
     }
 
     #main-name h1 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
-    .section-title {
-        width: 99px;
-        height: 99px;
+}  
+
+/*media queries max-width: 550px*/
+
+@media screen and  (max-width: 550px) {    
+
+    #navbar li {
+        padding: 2px 5px;
+    }
+
+    #hero-container {
+        width: 400px;
+        height: 250px;
+    }
+
+    #main-name {
+        width: 222px;
+    }
+
+    #main-name h1 {
+        font-size: 28px;
+    }
+
+    hr {
+        max-width: 48%;
     }
 
     .section-title h2 {
-        font-size: 17px;
+        font-size: 14px;
     }
 
-    #section-title-position {
-        top: -112px;
-        left: 59px;
+    .section-title {
+        width: 92px;
+        height: 92px;
     }
 
+    .value {
+        width: 77px;
+        height: 77px;
+        margin: 14px;
+    }
+
+    .value p {
+        font-size: 15px;
+    }
+
+    #photos {
+        column-count: 1;
+    }
+
+    #form-info {
+        max-width: 53%;
+    }
 }
-*/
