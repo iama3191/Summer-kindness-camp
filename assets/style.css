@@ -243,17 +243,35 @@ hr {
 }
 
 #typical-day {
-    width: 90%;
+    width: 50%;
     margin: 0 auto;
+}
+
+caption {
+    font-family: 'Finger Paint', cursive;
+    text-transform: uppercase;
+    background-color: rgb(141, 195, 75);
+    border: 2px solid rgb(141, 195, 75);
+    border-bottom: none;
+    font-weight: bold;
 }
 
 table,
 th,
 tr,
 td {
-    border: 1px solid #000;
+    border: 2px solid rgb(141, 195, 75);
     border-collapse: collapse;
 }
+
+tr {
+    height: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(141, 195, 75, 0.6);
+  }
+
 
 /*Gallery*/
 
