@@ -47,7 +47,7 @@ a:hover {
 /*hero image*/
 
 #hero-container {  
-    margin: 0 auto; 
+    margin: 20px auto 40px; 
     width: 870px;
     height: 530px;
     display: flex;
@@ -124,7 +124,7 @@ hr {
 }
 
 #about-position { 
-    top: -100px;  
+    top: -130px;  
     left: 100px;
 }
 
@@ -132,7 +132,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 30px auto;   
+    margin: 60px auto 40px;  
 }
 
 .intern-info {
@@ -212,7 +212,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 30px auto;
+    margin: 60px auto 40px;
     justify-content: center;
     padding-top: 30px;
 }
@@ -394,16 +394,16 @@ footer p {
 /*media queries max-width: 800px*/
 @media screen and  (max-width: 800px) { 
     * {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    #navbar ul {
+        padding: 5px;
     }
     
     #top-phrase {
         width: 50px;
         height: 50px;
-    }
-
-    #navbar ul {
-        padding: 5px;
     }
      
     #hero-container {  
@@ -429,16 +429,28 @@ footer p {
     }
 
     .section-title  {
-        width: 110px;
-        height: 110px;
+        width: 100px;
+        height: 100px;
     }
 
     .section-title h2 {
-        font-size: 19px;
+        font-size: 16px;
     }
 
     #about-position {
-        left: 50px;
+        top: -114px;
+    }
+
+    #program-position {
+        top: -114px;
+    }
+
+    #gallery-position {
+        top: -114px;
+    }
+
+    #contact-position {
+        top: -114px;
     }
 
     .intern-info {
@@ -446,11 +458,11 @@ footer p {
     }
 
     .intern-info h3 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .name-program h3 {
-        font-size: 17px;   
+        font-size: 15px;   
     }
 
     #form-info {
@@ -460,13 +472,73 @@ footer p {
     }
 
     #form-info h3 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .value {
-        width: 107px;
-        height: 107px;
+        width: 95px;
+        height: 95px;
+    }
+
+    .value p {
+        font-size: 18px;
     }
 } 
 
-/*media queries max-width: 630px*
+/*media queries max-width: 630px*/
+/*
+@media screen and  (max-width: 630px) {
+
+
+    #navbar li {
+        padding: 2px 5px;
+    }
+
+    #hero-container {  
+    width: 474px;
+    height: 297px;
+    }
+
+    #bottom-phrase {
+        width: 65px;
+        height: 65px;
+    }
+
+    #main-name {
+        width: 260px;
+    }
+
+    #main-name h1 {
+        font-size: 32px;
+    }
+
+    .section-title {
+        width: 99px;
+        height: 99px;
+    }
+
+    .section-title h2 {
+        font-size: 17px;
+    }
+
+    #about-position {
+        top: -112px;
+        left: 59px;
+    }
+
+    #program-position {
+        top: -112px;
+        left: 59px;
+    }    
+
+    #gallery-position {
+        top: -112px;
+        left: 59px;
+    }
+
+    #contact-position {
+        top: -112px;
+        left: 59px;
+    }
+}
+*/
