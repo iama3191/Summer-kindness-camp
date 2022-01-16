@@ -93,20 +93,27 @@ a:hover {
     right: -8%;
 }
 
-
-hr {
-    max-width: 70%;
-    margin-left: 147px;
-    margin-top: 80px;
-    border: 2px solid rgb(0, 186, 154);
-}
-
 /*About us section*/
 
 #about-us {
     position: relative;
+    
 }
 
+.title-container {
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 40px;
+    margin: 0 auto;
+}
+
+.title-container hr {
+    border: 2px solid rgb(107 180 46);
+    max-width: 100%;
+    margin: 0 auto;
+}
+/*
 .section-title {
     background-color: rgb(241, 208, 40);
     justify-content: center;
@@ -116,23 +123,15 @@ hr {
     display: inline-flex;
     width: 130px;
     height: 130px; 
-}
+}*/
 
-.section-title h2 {
-    text-align: center;
-    font-size: 1.2em;
-}
-
-.section-title-position {
-    top: -130px;
-    left: 100px;
-}
 
 #about-container {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 60px auto 40px;  
+    margin: 60px auto 40px; 
+    background-color: chartreuse; 
 }
 
 .intern-info {
@@ -444,9 +443,9 @@ footer p {
         height: 75px;
     }
 
-    hr {
+   /* hr {
         max-width: 60%;
-    }
+    }*/
 
     .section-title  {
         width: 100px;
@@ -541,9 +540,9 @@ footer p {
         font-size: 28px;
     }
 
-    hr {
+   /* hr {
         max-width: 48%;
-    }
+    }*/
 
     .section-title h2 {
         font-size: 14px;
@@ -628,7 +627,7 @@ footer p {
         right: -6%;
     }
 
-    hr {
+  /*  hr {
         max-width: 40%;
-    }
+    }*/
 }
