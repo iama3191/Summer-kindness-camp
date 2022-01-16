@@ -248,21 +248,27 @@ tr,
 td {
     border: 2px solid rgb(141, 195, 75);
     border-collapse: collapse;
+    padding: 0 12px;
 }
 
 tr {
     height: 50px;
 }
 
+/* Code from W3schools*/
 tr:nth-child(even) {
     background-color: rgb(141, 195, 75, 0.6);
   }
-
+/*End of code from W3schools*/
 
 /*Gallery*/
 
 #gallery {
     position: relative;
+}
+
+.last-title {
+    top: -60px;
 }
 
 /*Code from Love Running and modify the column-count, the column-gap, add margin and padding*/
@@ -272,8 +278,7 @@ tr:nth-child(even) {
     column-count: 3;
     column-gap: normal;
     margin: 60px auto 40px;
-    width: 80%;
-   
+    width: 80%;  
 }
 
 #photos > img {
@@ -289,7 +294,7 @@ tr:nth-child(even) {
 }
 
 #form-container {
-    margin: 60px auto 40px;
+    margin: 50px auto 40px;
 }
 
 #form-info {
