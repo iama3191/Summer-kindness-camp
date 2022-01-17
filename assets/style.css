@@ -77,7 +77,8 @@ a:hover {
 
 .phrase {
     background-color: rgb(241 208 40);
-    display: inline;
+    display: flex;
+    align-items: center;
     position: absolute;
     padding: 2%;
     text-align: center;  
@@ -114,7 +115,7 @@ a:hover {
 
 .title-container hr {
     border: 2px solid rgb(107 180 46);
-    width: 33%;
+    width: 30%;
     display: inline-block;
     position: relative;
     top: -6px;
@@ -158,8 +159,8 @@ a:hover {
 
 .value {
     display: inline-flex;
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -177,7 +178,6 @@ a:hover {
 }
 
 .value p {
-    font-size: 20px;
     font-weight: bold;
 }
 
@@ -259,6 +259,10 @@ td {
     border: 2px solid rgb(141, 195, 75);
     border-collapse: collapse;
     padding: 0 12px;
+}
+
+table {
+    margin: 0 auto;
 }
 
 tr {
@@ -408,21 +412,26 @@ footer p {
     #main-name {
         left: 24%;
     }
-
-    #main-name h1 {
-        font-size: 43px;
-    }
-
 }
 
 /*media queries max-width: 800px*/
 @media screen and  (max-width: 800px) { 
-    * {
-        font-size: 14px;
-    }
 
     #navbar ul {
         padding: 5px;
+    }
+
+    #main-name h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+
+    }
+
+    .phrase {
+        font-size: 0.8em;
     }
     
     #top-phrase {
@@ -438,19 +447,10 @@ footer p {
     #main-name {
         width: 280px;
     }
-
-    #main-name h1 {
-        font-size: 36px;
-    }
   
     #bottom-phrase {
         width: 75px;
         height: 75px;
-    }
-
-
-    .section-title h2 {
-        font-size: 16px;
     }
 
     .intern-info {
@@ -458,11 +458,11 @@ footer p {
     }
 
     .intern-info h3 {
-        font-size: 15px;
+        font-size: 1em;
     }
 
     .name-program h3 {
-        font-size: 15px;   
+        font-size: 1em;   
     }
 
     #form-info {
@@ -471,7 +471,7 @@ footer p {
     }
 
     #form-info h3 {
-        font-size: 15px;
+        font-size: 1em;
     }
 
     .value {
@@ -479,16 +479,18 @@ footer p {
         height: 95px;
     }
 
-    .value p {
-        font-size: 18px;
-    }
 } 
 
 /*media queries max-width: 630px*/
 
 @media screen and  (max-width: 630px) {
-    * {
-        font-size: 13px;
+
+    #navbar li {
+        padding: 2px 5px;
+    }
+
+    #navbar a {
+        font-size: 0.8em;
     }
 
     #hero-container {  
@@ -502,38 +504,30 @@ footer p {
     }
 
     #main-name {
-        width: 236px;
+        width: 224px;
     }
 
     #main-name h1 {
-        font-size: 30px;
+        font-size: 1.5em;
     }
 
 }  
 
-/*media queries max-width: 550px*/
+/*media queries max-width: 500px*/
 
-@media screen and  (max-width: 550px) {    
+@media screen and  (max-width: 500px) {    
 
     #navbar li {
-        padding: 2px 5px;
+        padding: 2px;
     }
 
     #hero-container {
         width: 400px;
         height: 250px;
-    }
+    }    
 
-    #main-name {
-        width: 222px;
-    }
-
-    #main-name h1 {
-        font-size: 28px;
-    }
-
-    .section-title h2 {
-        font-size: 14px;
+    h2 {
+        font-size: 1em;
     }
 
     .value {
@@ -543,7 +537,7 @@ footer p {
     }
 
     .value p {
-        font-size: 15px;
+        font-size: 0.8em;
     }
 
     #photos {
@@ -555,9 +549,13 @@ footer p {
     }
 }
 
-/*media queries max-width: 482px*/
+/*media queries max-width: 405px*/
 
-@media screen and  (max-width: 480px) { 
+@media screen and  (max-width: 405px) { 
+
+    #navbar li {
+        padding: 2px;
+    }
 
     #hero-container {
         width: 323px;
@@ -567,46 +565,12 @@ footer p {
     #main-name {
         width: 180px;
     }
-
-    #main-name h1 {
-        font-size: 23px;
-    }
-}
-
-/*media queries max-width: 393px*/
-
-@media screen and  (max-width: 393px) {
-      
-    * {
-        font-size: 11px;
+    
+    #typical-day {
+        width: 80%;
     }
 
-    #navbar li {
-        padding: 2px;
-    }
-
-    #hero-container {
-        width: 280px;
-        height: 176px;
-    }
-
-    #main-name {
-        width: 154px;
-    }
-
-    #main-name h1 {
-        font-size: 20px;
-    }
-
-    #top-phrase {
-        width: 43px;
-        height: 43px;
-        top: -4%;
-    }
-
-    #bottom-phrase {
-        width: 60px;
-        height: 60px;
-        right: -6%;
+    footer h3 {
+        font-size: 0.8em;
     }
 }
