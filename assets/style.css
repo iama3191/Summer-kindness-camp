@@ -5,7 +5,7 @@
     padding: 0;
     color: rgb(4, 14, 16);
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 h1,
@@ -14,6 +14,11 @@ h3 {
     font-family: 'Finger Paint', cursive;
     text-transform: uppercase;
 }
+
+h2 {
+    font-size: 1.5em;
+}
+
 /* Header */
 
 #navbar {
@@ -38,7 +43,7 @@ h3 {
 }
 
 a:hover {
-    font-size: 20px;
+    font-size: 1.3em;
     padding: 3px;
     font-weight: bold;
     background-color: rgb(241 208 40);
@@ -67,7 +72,7 @@ a:hover {
 
 #main-name h1 {
     color: rgb(239, 241, 240);
-    font-size: 60px;
+    font-size: 2.5em;
 }
 
 .phrase {
@@ -75,7 +80,7 @@ a:hover {
     display: inline;
     position: absolute;
     padding: 2%;
-    text-align: center;   
+    text-align: center;  
     border-radius: 50%;
 }
 
@@ -96,8 +101,7 @@ a:hover {
 /*About us section*/
 
 #about-us {
-    position: relative;
-    
+    position: relative;   
 }
 
 .title-container {
@@ -112,7 +116,10 @@ a:hover {
     border: 2px solid rgb(107 180 46);
     width: 33%;
     display: inline-block;
+    position: relative;
+    top: -6px;
 }
+
 #about-container {
     display: flex;
     flex-wrap: wrap;
@@ -129,7 +136,7 @@ a:hover {
     border: 4px solid rgb(107 180 46);
 }
 
-.intern-info h3 { /*I need to see the font color*/
+.intern-info h3 { 
     margin: 10px 0 5px;
     text-align: center;
     color: rgb(6, 20, 23);
@@ -138,8 +145,7 @@ a:hover {
 
 .intern-info p {
     text-align: justify;
-    padding: 15px;
-    color: rgb(6, 20, 23);
+    padding: 15px;  
 }
 
 #values-container {
@@ -173,7 +179,6 @@ a:hover {
 .value p {
     font-size: 20px;
     font-weight: bold;
-    color: rgb(6, 20, 23);
 }
 
 /*Program*/
@@ -214,6 +219,10 @@ a:hover {
     align-items: center;
 }
 
+.day p {
+    font-weight: bold;
+}
+
 .name-program {  
     padding: 5px;
     background-color: rgb(107, 180, 46);
@@ -229,7 +238,7 @@ a:hover {
 }
 
 #typical-day {
-    width: 50%;
+    width: 70%;
     margin: 60px auto 40px;
 }
 
@@ -237,9 +246,10 @@ caption {
     font-family: 'Finger Paint', cursive;
     text-transform: uppercase;
     background-color: rgb(141, 195, 75);
-    border: 2px solid rgb(141, 195, 75);
     border-bottom: none;
     font-weight: bold;
+    font-size: 1.2em;
+    padding: 4px 0;
 }
 
 table,
@@ -303,7 +313,7 @@ tr:nth-child(even) {
     height: auto;
     text-align: center;
     padding: 3px;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 .form-input {
@@ -315,7 +325,7 @@ tr:nth-child(even) {
 }
 
 .form-input:focus {
-    background-color: rgb(175, 197, 32, 0.7);
+    background-color: rgb(241 208 40);
 }
 
 #form-info h3 {
@@ -333,13 +343,12 @@ tr:nth-child(even) {
 }
 
 #add-comment:focus {
-    background-color: rgb(175, 197, 32, 0.7);
+    background-color: rgb(241 208 40);
 }
 
 #send-info {
-    font-size: 1.1em;
     margin-bottom: 15px;
-    padding: 8px;
+    padding: 3px;
     background-color: rgb(175, 197, 32);
     border: 2px solid rgb(4, 14, 16);
     font-weight: bold;
@@ -348,9 +357,9 @@ tr:nth-child(even) {
 }
 
 #send-info:hover {
-    background-color: rgb(0, 186, 154);
-    border-color: rgb(175, 197, 32);
-    font-size: 1.3em;
+    background-color: rgb(241 208 40);
+    border-color: rgb(4, 14, 16);
+    font-size: 1.2em;
 }
 
 /*Footer*/
@@ -361,6 +370,14 @@ footer {
     text-align: center;
     background-color: rgb(241, 208, 40);
     padding: 10px;
+}
+
+footer h3 {
+    font-size: 1em;;
+}
+footer p {
+    font-size: 0.6em;
+    font-weight: bold;
 }
 
 #social-media {
@@ -377,10 +394,7 @@ footer {
     text-decoration: none;
 }
 
-footer p {
-    font-size: 12px;
-    font-weight: bold;
-}
+
 
 /*media queries max-width: 1200px*/
 
