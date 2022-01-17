@@ -6,6 +6,7 @@
     color: rgb(4, 14, 16);
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    outline: 1px solid red;
 }
 
 h1,
@@ -21,32 +22,37 @@ h2 {
 
 /* Header */
 
-#navbar {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;  
+header {
+    height: 30px;
+    margin: 20px auto;
 }
 
-#navbar ul {   
-    padding: 10px;
+#navbar {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto 20px;
+    text-align: center;  
+    height: 30px;
 }
 
 #navbar li {
     list-style-type: none;
-    display: inline;
-    padding: 2px 10px;
+    display: inline-block;
+    padding: 0 10px;
+    height: 30px;
 }
 
 #navbar a {
     text-decoration: none;
+    display: inline-block;
+    height: 30px;
 }
 
 a:hover {
-    font-size: 1.3em;
-    padding: 3px;
+    font-size: 1.1em;
     font-weight: bold;
     background-color: rgb(241 208 40);
+    height: 30px;
 }
 
 /*hero image*/
@@ -369,7 +375,7 @@ tr:nth-child(even) {
 /*Footer*/
 
 footer {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     background-color: rgb(241, 208, 40);
