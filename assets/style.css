@@ -9,6 +9,10 @@
     outline: 1px solid red;
 }
 
+body {
+    max-width: 2000px;
+}
+
 h1,
 h2,
 h3 {
@@ -64,21 +68,21 @@ a:hover {
     display: flex;
     position: relative;
     background-image: url(../assets/images/home-hero-image-clean-board.jpg);
-    background-size: contain;    
+    background-size: cover;    
 }
 
 #main-name {
     position: absolute;
-    top: 21%;
-    left: 31%;
-    width: 350px;
+    top: 22%;
+    left: 34.5%;
     height: auto;
     text-align: center;
 }
 
 #main-name h1 {
     color: rgb(239, 241, 240);
-    font-size: 2.5em;
+    font-size: 3em;
+    width: 9ch;
 }
 
 .phrase {
@@ -108,19 +112,19 @@ a:hover {
 /*About us section*/
 
 #about-us {
-    position: relative;   
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .title-container {
-    position: absolute;
+    display: inline-block;
     width: 100%;
-    top: 0;
-    left: 0;
     text-align: center;
 }
 
 .title-container hr {
-    border: 2px solid rgb(107 180 46);
+    border: 2px solid rgb(229, 19, 114);
     width: 30%;
     display: inline-block;
     position: relative;
@@ -131,16 +135,16 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 50px auto 40px;
+    margin: 20px auto;
    
 }
 
 .intern-info {
     width: 250px;
     height: auto;
-    margin: 60px auto 20px;
+    margin: 20px auto;
     border-radius: 10%;
-    border: 4px solid rgb(107 180 46);
+    border: 4px solid rgb(40, 207, 123);
 }
 
 .intern-info h3 { 
@@ -159,7 +163,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 20px auto 40px;
+    margin: 20px auto;
     justify-content: center;   
 }
 
@@ -175,11 +179,11 @@ a:hover {
 
 .even-number {
     background-color: rgb(40, 207, 123);
-    border: 4px solid rgb(141, 195, 75);
+    border: 4px solid rgb(241 208 40);
 }
 
 .odd-number {
-    background-color: rgb(141, 195, 75);
+    background-color: rgb(241 208 40);
     border: 4px solid rgb(40, 207, 123);
 }
 
@@ -191,15 +195,16 @@ a:hover {
 
 #program {
     position: relative;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 #program-container {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 50px auto 40px;
+    margin: 20px auto;
     justify-content: center;
-    padding-top: 30px;
 }
 
 .program-description {
@@ -208,7 +213,7 @@ a:hover {
     margin: 40px 26px 15px;
     position: relative;
     text-align: center;
-    border: 3px solid rgb(107, 180, 46);  
+    border: 3px solid rgb(40, 207, 123);  
 }
 
 .day {
@@ -231,7 +236,7 @@ a:hover {
 
 .name-program {  
     padding: 5px;
-    background-color: rgb(107, 180, 46);
+    background-color: rgb(40, 207, 123);
 }
 
 .name-program h3 {
@@ -245,13 +250,13 @@ a:hover {
 
 #typical-day {
     width: 70%;
-    margin: 60px auto 40px;
+    margin: 20px auto;
 }
 
 caption {
     font-family: 'Finger Paint', cursive;
     text-transform: uppercase;
-    background-color: rgb(141, 195, 75);
+    background-color: rgb(241, 208, 40);
     border-bottom: none;
     font-weight: bold;
     font-size: 1.2em;
@@ -262,7 +267,7 @@ table,
 th,
 tr,
 td {
-    border: 2px solid rgb(141, 195, 75);
+    border: 2px solid rgb(241, 208, 40);
     border-collapse: collapse;
     padding: 0 12px;
 }
@@ -277,7 +282,7 @@ tr {
 
 /* Code from W3schools*/
 tr:nth-child(even) {
-    background-color: rgb(141, 195, 75, 0.6);
+    background-color: rgb(241, 208, 40, 0.4);
   }
 /*End of code from W3schools*/
 
@@ -285,6 +290,8 @@ tr:nth-child(even) {
 
 #gallery {
     position: relative;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 /*Code from Love Running and modify the column-count, the column-gap, add margin and padding*/
@@ -293,10 +300,8 @@ tr:nth-child(even) {
     line-height: 0;
     column-count: 3;
     column-gap: normal;
-    margin: 0 auto 40px;
+    margin: 40px auto ;
     width: 80%;
-    position: relative;
-    top: 60px;  
 }
 
 #photos > img {
@@ -308,18 +313,16 @@ tr:nth-child(even) {
 
 /*Contact Us*/
 #contact {
-    position: relative;
+    margin-top: 20px;
 }
 
 #form-container {
-    margin: 90px auto;
-    position: relative;
-    top: 60px;
+    margin: 40px auto;
 }
 
 #form-info {
-    border: 4px solid rgb(175, 197, 32);
-    max-width: 350px;
+    border: 4px solid rgb(0, 158, 134);
+    max-width: 600px;
     height: auto;
     text-align: center;
     padding: 3px;
@@ -328,8 +331,8 @@ tr:nth-child(even) {
 
 .form-input {
     border: 2px solid rgb(0, 158, 134);
-    margin: 5px 0;
-    max-width: 90%;
+    margin: 0 auto 15px;
+    width: 70%;
     padding: 5px;
     background-color: rgb(40, 207, 123, 0.1);
 }
@@ -339,14 +342,15 @@ tr:nth-child(even) {
 }
 
 #form-info h3 {
-    margin: 5px 0;
+    margin: 5px 0 25px;
     font-weight: bold;
     font-size: 1.2em;
 }
 
 #add-comment {
-    max-width: 90%;
-    margin: 10px 0;
+    width: 70%;
+    margin: 0 0 15px;
+    padding: 5px;
     resize: none;
     border: 2px solid rgb(0, 158, 134); 
     background-color: rgb(40, 207, 123, 0.1);
@@ -358,9 +362,9 @@ tr:nth-child(even) {
 
 #send-info {
     margin-bottom: 15px;
-    padding: 3px;
-    background-color: rgb(175, 197, 32);
-    border: 2px solid rgb(4, 14, 16);
+    padding: 12px;
+    background-color: rgb(40, 207, 123);
+    border: none;
     font-weight: bold;
     font-family: 'Finger Paint', cursive;
     text-transform: uppercase;
