@@ -102,16 +102,16 @@ a:hover {
 
 .title-container {
     position: absolute;
-    width: 80%;
+    width: 100%;
     top: 0;
-    left: 40px;
-    margin: 0 auto 20px;
+    left: 0;
+    text-align: center;
 }
 
 .title-container hr {
     border: 2px solid rgb(107 180 46);
-    width: auto;
-    margin: 0 auto;
+    width: 33%;
+    display: inline-block;
 }
 #about-container {
     display: flex;
@@ -267,18 +267,16 @@ tr:nth-child(even) {
     position: relative;
 }
 
-.last-title {
-    top: -60px;
-}
-
 /*Code from Love Running and modify the column-count, the column-gap, add margin and padding*/
 #photos {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: normal;
-    margin: 60px auto 40px;
-    width: 80%;  
+    margin: 0 auto 40px;
+    width: 80%;
+    position: relative;
+    top: 60px;  
 }
 
 #photos > img {
@@ -294,7 +292,9 @@ tr:nth-child(even) {
 }
 
 #form-container {
-    margin: 50px auto 40px;
+    margin: 90px auto;
+    position: relative;
+    top: 60px;
 }
 
 #form-info {
