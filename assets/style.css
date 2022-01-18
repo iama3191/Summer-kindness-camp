@@ -22,7 +22,7 @@ h3 {
 }
 
 h2 {
-    font-size: 1.25em;
+    font-size: 1.15em;
 }
 
 /* Header */
@@ -442,4 +442,18 @@ footer p {
 #social-media i {
     color: #e51372;
     font-size: 1.5em;
+}
+
+/*media queries min-width: 420px*/
+@media screen and  (min-width: 420px) {
+   
+    #hero-container {  
+        width: 323px;
+        height: 205px;
+    }
+
+    #main-name h1 {
+        font-size: 1.3em;
+    }
+
 }
