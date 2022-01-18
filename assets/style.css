@@ -115,7 +115,6 @@ a:hover {
 
 #about-us {
     position: relative;
-    display: inline-block;
     margin-top: 20px;
 }
 
@@ -197,7 +196,6 @@ a:hover {
 
 #program {
     position: relative;
-    display: inline-block;
     margin-top: 20px;
 }
 
@@ -292,7 +290,6 @@ tr:nth-child(even) {
 
 #gallery {
     position: relative;
-    display: inline-block;
     margin-top: 20px;
 }
 
@@ -322,9 +319,10 @@ tr:nth-child(even) {
 
 #form-container {
     margin: 40px auto;
-    background-image: url(../assets/images/group-kids-smiling.jpg);
+    width: 90%;
+    background-image: url(../assets/images/kids-spelling-word-team-with-cards-small.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -403,25 +401,118 @@ footer p {
 }
 
 #social-media {
-    margin: 10px auto;   
+    margin: 10px auto; 
+    height: 70px;  
 }
 
 #social-media li {
     list-style: none;
     display: inline;
-    padding: 10px;    
+    padding: 10px; 
+    height: 70px;   
 }
 
 #social-media a {
     text-decoration: none;
+    height: 70px;
 }
 
+#social-media i {
+    color: #e51372;
+    font-size: 1.5em;
+    height: 60px;
+}
 
+/*media queries max-width: 2000px*/
+@media screen and  (min-width: 2000px) {
+
+    * {
+        font-size: 1.1em;
+    }
+
+    header,
+    #navbar {
+        height: 50px;
+    }
+
+    #navbar li {
+        height: 50px;
+    }
+
+    #navbar a {
+        height: 50px;
+    }
+
+    #hero-container {
+        width: 1190px;
+        height: 750px;
+    }
+
+    #main-name {
+        top: 20%;
+        left: 32.5%;
+    }
+
+     h1 {
+        font-size: 4.5em;
+    }
+
+    #top-phrase {
+        width: 100px;
+        height: 100px;
+        left: -5%;
+    }
+
+    #bottom-phrase {
+        width: 130px;
+        height: 130px;
+        right: -7%;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .intern-info {
+        width: 370px;
+    }
+
+    .value {
+        width: 170px;
+        height: 170px;
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+
+    .program-description {
+        width: 460px;
+    }
+    
+    .day {
+        right: -55px;
+        top: -45px;
+        width: 85px;
+        height: 85px;
+    }
+
+    .form-input {
+        margin-bottom: 24px;
+    }
+
+    #social-media {
+        height: 70px;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
+
+}
 
 /*media queries max-width: 1200px*/
 
 @media screen and  (max-width: 1200px) {
-  
+
     #hero-container {  
         width: 673px;
         height: 422px;     
