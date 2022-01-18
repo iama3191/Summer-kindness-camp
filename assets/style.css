@@ -322,3 +322,83 @@ tr:nth-child(even) {
     margin: 5px auto;
     border-radius: 7%;
 }
+
+/*End of using the code from Love Running*/
+
+/*Contact Us*/
+
+#contact {
+    margin-top: 20px;
+    background-image: url(../assets/images/kids-spelling-word-team-with-cards-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#form-container {
+    margin: 40px auto;
+    width: 90%; 
+}
+
+#form-container label {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#form-info {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 3px;
+    margin: 0 auto;
+    background-color: rgb(240, 248, 255, 0.6);
+}
+
+.form-input {
+    border: 2px solid rgb(0, 158, 134);
+    margin: 0 auto 15px;
+    width: 70%;
+    padding: 5px;
+    background-color: rgb(40, 207, 123, 0.1);
+    font-size: 0.9em;
+}
+
+.form-input:focus {
+    background-color: rgb(241 208 40);
+}
+
+#form-info h3 {
+    margin: 5px 0 25px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#add-comment {
+    width: 70%;
+    margin: 0 0 15px;
+    padding: 5px;
+    resize: none;
+    border: 2px solid rgb(0, 158, 134); 
+    background-color: rgb(40, 207, 123, 0.1);
+    font-size: 0.9em;
+}
+
+#add-comment:focus {
+    background-color: rgb(241 208 40);
+}
+
+#send-info {
+    margin-bottom: 15px;
+    padding: 12px;
+    background-color: rgb(40, 207, 123);
+    border: none;
+    font-weight: bold;
+    font-family: 'Finger Paint', cursive;
+    font-size: 0.9em;
+}
+
+#send-info:hover {
+    background-color: rgb(241 208 40);
+    border-color: rgb(4, 14, 16);
+    font-size: 1.1em;
+}
