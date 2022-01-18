@@ -261,8 +261,10 @@ a:hover {
 
 
 #typical-day {
-    max-width: 100%;
+    max-width: 95%;
     margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 caption {
@@ -271,7 +273,7 @@ caption {
     background-color: rgb(241, 208, 40);
     border-bottom: none;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 4px 0;
 }
 
@@ -281,7 +283,7 @@ tr,
 td {
     border: 2px solid rgb(241, 208, 40);
     border-collapse: collapse;
-    padding: 0 10px;
+    padding: 0 4px;
 }
 
 table {
@@ -297,3 +299,26 @@ tr:nth-child(even) {
     background-color: rgb(241, 208, 40, 0.4);
   }
 /*End of code from W3schools*/
+
+/*Gallery*/
+
+#gallery {
+    position: relative;
+    margin-top: 20px;
+}
+
+/*Code from Love Running and modify the column-count, the column-gap, add margin and padding*/
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: normal;
+    margin: 40px auto ;
+    width: 80%;
+}
+
+#photos > img {
+    width: 100%;
+    margin: 5px auto;
+    border-radius: 7%;
+}
