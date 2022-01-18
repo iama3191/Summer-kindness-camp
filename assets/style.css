@@ -51,3 +51,65 @@ header {
     height: 28px;
     padding: 5px;
 }
+
+a:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: rgb(241 208 40);
+    height: 50px;
+}
+
+/*hero image*/
+
+#hero-container {  
+    margin: 0 auto 40px; 
+    width: 296px;
+    height: 196px;
+    display: flex;
+    position: relative;
+    background-image: url(../assets/images/home-hero-image-clean-board.jpg);
+    background-size: cover;    
+}
+
+
+#main-name {
+    position: absolute;
+    top: 23%;
+    left: 36.5%;
+    height: auto;
+    text-align: center;
+}
+
+#main-name h1 {
+    color: rgb(239, 241, 240);
+    width: 9ch;
+}
+
+.phrase {
+    background-color: rgb(241 208 40);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 2%;
+    text-align: center;  
+    border-radius: 50%;
+}
+
+.phrase p {
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+#top-phrase {
+    width: 56px;
+    height: 56px;
+    top: -3%;
+    left: -2%;
+}
+
+#bottom-phrase {
+    width: 67px;
+    height: 67px;
+    top: 72%;
+    right: -2%;
+}
