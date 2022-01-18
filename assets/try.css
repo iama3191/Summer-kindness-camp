@@ -12,6 +12,7 @@
 body {
     max-width: 2000px;
 }
+
 h1,
 h2,
 h3 {
@@ -310,7 +311,6 @@ tr:nth-child(even) {
 /*End of using the code from Love Running*/
 
 /*Contact Us*/
-
 
 #contact {
     margin-top: 20px;

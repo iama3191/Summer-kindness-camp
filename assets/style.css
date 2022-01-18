@@ -22,14 +22,15 @@ h3 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 /* Header */
 
 header {
-    height: 140px;
+    height: 131px;
     margin: 0 auto 20px;
+    background-color: #f1d028;
 }
 
 #navbar {
@@ -37,19 +38,21 @@ header {
     width: 100%;
     margin: 0 auto 20px;
     text-align: center;  
-    height: 140px;
+    height: 131px;
 }
 
 #navbar li {
     list-style-type: none;
-    height: 28px;
+    height: 26px;
+    border-bottom: 1px solid rgb(229, 19, 114);
 }
 
 #navbar a {
     text-decoration: none;
     display: inline-block;
-    height: 28px;
-    padding: 5px;
+    height: 26px;
+    padding: 2px;
+    font-size: 0.7em;
 }
 
 a:hover {
@@ -156,7 +159,7 @@ a:hover {
     margin: 10px 0 5px;
     text-align: center;
     color: rgb(6, 20, 23);
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .intern-info p {
@@ -329,15 +332,15 @@ tr:nth-child(even) {
 
 #contact {
     margin-top: 20px;
-    background-image: url(../assets/images/kids-spelling-word-team-with-cards-small.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 #form-container {
     margin: 40px auto;
-    width: 90%; 
+    width: 100%; 
+    background-image: url(../assets/images/kids-spelling-word-team-with-cards-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #form-container label {
@@ -346,7 +349,7 @@ tr:nth-child(even) {
 }
 
 #form-info {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     text-align: center;
     padding: 3px;
@@ -401,4 +404,42 @@ tr:nth-child(even) {
     background-color: rgb(241 208 40);
     border-color: rgb(4, 14, 16);
     font-size: 1.1em;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(241, 208, 40);
+    padding: 10px;
+}
+
+footer h3 {
+    font-size: 0.9em;
+}
+
+footer p {
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+#social-media {
+    margin: 2px auto;  
+}
+
+#social-media li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;   
+}
+
+#social-media a {
+    text-decoration: none;
+}
+
+#social-media i {
+    color: #e51372;
+    font-size: 1.5em;
 }
