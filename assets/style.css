@@ -27,7 +27,7 @@ h2 {
 /* Header */
 
 header {
-    height: 30px;
+    height: 50px;
     margin: 20px auto;
 }
 
@@ -36,21 +36,21 @@ header {
     width: 100%;
     margin: 0 auto 20px;
     text-align: center;  
-    height: 30px;
+    height: 50px;
 }
 
 #navbar li {
     list-style-type: none;
     display: inline-block;
     padding: 0 10px;
-    height: 30px;
+    height: 50px;
 }
 
 #navbar a {
     text-decoration: none;
     display: inline-block;
-    height: 30px;
-    font-size: 1.2em;
+    height: 50px;
+    font-size: 1.4em;
     padding: 0 5px;
 }
 
@@ -58,7 +58,7 @@ a:hover {
     font-size: 1.1em;
     font-weight: bold;
     background-color: rgb(241 208 40);
-    height: 30px;
+    height: 50px;
 }
 
 /*hero image*/
@@ -75,8 +75,8 @@ a:hover {
 
 #main-name {
     position: absolute;
-    top: 22%;
-    left: 34.5%;
+    top: 18%;
+    left: 31.5%;
     height: auto;
     text-align: center;
 }
@@ -420,37 +420,18 @@ footer p {
 #social-media i {
     color: #e51372;
     font-size: 1.5em;
-    height: 60px;
 }
 
-/*media queries max-width: 2000px*/
-@media screen and  (min-width: 2000px) {
+/*media queries min-width: 1350px*/
+@media screen and  (min-width: 1350px) {
 
     * {
         font-size: 1.1em;
     }
 
-    header,
-    #navbar {
-        height: 50px;
-    }
-
-    #navbar li {
-        height: 50px;
-    }
-
-    #navbar a {
-        height: 50px;
-    }
-
     #hero-container {
         width: 1190px;
         height: 750px;
-    }
-
-    #main-name {
-        top: 20%;
-        left: 32.5%;
     }
 
      h1 {
@@ -466,7 +447,7 @@ footer p {
     #bottom-phrase {
         width: 130px;
         height: 130px;
-        right: -7%;
+        right: -6%;
     }
 
     h2 {
@@ -506,22 +487,38 @@ footer p {
     footer p {
         font-size: 0.9em;
     }
-
 }
 
-/*media queries max-width: 1200px*/
+/*media queries max-width:1350px*/
 
-@media screen and  (max-width: 1200px) {
-
-    #hero-container {  
-        width: 673px;
-        height: 422px;     
-    }
+@media screen and  (max-width: 1350px){
 
     #main-name {
-        left: 24%;
+        top: 24%;
+        left: 35.5%;
     }
 }
+
+/*media queries max-width:1040px*/
+
+@media screen and  (max-width: 1040px) {
+
+    #main-name {
+        top: 19%;
+        left: 32.5%;
+    }
+
+    #hero-container {
+        width: 755px;
+        height: 472px;
+    }
+
+    #form-info {
+        max-width: 500px;
+    }
+
+}
+
 
 /*media queries max-width: 800px*/
 @media screen and  (max-width: 800px) { 
