@@ -475,3 +475,33 @@ footer p {
         max-width: 360px;
     }
 }
+
+/*media queries min-width: 560px*/
+
+@media screen and  (min-width: 560px) {
+
+    #hero-container {
+        width: 504px;
+        height: 318px;
+    }
+
+    #main-name h1 {
+        font-size: 1.85em;
+    }
+
+    #bottom-phrase {
+        width: 70px;
+        height: 70px;
+        top: 77%;
+        right: -27px;
+    }
+
+    #top-phrase {
+        width: 60px;
+        height: 60px;
+    }
+
+    #form-info {
+        max-width: 390px;
+    }
+}
