@@ -349,7 +349,7 @@ tr:nth-child(even) {
 }
 
 #form-info {
-    max-width: 90%;
+    max-width: 300px;
     height: auto;
     text-align: center;
     padding: 3px;
@@ -447,13 +447,31 @@ footer p {
 /*media queries min-width: 420px*/
 @media screen and  (min-width: 420px) {
    
-    #hero-container {  
-        width: 323px;
-        height: 205px;
+    #navbar a {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 0.8em;
+    }
+
+    #hero-container {
+        width: 400px;
+        height: 252px;
     }
 
     #main-name h1 {
-        font-size: 1.3em;
+        font-size: 1.55em;
     }
 
+    #bottom-phrase {
+        top: 77%;
+        right: -9px;
+    }
+
+    .title-container hr {
+        width: 25%;
+    }
+
+    #form-info {
+        max-width: 360px;
+    }
 }
