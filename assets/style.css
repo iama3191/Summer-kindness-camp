@@ -141,7 +141,6 @@ a:hover {
     flex-wrap: wrap;
     width: 80%;
     margin: 20px auto;
-    background-color: rgb(241, 208, 40);
 }
 
 .intern-info {
@@ -201,3 +200,100 @@ a:hover {
 .value p {
     font-weight: bold;
 }
+
+
+/*Program*/
+
+#program {
+    position: relative;
+    margin-top: 20px;
+}
+
+#program-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.program-description {
+    width: 250px;
+    height: auto;
+    margin: 40px 26px 15px;
+    position: relative;
+    text-align: center;
+    border: 3px solid rgb(40, 207, 123);  
+}
+
+.day {
+    position: absolute;
+    right: -29px;
+    top: -26px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(241, 208, 40);
+    border: 2px solid;
+    border-radius: 50%;   
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day p {
+    font-weight: bold;
+}
+
+
+.name-program {  
+    padding: 5px;
+    background-color: rgb(40, 207, 123);
+}
+
+.name-program h3 {
+    font-size: 1.2em;
+}
+
+.program-info {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+#typical-day {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+caption {
+    font-family: 'Finger Paint', cursive;
+    text-transform: uppercase;
+    background-color: rgb(241, 208, 40);
+    border-bottom: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 4px 0;
+}
+
+table,
+th,
+tr,
+td {
+    border: 2px solid rgb(241, 208, 40);
+    border-collapse: collapse;
+    padding: 0 10px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+tr {
+    height: 50px;
+}
+
+/* Code from W3schools*/
+tr:nth-child(even) {
+    background-color: rgb(241, 208, 40, 0.4);
+  }
+/*End of code from W3schools*/
