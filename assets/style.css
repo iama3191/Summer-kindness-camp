@@ -6,7 +6,7 @@
     color: rgb(4, 14, 16);
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     box-sizing: border-box;
 }
 
@@ -28,7 +28,7 @@ h2 {
 /* Header */
 
 header {
-    height: 131px;
+    height: 28px;
     margin: 0 auto 20px;
     background-color: #f1d028;
 }
@@ -38,13 +38,13 @@ header {
     width: 100%;
     margin: 0 auto 20px;
     text-align: center;  
-    height: 131px;
+    height: 28px;
 }
 
 #navbar li {
     list-style-type: none;
+    display: inline-block;
     height: 26px;
-    border-bottom: 1px solid rgb(229, 19, 114);
 }
 
 #navbar a {
@@ -53,13 +53,13 @@ header {
     height: 26px;
     padding: 2px;
     font-size: 0.7em;
+    font-weight: bold;
 }
 
 a:hover {
     font-size: 1.1em;
-    font-weight: bold;
-    background-color: rgb(241 208 40);
-    height: 50px;
+    border-bottom: 2px solid rgb(229, 19, 114);
+    height: 30px;
 }
 
 /*hero image*/
