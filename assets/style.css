@@ -215,7 +215,7 @@ a:hover {
 #program-container {
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    width: 80%;
     margin: 20px auto;
     justify-content: center;
 }
@@ -519,7 +519,7 @@ footer p {
     }
 
     #typical-day {
-        max-width: 85%;
+        max-width: 80%;
     }
 
 }
@@ -604,6 +604,13 @@ footer p {
 
 @media screen and  (min-width: 1090px) {
 
+    header,
+    #navbar,
+    #navbar li,
+    #navbar a {
+        height: 35px;
+    }
+
     #navbar a {
         font-size: 1.3em;
     }
@@ -650,7 +657,12 @@ footer p {
     #navbar,
     #navbar li,
     #navbar a {
-        height: 38px;
+        height: 40px;
+    }
+
+    #hero-container {
+        width: 800px;
+        height: 506px;
     }
 
     .title-container hr {
@@ -696,6 +708,10 @@ footer p {
 
     #about-container {
         width: 1199px;
+    }
+
+    #main-name h1 {
+        font-size: 3.1em;
     }
     
     .value {
