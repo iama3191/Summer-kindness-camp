@@ -524,17 +524,13 @@ footer p {
 
 }
 
-/*media queries min-width: 800px*/
+/*media queries min-width: 780px*/
 
-@media screen and  (min-width: 800px) {
+@media screen and  (min-width: 780px) {
 
     #hero-container {
         width: 561px;
         height: 354px;
-    }
-
-    #main-name {
-        left: 33.5%;
     }
 
     #main-name h1 {
@@ -558,7 +554,7 @@ footer p {
     .title-container hr {
         width: 27%;
     }
-    
+
     #photos {
         column-count: 3
     }
@@ -567,5 +563,41 @@ footer p {
         max-width: 410px;
     }
 
+}
+
+/*media queries min-width: 9700px*/
+
+@media screen and  (min-width: 970px) {
+
+    #main-name h1 {
+        font-size: 2.4em;
+    }
+
+    #hero-container {
+        width: 630px;
+        height: 397px;
+    }
+
+    #top-phrase {
+        top: -2%;
+        left: -5%;
+    }
+
+    #bottom-phrase {
+        top: 84%;
+        right: -39px;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    .title-container hr {
+        width: 30%;
+    }
+    
+    #form-info {
+        max-width: 440px;
+    }
 }
 
