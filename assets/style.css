@@ -480,6 +480,10 @@ footer p {
 
 @media screen and  (min-width: 560px) {
 
+    #navbar a {
+        font-size: 0.9em;
+    }
+
     #hero-container {
         width: 504px;
         height: 318px;
@@ -504,4 +508,18 @@ footer p {
     #form-info {
         max-width: 390px;
     }
+}
+
+/*media queries min-width: 700px*/
+
+@media screen and  (min-width: 700px) {
+
+    #navbar a {
+        font-size: 1em;
+    }
+
+    #typical-day {
+        max-width: 85%;
+    }
+
 }
