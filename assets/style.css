@@ -669,6 +669,16 @@ footer p {
         width: 32%;
     }
 
+    #top-phrase {
+        width: 105px;
+        height: 105px;
+    }
+    
+    #bottom-phrase {
+        width: 125px;
+        height: 125px;
+    }
+
     p {
         font-size: 1.3em;
     }
@@ -737,7 +747,15 @@ footer p {
     #values-container, 
     #program-container {
         width: 70%;
-    }
+    }    
+}
 
-     
+/*media queries min-width: 1930px*/
+
+@media screen and  (min-width: 1930px) {
+
+    #about-container,
+    #values-container {
+        width: 67%;
+    }
 }
