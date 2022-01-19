@@ -564,8 +564,7 @@ footer p {
     }
 
 }
-
-/*media queries min-width: 9700px*/
+/*media queries min-width: 970px*/
 
 @media screen and  (min-width: 970px) {
 
@@ -595,9 +594,51 @@ footer p {
     .title-container hr {
         width: 30%;
     }
-    
+
     #form-info {
         max-width: 440px;
     }
 }
 
+/*media queries min-width: 1090px*/
+
+@media screen and  (min-width: 1090px) {
+
+    #navbar a {
+        font-size: 1.3em;
+    }
+
+    #hero-container {
+        width: 712px;
+        height: 453px;
+    }
+
+    #main-name h1 {
+        font-size: 2.8em;
+    }
+
+    .phrase p {
+        font-size: 1.2em;
+    }
+
+    #top-phrase {
+        width: 100px;
+        height: 100px;
+    }
+
+    #bottom-phrase {
+        width: 120px;
+        height: 120px;
+        top: 81%;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .value {
+        width: 130px;
+        height: 130px;
+    }
+
+}
