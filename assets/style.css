@@ -640,5 +640,52 @@ footer p {
         width: 130px;
         height: 130px;
     }
+}
 
+/*media queries min-width: 1270px*/
+
+@media screen and  (min-width: 1270px) {
+
+    header,
+    #navbar,
+    #navbar li,
+    #navbar a {
+        height: 38px;
+    }
+
+    .title-container hr {
+        width: 32%;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    .intern-info {
+        max-width: 300px;
+    }
+
+    .intern-info h3 {
+        font-size: 1.2em;
+    }
+
+    .value {
+        width: 150px;
+        height: 150px;
+    }
+
+    .program-description {
+        width: 290px;
+    }
+
+    .day {
+        right: -31px;
+        top: -26px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #form-info {
+        max-width: 480px;
+    }
 }
