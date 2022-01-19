@@ -707,7 +707,7 @@ footer p {
 @media screen and  (min-width: 1420px) {
 
     #about-container {
-        width: 1199px;
+        width: 75%;
     }
 
     #main-name h1 {
@@ -718,4 +718,26 @@ footer p {
         width: 187px;
         height: 187px;
     }
+}
+
+/*media queries min-width: 1660px*/
+
+@media screen and  (min-width: 1660px) {
+
+    #hero-container {
+        width: 910px;
+        height: 572px;
+    }
+
+    #main-name h1 {
+        font-size: 3.5em;
+    }
+
+    #about-container,
+    #values-container, 
+    #program-container {
+        width: 70%;
+    }
+
+     
 }
