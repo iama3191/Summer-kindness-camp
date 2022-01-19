@@ -523,3 +523,49 @@ footer p {
     }
 
 }
+
+/*media queries min-width: 800px*/
+
+@media screen and  (min-width: 800px) {
+
+    #hero-container {
+        width: 561px;
+        height: 354px;
+    }
+
+    #main-name {
+        left: 33.5%;
+    }
+
+    #main-name h1 {
+        font-size: 2.1em;
+    }
+
+    .phrase p {
+        font-size: 0.8em;
+    }
+
+    #top-phrase {
+        width: 70px;
+        height: 70px;
+    }
+
+    #bottom-phrase {
+        width: 85px;
+        height: 85px;
+    }
+
+    .title-container hr {
+        width: 27%;
+    }
+    
+    #photos {
+        column-count: 3
+    }
+
+    #form-info {
+        max-width: 410px;
+    }
+
+}
+
