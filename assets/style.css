@@ -689,3 +689,17 @@ footer p {
         max-width: 480px;
     }
 }
+
+/*media queries min-width: 1420px*/
+
+@media screen and  (min-width: 1420px) {
+
+    #about-container {
+        width: 1199px;
+    }
+    
+    .value {
+        width: 187px;
+        height: 187px;
+    }
+}
