@@ -70,7 +70,7 @@ a:hover {
     height: 196px;
     display: flex;
     position: relative;
-    background-image: url(../assets/images/home-hero-image-clean-board.jpg);
+    background-image: url(../../assets/images/home-hero-image-clean-board.jpg);
     background-size: cover; 
     background-position: center;
 }
@@ -332,7 +332,7 @@ tr:nth-child(odd) {
 #form-container {
     margin: 40px auto 0;
     width: 100%; 
-    background-image: url(../assets/images/kids-spelling-word-team-with-cards-small.jpg);
+    background-image: url(../../assets/images/kids-spelling-word-team-with-cards-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
