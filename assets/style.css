@@ -31,7 +31,7 @@ header {
     height: 30px;
     width: 100%;
     margin: 0 auto 15px;
-    background-color: rgb(241, 208, 40);
+    background-color: rgb(241, 208, 40, 0.8);
 }
 
 #navbar {
@@ -51,7 +51,7 @@ header {
 #navbar a {
     text-decoration: none;
     display: inline-block;
-    height: 30px;
+    height: 27px;
     padding: 2px;
     font-size: 0.7em;
 }
@@ -59,7 +59,7 @@ header {
 a:hover {
     font-size: 1.1em;
     background-color: rgb(229, 19, 114);
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 /*hero image*/
@@ -72,12 +72,13 @@ a:hover {
     position: relative;
     background-image: url(../assets/images/home-hero-image-clean-board.jpg);
     background-size: cover; 
+    background-position: center;
 }
 
 #main-name {
     position: absolute;
     top: 20%;
-    left: 34.5%;
+    left: 33.5%;
     height: auto;
     text-align: center;
 }
@@ -89,7 +90,7 @@ a:hover {
 }
 
 .phrase {
-    background-color: rgb(241 208 40);
+    background-color: rgb(241, 208, 40, 0.9);
     display: flex;
     align-items: center;
     position: absolute;
@@ -140,7 +141,8 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 20px auto;
+    margin: 20px auto 0;
+    background-color: rgba(241, 208, 40, 0.8);
 }
 
 .intern-info {
@@ -148,8 +150,8 @@ a:hover {
     height: auto;
     margin: 20px auto;
     border-radius: 10%;
-    border: 4px solid rgb(229 19 114);
-    background-color: rgb(241 208 40);
+    border: 4px solid rgb(229, 19, 114);
+    background-color: rgb(255, 255, 255);
 }
 
 .intern-info h3 { 
@@ -168,8 +170,9 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 20px auto;
-    justify-content: center;   
+    margin: 0 auto 20px;
+    background-color: rgba(40, 207, 123, 0.7);
+    justify-content: center;
 }
 
 .value {
@@ -180,16 +183,15 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .even-number {
-    background-color: rgb(40, 207, 123);
     border: 4px solid rgb(241 208 40);
 }
 
 .odd-number {
-    background-color: rgb(241 208 40);
-    border: 4px solid rgb(40, 207, 123);
+    border: 4px solid rgb(229, 19, 114);
 }
 
 .value p {
@@ -207,8 +209,9 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    margin: 20px auto;
+    margin: 20px auto 0;
     justify-content: center;
+    background-color: rgba(242, 213, 61, 0.8);
 }
 
 .program-description {
@@ -217,16 +220,17 @@ a:hover {
     margin: 40px 26px 15px;
     position: relative;
     text-align: center;
-    border: 3px solid rgb(40, 207, 123);  
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(229, 19, 114);  
 }
 
 .day {
     position: absolute;
     right: -29px;
-    top: -26px;
+    top: -34px;
     width: 50px;
     height: 50px;
-    background-color: rgb(241, 208, 40);
+    background-color: rgb(255, 255, 255);
     border: 2px solid rgb(4, 14, 16);
     border-radius: 50%;   
     display: inline-flex;
@@ -240,12 +244,8 @@ a:hover {
 
 .name-program {  
     padding: 5px;
-    background-color: rgb(40, 207, 123);
+    background-color: rgb(229, 19, 114);;
 }
-
-/*.name-program h3 {
-    font-size: 1.2em;
-}*/
 
 .program-info {
     padding: 10px;
@@ -254,33 +254,37 @@ a:hover {
 
 #typical-day {
     width: 80%;
-    padding: 20px 0;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(104, 221, 162);
+    padding: 20px 0;
     font-size: 0.9em;
 }
 
 caption {
     font-family: 'Finger Paint', cursive;
     text-transform: uppercase;
-    background-color: rgb(241, 208, 40);
+    background-color: rgb(255, 255, 255);
     border-bottom: none;
     font-weight: bold;
     font-size: 1.1em;
     padding: 4px 0;
+    border: 1px solid rgb(104, 221, 162);
 }
 
-table,
-th,
-tr,
+table, 
+th, 
+tr, 
 td {
-    border: 2px solid rgb(241, 208, 40);
+    border: 1px solid rgb(104, 221, 162);
     border-collapse: collapse;
     padding: 0 4px;
+    background-color: rgb(255, 255, 255);
 }
 
 table {
     margin: 0 auto;
+    width: 90%;
 }
 
 tr {
@@ -288,8 +292,8 @@ tr {
 }
 
 /* Code from W3schools*/
-tr:nth-child(even) {
-    background-color: rgb(241, 208, 40, 0.4);
+tr:nth-child(odd) {
+    font-weight: bold;
   }
 /*End of code from W3schools*/
 
@@ -321,13 +325,13 @@ tr:nth-child(even) {
 
 #contact {
     margin-top: 20px; 
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #form-container {
-    margin: 40px auto;
+    margin: 40px auto 0;
     width: 100%; 
     background-image: url(../assets/images/kids-spelling-word-team-with-cards-small.jpg);
     background-repeat: no-repeat;
@@ -346,7 +350,7 @@ tr:nth-child(even) {
     text-align: center;
     padding: 3px;
     margin: 0 auto;
-    background-color: rgb(240, 248, 255, 0.6);
+    background-color: rgb(240, 248, 255, 0.8);
 }
 
 .form-input {
@@ -359,13 +363,12 @@ tr:nth-child(even) {
 }
 
 .form-input:focus {
-    background-color: rgb(241 208 40);
+    background-color: rgb(241, 208, 40, 0.9);
 }
 
 #form-info h3 {
     margin: 5px 0 25px;
     font-weight: bold;
-    font-size: 1.2em;
 }
 
 #add-comment {
@@ -379,13 +382,13 @@ tr:nth-child(even) {
 }
 
 #add-comment:focus {
-    background-color: rgb(241 208 40);
+    background-color: rgb(241, 208, 40, 0.9);
 }
 
 #send-info {
     margin-bottom: 15px;
     padding: 12px;
-    background-color: rgb(40, 207, 123);
+    background-color: rgb(40, 207, 123, 0.7);
     border: none;
     font-weight: bold;
     font-family: 'Finger Paint', cursive;
@@ -393,7 +396,7 @@ tr:nth-child(even) {
 }
 
 #send-info:hover {
-    background-color: rgb(241 208 40);
+    background-color: rgb(241, 208, 40, 0.9);
     border-color: rgb(4, 14, 16);
 }
 
@@ -403,7 +406,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(241, 208, 40);
+    background-color: rgb(104, 221, 162);
     padding: 10px;
 }
 
@@ -441,7 +444,6 @@ footer p {
     #navbar a {
         padding-left: 5px;
         padding-right: 5px;
-        /*font-size: 0.8em;*/
     }
 
     #hero-container {
@@ -459,7 +461,7 @@ footer p {
     }
 
     .title-container hr {
-        width: 25%;
+        width: 27%;
     }
 
     #typical-day {
@@ -475,29 +477,29 @@ footer p {
 
 @media screen and  (min-width: 560px) {
 
-    /*#navbar a {
-        /*font-size: 0.9em;
-    }*/
-
     #hero-container {
-        width: 589px;
-        height: 371px;
+        width: 508px;
+        height: 332px;
     }
 
     #main-name h1 {
-        font-size: 2.3em;
+        font-size: 2.05em;
     }
 
     #bottom-phrase {
         width: 70px;
         height: 70px;
-        top: 77%;
-        right: -27px;
+        top: 80%;
+        right: -24px;
     }
 
     #top-phrase {
         width: 60px;
         height: 60px;
+    }
+
+    .title-container hr {
+        width: 30%;
     }
 
     #form-info {
@@ -509,12 +511,12 @@ footer p {
 
 @media screen and  (min-width: 700px) {
 
-   /* #navbar a {
+    #navbar a {
       font-size: 1em;
-    }*/
+    }
 
-    #typical-day {
-        max-width: 70%;
+    #photos {
+        column-count: 3;
     }
 }
 
@@ -546,7 +548,7 @@ footer p {
     }
 
     .title-container hr {
-        width: 27%;
+        width: 33%;
     }
 
     #photos {
@@ -585,8 +587,8 @@ footer p {
         font-size: 1.25em;
     }
 
-    .title-container hr {
-        width: 30%;
+    table {
+        width: 80%;
     }
 
     #form-info {
@@ -610,12 +612,12 @@ footer p {
     }
 
     #hero-container {
-        width: 712px;
-        height: 453px;
+        width: 840px;
+        height: 535px;
     }
 
     #main-name h1 {
-        font-size: 2.8em;
+        font-size: 3.2em;
     }
 
     .phrase p {
@@ -623,8 +625,8 @@ footer p {
     }
 
     #top-phrase {
-        width: 100px;
-        height: 100px;
+        width: 102px;
+        height: 102px;
     }
 
     #bottom-phrase {
@@ -655,12 +657,16 @@ footer p {
     }
 
     #hero-container {
-        width: 800px;
-        height: 506px;
+        width: 953px;
+        height: 597px;
+    }
+
+    #main-name h1 {
+        font-size: 3.7em;
     }
 
     .title-container hr {
-        width: 32%;
+        width: 36%;
     }
 
     #top-phrase {
@@ -710,10 +716,6 @@ footer p {
 
 @media screen and  (min-width: 1420px) {
 
-    #main-name h1 {
-        font-size: 3.1em;
-    }
-    
     .value {
         width: 187px;
         height: 187px;
@@ -724,18 +726,33 @@ footer p {
 
 @media screen and  (min-width: 1660px) {
 
+    #navbar a {
+        font-size: 1.5em;
+    }
+
     #hero-container {
-        width: 910px;
-        height: 572px;
+        width: 1076px;
+        height: 672px;
     }
 
     #main-name h1 {
-        font-size: 3.5em;
+        font-size: 4.15em;
+    }
+
+    .title-container hr {
+        width: 31%;
+    }
+
+    #bottom-phrase {
+        width: 130px;
+        height: 130px;
     }
 
     #about-container,
     #values-container, 
-    #program-container {
+    #program-container,
+    #typical-day,
+    #photos {
         width: 70%;
     }    
 }
@@ -745,7 +762,13 @@ footer p {
 @media screen and  (min-width: 1930px) {
 
     #about-container,
-    #values-container {
+    #values-container,
+    #program-container,
+    #typical-day {
         width: 67%;
+    }
+
+    .title-container hr {
+        width: 30%;
     }
 }
