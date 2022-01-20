@@ -29,7 +29,8 @@ h2 {
 
 header {
     height: 30px;
-    margin: 0 auto 20px;
+    width: 100%;
+    margin: 0 auto 15px;
     background-color: rgb(241, 208, 40);
 }
 
@@ -70,7 +71,7 @@ a:hover {
     display: flex;
     position: relative;
     background-image: url(../assets/images/home-hero-image-clean-board.jpg);
-    background-size: cover;    
+    background-size: cover; 
 }
 
 #main-name {
@@ -104,7 +105,7 @@ a:hover {
 #top-phrase {
     width: 56px;
     height: 56px;
-    top: -3%;
+    top: -2%;
     left: -2%;
 }
 
@@ -242,9 +243,9 @@ a:hover {
     background-color: rgb(40, 207, 123);
 }
 
-.name-program h3 {
+/*.name-program h3 {
     font-size: 1.2em;
-}
+}*/
 
 .program-info {
     padding: 10px;
@@ -252,10 +253,11 @@ a:hover {
 }
 
 #typical-day {
-    max-width: 95%;
-    margin: 20px 0;
+    width: 80%;
+    padding: 20px 0;
     margin-left: auto;
     margin-right: auto;
+    font-size: 0.9em;
 }
 
 caption {
@@ -318,7 +320,10 @@ tr:nth-child(even) {
 /*Contact Us*/
 
 #contact {
-    margin-top: 20px;
+    margin-top: 20px; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #form-container {
@@ -390,7 +395,6 @@ tr:nth-child(even) {
 #send-info:hover {
     background-color: rgb(241 208 40);
     border-color: rgb(4, 14, 16);
-    font-size: 1.1em;
 }
 
 /*Footer*/
@@ -458,6 +462,10 @@ footer p {
         width: 25%;
     }
 
+    #typical-day {
+        max-width: 80%;
+    }
+
     #form-info {
         max-width: 360px;
     }
@@ -472,12 +480,12 @@ footer p {
     }*/
 
     #hero-container {
-        width: 504px;
-        height: 318px;
+        width: 589px;
+        height: 371px;
     }
 
     #main-name h1 {
-        font-size: 1.85em;
+        font-size: 2.3em;
     }
 
     #bottom-phrase {
@@ -506,7 +514,7 @@ footer p {
     }*/
 
     #typical-day {
-        max-width: 80%;
+        max-width: 70%;
     }
 }
 
@@ -515,12 +523,12 @@ footer p {
 @media screen and  (min-width: 780px) {
 
     #hero-container {
-        width: 561px;
-        height: 354px;
+        width: 633px;
+        height: 400px;
     }
 
     #main-name h1 {
-        font-size: 2.1em;
+        font-size: 2.5em;
     }
 
     .phrase p {
@@ -533,8 +541,8 @@ footer p {
     }
 
     #bottom-phrase {
-        width: 85px;
-        height: 85px;
+        width: 90px;
+        height: 90px;
     }
 
     .title-container hr {
@@ -555,16 +563,16 @@ footer p {
 @media screen and  (min-width: 970px) {
 
     #main-name h1 {
-        font-size: 2.4em;
+        font-size: 3em;
     }
 
     #hero-container {
-        width: 630px;
-        height: 397px;
+        width: 771px;
+        height: 484px;
     }
 
     #top-phrase {
-        top: -2%;
+        top: -1%;
         left: -5%;
     }
 
@@ -701,10 +709,6 @@ footer p {
 /*media queries min-width: 1420px*/
 
 @media screen and  (min-width: 1420px) {
-
-    #about-container {
-        width: 75%;
-    }
 
     #main-name h1 {
         font-size: 3.1em;
