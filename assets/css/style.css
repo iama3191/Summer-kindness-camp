@@ -158,7 +158,6 @@ a:hover {
     margin: 10px 0 5px;
     text-align: center;
     color: rgb(6, 20, 23);
-    /*font-size: 1em; see if i can delete this line, bs I have font-size: 1em*/
 }
 
 .intern-info p {
@@ -239,7 +238,7 @@ a:hover {
 }
 
 .day p {
-    font-weight: bold; /*I'm not sure of this*/
+    font-weight: bold;
 }
 
 .name-program {  
@@ -440,7 +439,7 @@ footer p {
 
 /*media queries min-width: 420px*/
 @media screen and  (min-width: 420px) {
-   
+ 
     #navbar a {
         padding-left: 5px;
         padding-right: 5px;
@@ -467,7 +466,7 @@ footer p {
     #typical-day {
         max-width: 80%;
     }
-
+    
     #form-info {
         max-width: 360px;
     }
