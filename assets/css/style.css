@@ -63,10 +63,6 @@ a:hover {
 }
 
 /*hero image*/
-/*
-#home {
-    background-color: #151f1e;
-}*/
 
 #hero-container {  
     width: 100%;
@@ -105,8 +101,9 @@ a:hover {
     border-radius: 50%;
     width: 56px;
     height: 56px;
-    bottom: -11%;
-    right: 1%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*About us section*/
@@ -352,7 +349,7 @@ tr:nth-child(odd) {
 }
 
 .form-input:focus {
-    background-color: rgb(241, 208, 40, 0.9);
+    background-color: rgba(241, 208, 40, 0.8);
 }
 
 #form-info h3 {
