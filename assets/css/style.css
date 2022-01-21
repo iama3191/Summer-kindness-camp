@@ -5,7 +5,7 @@
     padding: 0;
     color: rgb(4, 14, 16);
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     /*outline: 1px solid red;*/
     box-sizing: border-box;
 }
@@ -22,7 +22,7 @@ h3 {
 }
 
 h2 {
-    font-size: 1.15em;
+    font-size: 1.5em;
 }
 
 /* Header */
@@ -65,29 +65,24 @@ a:hover {
 /*hero image*/
 
 #home {
-    max-width: 100%;
-    background-color: rgb(245, 245, 118);
+    width: 100%;
     background-image: url(../images/hero-image-clean-board.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 #hero-container {  
-    margin: 0 auto 40px; 
-    width: 296px;
-    height: 196px;
+    margin: 0 auto 20px; 
+    /*width: 296px;*/
+    height: 173px;
     display: flex;
     position: relative;
-    /*
-    background-image: url(../../assets/images/home-hero-image-clean-board.jpg);
-    background-size: cover; 
-    background-position: center;*/
 }
 
 #main-name {
     position: absolute;
-    top: 20%;
-    left: 33.5%;
+    top: 13%;
+    left: 29.5%;
     height: auto;
     text-align: center;
 }
@@ -95,10 +90,10 @@ a:hover {
 #main-name h1 {
     color: rgb(239, 241, 240);
     width: 9ch;
-    font-size: 1.2em;
+    font-size: 2.7em;
 }
 
-.phrase {
+#phrase {
     background-color: rgb(241, 208, 40, 0.9);
     display: flex;
     align-items: center;
@@ -106,24 +101,10 @@ a:hover {
     padding: 2%;
     text-align: center;  
     border-radius: 50%;
-}
-
-.phrase p {
-    font-size: 0.6em;
-}
-
-#top-phrase {
     width: 56px;
     height: 56px;
-    top: -2%;
-    left: -2%;
-}
-
-#bottom-phrase {
-    width: 67px;
-    height: 67px;
-    top: 72%;
-    right: -2%;
+    bottom: -11%;
+    right: 1%;
 }
 
 /*About us section*/
@@ -143,7 +124,7 @@ a:hover {
 
 .title-container hr {
     border: 2px solid rgb(229, 19, 114);
-    width: 20%;
+    width: 24%;
 }
 
 #about-container {
@@ -155,11 +136,12 @@ a:hover {
 }
 
 .intern-info {
-    max-width: 240px;
+    max-width: 190px;
     height: auto;
     margin: 20px auto;
     border-radius: 10%;
-    border: 4px solid rgb(229, 19, 114);
+    /*border: 4px solid rgb(229, 19, 114);*/
+    box-shadow: 5px 6px rgb(229, 19, 114);
     background-color: rgb(255, 255, 255);
 }
 
@@ -223,13 +205,14 @@ a:hover {
 }
 
 .program-description {
-    width: 250px;
+    width: 180px;
     height: auto;
     margin: 40px 26px 15px;
     position: relative;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border: 3px solid rgb(229, 19, 114);  
+    box-shadow: 5px 5px rgb(229 19 114);
+    border-radius: 5%;
 }
 
 .day {
@@ -238,8 +221,7 @@ a:hover {
     top: -34px;
     width: 50px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(4, 14, 16);
+    background-color: rgb(104 221 162);
     border-radius: 50%;   
     display: inline-flex;
     justify-content: center;
@@ -252,7 +234,6 @@ a:hover {
 
 .name-program {  
     padding: 5px;
-    background-color: rgb(229, 19, 114);;
 }
 
 .program-info {
@@ -266,7 +247,6 @@ a:hover {
     margin-right: auto;
     background-color: rgb(104, 221, 162);
     padding: 20px 0;
-    font-size: 0.9em;
 }
 
 caption {
@@ -302,6 +282,7 @@ tr {
 /* Code from W3schools*/
 tr:nth-child(odd) {
     font-weight: bold;
+    background-color: rgb(104, 221, 162, 0.4);
   }
 /*End of code from W3schools*/
 
@@ -329,13 +310,13 @@ tr:nth-child(odd) {
 }
 /*End of using the code from Love Running*/
 
-/*Contact Us*/
+/*Contact*/
 
 #contact {
-    margin-top: 20px; 
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 #form-container {
@@ -414,12 +395,8 @@ footer {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(104, 221, 162);
+    background-color: rgb(245, 221, 100);
     padding: 10px;
-}
-
-footer h3 {
-    font-size: 0.9em;
 }
 
 footer p {
