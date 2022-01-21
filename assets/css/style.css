@@ -30,7 +30,7 @@ h2 {
 header {
     height: 30px;
     width: 100%;
-    margin: 0 auto 15px;
+    margin: 0 auto;
     background-color: rgb(241, 208, 40, 0.8);
 }
 
@@ -63,36 +63,36 @@ a:hover {
 }
 
 /*hero image*/
-
+/*
 #home {
+    background-color: #151f1e;
+}*/
+
+#hero-container {  
     width: 100%;
+    height: 35vh;
+    display: flex;
     background-image: url(../images/hero-image-clean-board.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-}
-
-
-#hero-container {  
-    margin-left: auto;
-    margin-right: auto; 
-    /*width: 296px;*/
-    height: 173px;
-    display: flex;
+    position: relative;
 }
 
 #main-name {
-    position: absolute;
-    top: 13%;
-    left: 29.5%;
-   /*height: auto;*/
     text-align: center;
+    position: absolute;
+    /*W3schools code for position*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*End of code I use*/
 }
 
 #main-name h1 {
     color: rgb(239, 241, 240);
     width: 9ch;
-    font-size: 2.7em;
+    font-size: 3em;
 }
 
 #phrase {
@@ -425,16 +425,13 @@ footer p {
 
 /*media queries min-width: 365px*/
 @media screen and  (min-width: 365px) {
-    #main-name {
-        left: 31.5%;
-    }
 
     #main-name h1 {
-        font-size: 3em;
+        font-size: 3.5em;
     }
 
     #hero-container {
-        height: 203px;
+        height: 41vh;
     }
 }
 
@@ -446,17 +443,16 @@ footer p {
         padding-right: 5px;
     }
 
-   /* #hero-container {
-        width: 400px;
-        height: 252px;
+    #hero-container {
+        height: 47vh;
     }
 
     #main-name h1 {
-        font-size: 1.55em;
-    }*/
+        font-size: 3.9em;
+    }
 
     .title-container hr {
-        width: 27%;
+        width: 29%;
     }
 
     #typical-day {
@@ -468,26 +464,33 @@ footer p {
     }
 }
 
-/*media queries min-width: 560px*/
+/*media queries min-width: 470px*/
 
-@media screen and  (min-width: 560px) {
-/*
+@media screen and  (min-width: 470px) {
+
+    * {
+        font-size: 1em;
+    }
+
     #hero-container {
-        width: 508px;
-        height: 332px;
+        height: 52vh;
     }
 
     #main-name h1 {
-        font-size: 2.05em;
-    }*/
+    font-size: 2.9em;
+    }
 
     #top-phrase {
         width: 60px;
         height: 60px;
     }
 
-    .title-container hr {
-        width: 30%;
+    .intern-info {
+        max-width: 240px;
+    }
+
+    .program-description {
+        width: 210px;
     }
 
     #form-info {
@@ -495,12 +498,45 @@ footer p {
     }
 }
 
-/*media queries min-width: 700px*/
+/*media queries min-width: 550px*/
 
-@media screen and  (min-width: 700px) {
+@media screen and  (min-width: 550px) {
+
+    #navbar a {
+        font-size: 1em;
+    }
+
+    #hero-container {
+        height: 62vh;
+    }
+
+    #main-name h1 {
+        font-size: 3.4em;
+    }
+}
+
+/*media queries min-width: 660px*/
+
+@media screen and  (min-width: 660px) {
+
+    * {
+        font-size: 1em;
+    }
 
     #navbar a {
       font-size: 1em;
+    }
+
+    #hero-container {
+        height: 72vh;
+    }
+
+    #main-name h1 {
+        font-size: 3.8em;
+    }
+
+    .intern-info {
+        max-width: 225px;
     }
 
     #photos {
@@ -508,30 +544,12 @@ footer p {
     }
 }
 
-/*media queries min-width: 780px*/
+/*media queries min-width: 830px*/
 
-@media screen and  (min-width: 780px) {
-/*
-    #hero-container {
-        width: 633px;
-        height: 400px;
-    }
-
-    #main-name h1 {
-        font-size: 2.5em;
-    }*/
-
-    /*.phrase p {
-        font-size: 0.8em;
-    }
-*/
-    #top-phrase {
-        width: 70px;
-        height: 70px;
-    }
+@media screen and  (min-width: 830px) {
 
     .title-container hr {
-        width: 33%;
+        width: 31%;
     }
 
     #form-info {
@@ -539,26 +557,20 @@ footer p {
     }
 }
 
-/*media queries min-width: 970px*/
+/*media queries min-width: 900px*/
 
-@media screen and  (min-width: 970px) {
+@media screen and  (min-width: 900px) {
 
-   /* #main-name h1 {
-        font-size: 3em;
+    #main-name h1 {
+        font-size: 4.3em;
     }
 
     #hero-container {
-        width: 771px;
-        height: 484px;
-    }*/
-
-    #top-phrase {
-        top: -1%;
-        left: -5%;
+        height: 80vh;
     }
 
-    h2 {
-        font-size: 1.25em;
+    .title-container hr {
+        width: 32.5%;
     }
 
     table {
@@ -570,9 +582,9 @@ footer p {
     }
 }
 
-/*media queries min-width: 1090px*/
+/*media queries min-width: 1100px*/
 
-@media screen and  (min-width: 1090px) {
+@media screen and  (min-width: 1100px) {
 
     header,
     #navbar,
@@ -583,28 +595,6 @@ footer p {
 
     #navbar a {
         font-size: 1.3em;
-    }
-/*
-    #hero-container {
-        width: 840px;
-        height: 535px;
-    }
-
-    #main-name h1 {
-        font-size: 3.2em;
-    }*/
-
-    .phrase p {
-        font-size: 1.2em;
-    }
-
-    #top-phrase {
-        width: 102px;
-        height: 102px;
-    }
-
-    h2 {
-        font-size: 1.4em;
     }
 
     .value {
@@ -623,27 +613,17 @@ footer p {
     #navbar a {
         height: 40px;
     }
-/*
+
     #hero-container {
-        width: 953px;
-        height: 597px;
+        height: 90vh;
     }
 
     #main-name h1 {
-        font-size: 3.7em;
-    }*/
+        font-size: 6em;
+    }
 
     .title-container hr {
-        width: 36%;
-    }
-
-    #top-phrase {
-        width: 105px;
-        height: 105px;
-    }
-
-    p {
-        font-size: 1.3em;
+        width: 34%;
     }
 
     .intern-info {
@@ -660,7 +640,7 @@ footer p {
     }
 
     .program-description {
-        width: 290px;
+        width: 250px;
     }
 
     .day {
@@ -668,6 +648,10 @@ footer p {
         top: -26px;
         width: 60px;
         height: 60px;
+    }
+
+    table {
+        width: 73%;
     }
 
     #form-info {
@@ -678,6 +662,10 @@ footer p {
 /*media queries min-width: 1420px*/
 
 @media screen and  (min-width: 1420px) {
+
+    #main-name h1 {
+        font-size: 6.5em;
+    }
 
     .value {
         width: 187px;
@@ -692,23 +680,15 @@ footer p {
     #navbar a {
         font-size: 1.5em;
     }
-/*
+
     #hero-container {
-        width: 1076px;
-        height: 672px;
+        height: 74vh;
     }
-
     #main-name h1 {
-        font-size:
-    }*/
-
+        font-size: 7.9em;
+    }
     .title-container hr {
         width: 31%;
-    }
-
-    #bottom-phrase {
-        width: 130px;
-        height: 130px;
     }
 
     #about-container,
