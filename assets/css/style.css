@@ -87,6 +87,7 @@ a:hover {
 
 #main-name h1 {
     color: rgb(239, 241, 240);
+    text-shadow: 2px 5px 4px rgb(229, 19, 114);
     width: 9ch;
     font-size: 3em;
 }
