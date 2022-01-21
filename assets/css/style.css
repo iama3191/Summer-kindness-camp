@@ -71,19 +71,21 @@ a:hover {
     background-size: contain;
     background-position: center;
 }
+
+
 #hero-container {  
-    margin: 0 auto 20px; 
+    margin-left: auto;
+    margin-right: auto; 
     /*width: 296px;*/
     height: 173px;
     display: flex;
-    position: relative;
 }
 
 #main-name {
     position: absolute;
     top: 13%;
     left: 29.5%;
-    height: auto;
+   /*height: auto;*/
     text-align: center;
 }
 
@@ -140,7 +142,6 @@ a:hover {
     height: auto;
     margin: 20px auto;
     border-radius: 10%;
-    /*border: 4px solid rgb(229, 19, 114);*/
     box-shadow: 5px 6px rgb(229, 19, 114);
     background-color: rgb(255, 255, 255);
 }
@@ -177,7 +178,7 @@ a:hover {
 }
 
 .even-number {
-    border: 4px solid rgb(241 208 40);
+    border: 4px solid rgb(241, 208, 40);
 }
 
 .odd-number {
@@ -211,7 +212,7 @@ a:hover {
     position: relative;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    box-shadow: 5px 5px rgb(229 19 114);
+    box-shadow: 5px 5px rgb(229, 19, 114);
     border-radius: 5%;
 }
 
@@ -221,7 +222,7 @@ a:hover {
     top: -34px;
     width: 50px;
     height: 50px;
-    background-color: rgb(104 221 162);
+    background-color: rgb(104, 221, 162);
     border-radius: 50%;   
     display: inline-flex;
     justify-content: center;
@@ -245,7 +246,7 @@ a:hover {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(104, 221, 162);
+    background-color: rgba(40, 207, 123, 0.7);
     padding: 20px 0;
 }
 
@@ -282,7 +283,6 @@ tr {
 /* Code from W3schools*/
 tr:nth-child(odd) {
     font-weight: bold;
-    background-color: rgb(104, 221, 162, 0.4);
   }
 /*End of code from W3schools*/
 
@@ -348,7 +348,7 @@ tr:nth-child(odd) {
     width: 70%;
     padding: 5px;
     background-color: rgb(40, 207, 123, 0.1);
-    font-size: 0.9em;
+    /*font-size: 0.9em;*/
 }
 
 .form-input:focus {
@@ -423,6 +423,21 @@ footer p {
     font-size: 1.5em;
 }
 
+/*media queries min-width: 365px*/
+@media screen and  (min-width: 365px) {
+    #main-name {
+        left: 31.5%;
+    }
+
+    #main-name h1 {
+        font-size: 3em;
+    }
+
+    #hero-container {
+        height: 203px;
+    }
+}
+
 /*media queries min-width: 420px*/
 @media screen and  (min-width: 420px) {
  
@@ -431,19 +446,14 @@ footer p {
         padding-right: 5px;
     }
 
-    #hero-container {
+   /* #hero-container {
         width: 400px;
         height: 252px;
     }
 
     #main-name h1 {
         font-size: 1.55em;
-    }
-
-    #bottom-phrase {
-        top: 77%;
-        right: -9px;
-    }
+    }*/
 
     .title-container hr {
         width: 27%;
@@ -461,7 +471,7 @@ footer p {
 /*media queries min-width: 560px*/
 
 @media screen and  (min-width: 560px) {
-
+/*
     #hero-container {
         width: 508px;
         height: 332px;
@@ -469,14 +479,7 @@ footer p {
 
     #main-name h1 {
         font-size: 2.05em;
-    }
-
-    #bottom-phrase {
-        width: 70px;
-        height: 70px;
-        top: 80%;
-        right: -24px;
-    }
+    }*/
 
     #top-phrase {
         width: 60px;
@@ -508,7 +511,7 @@ footer p {
 /*media queries min-width: 780px*/
 
 @media screen and  (min-width: 780px) {
-
+/*
     #hero-container {
         width: 633px;
         height: 400px;
@@ -516,28 +519,19 @@ footer p {
 
     #main-name h1 {
         font-size: 2.5em;
-    }
+    }*/
 
-    .phrase p {
+    /*.phrase p {
         font-size: 0.8em;
     }
-
+*/
     #top-phrase {
         width: 70px;
         height: 70px;
     }
 
-    #bottom-phrase {
-        width: 90px;
-        height: 90px;
-    }
-
     .title-container hr {
         width: 33%;
-    }
-
-    #photos {
-        column-count: 3
     }
 
     #form-info {
@@ -549,23 +543,18 @@ footer p {
 
 @media screen and  (min-width: 970px) {
 
-    #main-name h1 {
+   /* #main-name h1 {
         font-size: 3em;
     }
 
     #hero-container {
         width: 771px;
         height: 484px;
-    }
+    }*/
 
     #top-phrase {
         top: -1%;
         left: -5%;
-    }
-
-    #bottom-phrase {
-        top: 84%;
-        right: -39px;
     }
 
     h2 {
@@ -595,7 +584,7 @@ footer p {
     #navbar a {
         font-size: 1.3em;
     }
-
+/*
     #hero-container {
         width: 840px;
         height: 535px;
@@ -603,7 +592,7 @@ footer p {
 
     #main-name h1 {
         font-size: 3.2em;
-    }
+    }*/
 
     .phrase p {
         font-size: 1.2em;
@@ -612,12 +601,6 @@ footer p {
     #top-phrase {
         width: 102px;
         height: 102px;
-    }
-
-    #bottom-phrase {
-        width: 120px;
-        height: 120px;
-        top: 81%;
     }
 
     h2 {
@@ -640,7 +623,7 @@ footer p {
     #navbar a {
         height: 40px;
     }
-
+/*
     #hero-container {
         width: 953px;
         height: 597px;
@@ -648,7 +631,7 @@ footer p {
 
     #main-name h1 {
         font-size: 3.7em;
-    }
+    }*/
 
     .title-container hr {
         width: 36%;
@@ -657,11 +640,6 @@ footer p {
     #top-phrase {
         width: 105px;
         height: 105px;
-    }
-
-    #bottom-phrase {
-        width: 125px;
-        height: 125px;
     }
 
     p {
@@ -714,15 +692,15 @@ footer p {
     #navbar a {
         font-size: 1.5em;
     }
-
+/*
     #hero-container {
         width: 1076px;
         height: 672px;
     }
 
     #main-name h1 {
-        font-size: 4.15em;
-    }
+        font-size:
+    }*/
 
     .title-container hr {
         width: 31%;
