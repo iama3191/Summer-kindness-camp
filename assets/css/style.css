@@ -468,31 +468,28 @@ footer p {
         font-size: 1em;
     }
 
-   /* #hero-container {
-        height: 48vh;
+    #home, #hero-container {
+        height: 300px;
     }
 
-    #main-name h1 {
-        font-size: 2.5em;
-    }*/
 }
 
 /*media queries min-width: 660px*/
 
 @media screen and  (min-width: 660px) {
 
-  /* #hero-container {
-        height: 57vh;
-    }
-
-    #main-name h1 {
-        font-size: 3em;
-    }*/
-
     .title-container hr {
         width: 28%;
     }
 
+    #home, #hero-container {
+        height: 350px;
+    }
+
+    #main-name h1 {
+        font-size: 2.5em;
+    }
+    
     .intern-info {
         max-width: 225px;
     }
@@ -506,14 +503,6 @@ footer p {
 
 @media screen and  (min-width: 760px) {
 
-    /*#hero-container {
-        height: 66vh;
-    }
-
-    #main-name h1 {
-        font-size: 3.3em;
-    }*/
-
     .title-container hr {
         width: 30%;
     }
@@ -526,14 +515,6 @@ footer p {
 /*media queries min-width: 900px*/
 
 @media screen and  (min-width: 900px) {
-
-    /*#main-name h1 {
-        font-size: 3.6em;
-    }
-
-    #hero-container {
-        height: 78vh;
-    }*/
 
     .title-container hr {
         width: 31.5%;
@@ -563,14 +544,6 @@ footer p {
         font-size: 1.3em;
     }
 
-   /* #hero-container {
-        height: 87.5vh;
-    }
-
-    #main-name h1 {
-        font-size: 4.2em;
-    }*/
-
     .value {
         width: 130px;
         height: 130px;
@@ -588,14 +561,6 @@ footer p {
         height: 40px;
     }
 
-   /* #main-name h1 {
-        font-size: 5.2em;
-    }
-
-    .title-container hr {
-        width: 34%;
-    }
-*/
     .intern-info {
         max-width: 300px;
     }
@@ -633,10 +598,6 @@ footer p {
 
 @media screen and  (min-width: 1420px) {
 
- /*   #main-name h1 {
-        font-size: 6em;
-    }*/
-
     .value {
         width: 187px;
         height: 187px;
@@ -655,18 +616,10 @@ footer p {
         font-size: 1.5em;
     }
 
- /*   #hero-container {
-        height: 50vh;
-    }
-    #main-name h1 {
-        font-size: 5.9em;
-    }*/
-
     .title-container hr {
         width: 30%;
     }
 
-    #hero-container,
     #about-container,
     #values-container, 
     #program-container,
@@ -680,7 +633,6 @@ footer p {
 
 @media screen and  (min-width: 1930px) {
 
-    #hero-container,
     #about-container,
     #values-container,
     #program-container,
