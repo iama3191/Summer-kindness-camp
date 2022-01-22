@@ -420,15 +420,7 @@ footer p {
         padding-left: 5px;
         padding-right: 5px;
     }
-/*
-    #hero-container {
-        height: 36.5vh;
-    }
 
-    #main-name h1 {
-        font-size: 3em;
-    }
-*/
     #typical-day {
         max-width: 80%;
     }
@@ -446,14 +438,15 @@ footer p {
         font-size: 1em;
     }
 
- /*  #hero-container {
-        height: 41.5vh;
+    #home,
+    #hero-container {
+        height: 260px;
     }
 
     #main-name h1 {
-    font-size: 2.2em;
-    }*/
-
+        font-size: 2em;
+    }
+    
     .intern-info {
         max-width: 240px;
     }
