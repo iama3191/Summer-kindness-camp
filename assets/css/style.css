@@ -143,8 +143,7 @@ a:hover {
     height: auto;
     margin: 20px auto;
     border-radius: 10%;
-    border: 2px solid rgb(255, 121, 31);
-    box-shadow: -20px 15px 2px 2px rgb(255 121 31);
+    box-shadow: -11px 11px 2px 2px rgb(255 121 31);
     background-color: rgb(255, 255, 255);
 }
 
@@ -203,19 +202,18 @@ a:hover {
     flex-wrap: wrap;
     width: 80%;
     margin: 20px auto;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: rgba(242, 213, 61, 0.8);
 }
 
 .program-description {
-    width: 180px;
+    width: 192px;
     height: auto;
-    margin: 20px 50px;
+    margin: 20px auto;
     position: relative;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 121, 31);
-    box-shadow: -20px 15px 2px 2px rgb(255 121 31);
+    box-shadow: -11px 11px 2px 2px rgb(255 121 31);
     border-radius: 5%;
 }
 
@@ -598,7 +596,9 @@ footer p {
     }
 
     .program-description {
-        width: 250px;
+        width: 220px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     .day {
@@ -667,7 +667,8 @@ footer p {
     #about-container,
     #values-container,
     #program-container,
-    #typical-day {
+    #typical-day,
+    #photos {
         width: 67%;
     }
 
