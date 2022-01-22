@@ -65,16 +65,15 @@ a:hover {
 /*hero image*/
 
 #home {
-    height: 230px;
+    height: 380px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-container { 
-    height: 230px;
+    height: 380px;
     width: 100%;
-    display: flex;
     background-image: url(../images/hero-image-kids-together.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,11 +437,6 @@ footer p {
         font-size: 1em;
     }
 
-    #home,
-    #hero-container {
-        height: 260px;
-    }
-
     #main-name h1 {
         font-size: 2em;
     }
@@ -468,10 +462,6 @@ footer p {
         font-size: 1em;
     }
 
-    #home, #hero-container {
-        height: 300px;
-    }
-
 }
 
 /*media queries min-width: 660px*/
@@ -482,14 +472,10 @@ footer p {
         width: 28%;
     }
 
-    #home, #hero-container {
-        height: 350px;
-    }
-
     #main-name h1 {
         font-size: 2.5em;
     }
-    
+
     .intern-info {
         max-width: 225px;
     }
@@ -499,9 +485,14 @@ footer p {
     }
 }
 
-/*media queries min-width: 760px*/
+/*media queries min-width: 800px*/
 
-@media screen and  (min-width: 760px) {
+@media screen and  (min-width: 800px) {
+
+    #home,
+    #hero-container {
+        height: 464px;
+    }
 
     .title-container hr {
         width: 30%;
@@ -540,6 +531,11 @@ footer p {
         height: 35px;
     }
 
+    #home, 
+    #hero-container {
+        height: 508px;
+    }
+
     #navbar a {
         font-size: 1.3em;
     }
@@ -559,6 +555,14 @@ footer p {
     #navbar li,
     #navbar a {
         height: 40px;
+    }
+
+    #home, #hero-container {
+        height: 600px;
+    }
+
+    #main-name h1 {
+        font-size: 3.5em;
     }
 
     .intern-info {
@@ -598,6 +602,14 @@ footer p {
 
 @media screen and  (min-width: 1420px) {
 
+    #home, #hero-container {
+        height: 700px;
+    }
+
+    #main-name h1 {
+        font-size: 4.5em;
+    }
+    
     .value {
         width: 187px;
         height: 187px;
