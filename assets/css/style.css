@@ -32,7 +32,6 @@ header {
     height: 40px;
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(241, 208, 40, 0.8);
 }
 
 #navbar {
@@ -53,8 +52,9 @@ header {
     text-decoration: none;
     display: inline-block;
     height: 40px;
-    padding: 10px 2px;
-    font-size: 0.7em;
+    padding: 10px 3px;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 a:hover {
@@ -94,7 +94,7 @@ a:hover {
 }
 
 #main-name h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(244, 217, 83);
     text-shadow: 3px 3px 0 rgb(4, 14, 16);
     width: 8ch;
     font-size: 3em;
