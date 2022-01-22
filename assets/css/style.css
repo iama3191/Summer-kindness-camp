@@ -306,7 +306,6 @@ tr:nth-child(odd) {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
 }
 
 #form-container {
@@ -334,7 +333,7 @@ tr:nth-child(odd) {
 
 .form-input {
     border: 2px solid rgb(0, 158, 134);
-    margin: 0 auto 15px;
+    margin: 0 auto;
     width: 70%;
     padding: 5px;
     background-color: rgb(40, 207, 123, 0.1);
@@ -385,7 +384,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     background-color: rgb(245, 221, 100);
-    padding: 10px;
+    padding: 15px;
 }
 
 footer p {
