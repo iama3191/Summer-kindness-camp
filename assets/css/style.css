@@ -65,21 +65,19 @@ a:hover {
 /*hero image*/
 
 #home {
-    height: 144px;
+    height: 230px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-container { 
-    margin-left: auto;
-    margin-right: auto;
-    height: 144px;
+    height: 230px;
     width: 100%;
     display: flex;
     background-image: url(../images/hero-image-kids-together.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     position: relative;
 }
@@ -99,7 +97,7 @@ a:hover {
     color: rgb(239, 241, 240);
     text-shadow: 2px 5px 4px rgb(8 6 4);
     width: 9ch;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 /*About us section*/
@@ -413,19 +411,6 @@ footer p {
 #social-media i {
     color: rgb(229, 19, 114);
     font-size: 1.5em;
-}
-
-/*media queries min-width: 365px*/
-@media screen and  (min-width: 365px) {
-
-    /*
-    #main-name h1 {
-        font-size: 2.7em;
-    }
-
-    #hero-container {
-        height: 31.5vh;
-    }*/
 }
 
 /*media queries min-width: 420px*/
