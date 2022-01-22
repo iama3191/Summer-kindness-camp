@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Sniglet&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     color: rgb(4, 14, 16);
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
     /*outline: 1px solid red;*/
     box-sizing: border-box;
 }
@@ -17,7 +18,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Finger Paint', cursive;
+    font-family: 'Sniglet', cursive;
     text-transform: uppercase;
 }
 
@@ -95,8 +96,9 @@ a:hover {
 #main-name h1 {
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 0 rgb(4, 14, 16);
-    width: 9ch;
-    font-size: 2.5em;
+    width: 8ch;
+    font-size: 3em;
+    letter-spacing: 2px;
 }
 
 /*About us section*/
@@ -435,10 +437,6 @@ footer p {
     * {
         font-size: 1em;
     }
-
-    #main-name h1 {
-        font-size: 2em;
-    }
     
     .intern-info {
         max-width: 240px;
@@ -472,7 +470,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 2.5em;
+        font-size: 3.5em;
     }
 
     .intern-info {
@@ -554,7 +552,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 3.5em;
+        font-size: 4.5em;
     }
 
     .intern-info {
@@ -599,7 +597,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 4.5em;
+        font-size: 5.5em;
     }
 
     .value {
