@@ -462,10 +462,6 @@ footer p {
         max-width: 240px;
     }
 
-    .program-description {
-        width: 210px;
-    }
-
     #form-info {
         max-width: 390px;
     }
@@ -487,6 +483,7 @@ footer p {
     #navbar li, #navbar a {
         height: 40px;
     }
+   
 }
 
 /*media queries min-width: 660px*/
@@ -512,6 +509,10 @@ footer p {
 
     #photos {
         column-count: 3;
+    }
+
+    .program-description {
+        width: 215px;
     }
 }
 
