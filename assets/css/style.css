@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Sniglet&display=swap');
 
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     color: rgb(10, 10, 6);
@@ -16,7 +18,7 @@ body {
     max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:rgb(255, 255, 240)y;
+    background-color:rgb(255, 255, 240);
 }
 
 h1,
@@ -40,7 +42,8 @@ header {
 
 /*css code from Kevin Powell for the hamburger menu */
 .nav {
-    background: var(--clr-light);
+    background-color: rgba(243, 216, 83, 0.9);
+    z-index: 1;
     position: absolute;
     right: 0;
     box-shadow: 0 0 3em rgba(0,0,0,.15);
@@ -54,30 +57,31 @@ header {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding: 3em 6em;
+    height: 16em;
+    padding: 2em 6em;
+    text-align: center;
   }
   
   .nav__item {
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
   }
   
   .nav__link {
     text-decoration: none;
-    color: var(--clr-dark);
+    text-transform: uppercase;
+    font-weight: bold;
   }
   
   .nav__link:hover {
-    text-decoration: underline;
-    color: var(--clr-primary);
+    border-bottom: 2px solid rgb(255, 103, 0);
   }
   
   .nav__toggle {
     position: absolute;
-    top: 2em;
+    top: 0.2em;
     left: 0;
     transform: translateX(-100%);
-    background: var(--clr-light);
+    background-color: rgb(255, 103, 0);
     padding: 1em .5em;
     border: 0;
     border-radius: .25em 0 0 .25em;
@@ -91,10 +95,9 @@ header {
   .hamburger,
   .hamburger::before,
   .hamburger::after {
-    width: 2em;
+    width: 1.5em;
     height: 3px;
-    background: var(--clr-dark);
-    
+    background-color: rgb(255, 255, 240);
     transition: transform 350ms ease-in-out, opacity 200ms linear;
   }
   
