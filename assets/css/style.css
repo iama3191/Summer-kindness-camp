@@ -421,6 +421,7 @@ footer p {
 #social-media i {
     color: rgb(255, 103, 0);
     font-size: 1.5em;
+    box-shadow: 5px 5px 3px 1px rgb(5, 7, 13);
 }
 
 /*media queries min-width: 420px*/
@@ -489,6 +490,11 @@ footer p {
 
 @media screen and  (min-width: 660px) {
 
+    #navbar a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .title-container hr {
         width: 28%;
     }
@@ -532,6 +538,11 @@ footer p {
 
 @media screen and  (min-width: 900px) {
 
+    #navbar a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .title-container hr {
         width: 31.5%;
     }
@@ -572,6 +583,10 @@ footer p {
         font-size: 4.7em;
     }
 
+    .title-container hr {
+        width: 32.5%;
+    }
+
     .value {
         width: 130px;
         height: 130px;
@@ -581,6 +596,11 @@ footer p {
 /*media queries min-width: 1270px*/
 
 @media screen and  (min-width: 1270px) {
+
+    #navbar a {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 
     #home, #hero-container {
         height: 600px;
@@ -610,8 +630,6 @@ footer p {
     }
 
     .day {
-        right: -31px;
-        top: -26px;
         width: 60px;
         height: 60px;
     }
@@ -687,7 +705,7 @@ footer p {
     #main-name h1 {
         font-size: 8em;
     }
-    
+
     .title-container hr {
         width: 30%;
     }
