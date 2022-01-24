@@ -62,7 +62,7 @@ header {
     text-transform: uppercase;
 }
 
-a:hover {
+#navbar a:hover {
     border-bottom: 3px solid rgb(255, 103, 0);   
 }
 
@@ -494,7 +494,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 3.5em;
+        font-size: 3.3em;
     }
 
     .intern-info {
@@ -513,6 +513,10 @@ footer p {
     #home,
     #hero-container {
         height: 464px;
+    }
+
+    #main-name h1 {
+        font-size: 4em;
     }
 
     .title-container hr {
@@ -563,6 +567,10 @@ footer p {
     #navbar a {
         font-size: 1.3em;
     }
+    
+    #main-name h1 {
+        font-size: 4.7em;
+    }
 
     .value {
         width: 130px;
@@ -579,7 +587,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 4.5em;
+        font-size: 5.7em;
     }
 
     .intern-info {
@@ -626,7 +634,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 5.5em;
+        font-size: 6.5em;
     }
 
     .value {
@@ -651,6 +659,10 @@ footer p {
         width: 30%;
     }
 
+    #main-name h1 {
+        font-size: 7em;
+    }
+
     #about-container,
     #values-container, 
     #program-container,
@@ -672,6 +684,10 @@ footer p {
         width: 67%;
     }
 
+    #main-name h1 {
+        font-size: 8em;
+    }
+    
     .title-container hr {
         width: 30%;
     }
