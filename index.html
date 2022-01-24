@@ -12,15 +12,19 @@
    <body>
       <header>
          <!--Navigation-->
-         <nav id="navbar">
-            <ul>
-               <li><a href="#home">Home</a></li>
-               <li><a href="#about-us">About Us</a></li>
-               <li><a href="#program">Program</a></li>
-               <li><a href="#gallery">Gallery</a></li>
-               <li><a href="#contact">Contact</a></li>
+         <nav class="nav">
+            <button class="nav__toggle">
+              <span class="hamburger"></span>
+            </button>
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link">Lorem</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Adipisci</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Natus</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Beatae</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Dolorum</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Culpa</a></li>
             </ul>
-         </nav>
+          </nav>
       </header>
       <!--Home section-->
       <section id="home">
@@ -269,5 +273,12 @@
       </footer>
       <!--font awesome script-->
       <script src="https://kit.fontawesome.com/8366b845f2.js" crossorigin="anonymous"></script>
+      <script>
+         const navToggle = document.querySelector('.nav__toggle');
+
+navToggle.addEventListener('click', () => {
+  document.body.classList.toggle('nav-open');
+});
+      </script>
    </body>
 </html>
