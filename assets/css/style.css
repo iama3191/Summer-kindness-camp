@@ -38,7 +38,7 @@ header {
     margin: 0 auto;
 }
 
-
+/*css code from Kevin Powell for the hamburger menu */
 .nav {
     background: var(--clr-light);
     position: absolute;
@@ -128,7 +128,38 @@ header {
   .nav-open .hamburger::after {
     transform: rotate(90deg) translate(-6px);
   }
- 
+  
+  /*End of code from Kevin Powell*/
+
+/*
+#navbar {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto 20px;
+    text-align: center;  
+    height: 50px;
+}
+
+#navbar li {
+    list-style-type: none;
+    display: inline-block;
+    height: 35px;
+}
+
+#navbar a {
+    text-decoration: none;
+    display: inline-block;
+    height: 35px;
+    padding: 10px 3px;
+    font-size: 0.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#navbar a:hover {
+    border-bottom: 3px solid rgb(255, 103, 0);   
+}
+*/
 /*hero image*/
 
 #home {
@@ -493,6 +524,17 @@ footer p {
 /*media queries min-width: 420px*/
 @media screen and  (min-width: 420px) {
  
+    #header,
+    #navbar {
+        height: 50px;
+    }
+
+    #navbar a {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 0.8em;
+    }
+
     #typical-day {
         max-width: 80%;
     }
@@ -521,7 +563,22 @@ footer p {
 
 /*media queries min-width: 550px*/
 
+@media screen and  (min-width: 550px) {
 
+    #navbar a {
+        font-size: 1em;
+    }
+
+    #header,
+    #navbar {
+            height: 55px;
+    }
+
+    #navbar li, #navbar a {
+        height: 40px;
+    }
+   
+}
 
 /*media queries min-width: 660px*/
 
