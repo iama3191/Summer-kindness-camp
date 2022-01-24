@@ -219,8 +219,8 @@ header {
 
 .day {
     position: absolute;
-    right: -29px;
-    top: -34px;
+    right: -30px;
+    top: -20px;
     width: 50px;
     height: 50px;
     background-color: rgb(104, 221, 162);
@@ -232,6 +232,7 @@ header {
 
 .day p {
     font-weight: bold;
+    font-family: 'Sniglet', cursive;
 }
 
 .name-program {  
@@ -254,22 +255,20 @@ header {
 caption {
     font-family: 'Finger Paint', cursive;
     text-transform: uppercase;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 221, 100);
     border-bottom: none;
     font-weight: bold;
     font-size: 1.1em;
     padding: 4px 0;
-    border: 1px solid rgb(104, 221, 162);
 }
 
 table, 
 th, 
 tr, 
 td {
-    border: 1px solid rgb(104, 221, 162);
     border-collapse: collapse;
-    padding: 0 2px;
-    background-color: rgb(255, 255, 255);
+    padding: 0 3px;
+    
 }
 
 table {
@@ -283,7 +282,11 @@ tr {
 
 /* Code from W3schools*/
 tr:nth-child(odd) {
-    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+  }
+
+  tr:nth-child(even) {
+    background-color: rgb(245 221 100);
   }
 /*End of code from W3schools*/
 
