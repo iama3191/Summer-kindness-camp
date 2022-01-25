@@ -127,6 +127,7 @@ nav a:hover {
 .nav-toggle-label span::after {
     top: 7px;
 }
+
 /*hero image*/
 
 #home {
@@ -402,7 +403,7 @@ tr:nth-child(odd) {
 }
 
 #form-container label {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
 }
 
@@ -412,12 +413,12 @@ tr:nth-child(odd) {
     text-align: center;
     padding: 3px;
     margin: 0 auto;
-    background-color: rgb(240, 248, 255, 0.8);
+    background-color: rgb(240, 248, 255, 0.9);
 }
 
 .form-input {
     border: 2px solid rgb(0, 158, 134);
-    margin: 0 auto;
+    margin: 0 auto 20px;
     width: 70%;
     padding: 5px;
     background-color: rgb(40, 207, 123, 0.1);
@@ -428,7 +429,7 @@ tr:nth-child(odd) {
 }
 
 #form-info h3 {
-    margin: 5px 0 25px;
+    margin: 5px 0 15px;
     font-weight: bold;
 }
 
@@ -439,7 +440,6 @@ tr:nth-child(odd) {
     resize: none;
     border: 2px solid rgb(0, 158, 134); 
     background-color: rgb(40, 207, 123, 0.1);
-    font-size: 0.9em;
 }
 
 #add-comment:focus {
@@ -514,7 +514,7 @@ footer p {
     }
 
     #form-info {
-        max-width: 390px;
+        max-width: 425px;
     }
 }
 
@@ -526,9 +526,6 @@ footer p {
         font-size: 3.3em;
     }
 
-    #photos {
-        column-count: 3;
-    }
 }
 
 /*media queries min-width: 800px*/
@@ -577,7 +574,7 @@ footer p {
     }
 
     #form-info {
-        max-width: 410px;
+        max-width: 500px;
     }
 }
 
@@ -590,7 +587,7 @@ footer p {
     }
 
     #form-info {
-        max-width: 440px;
+        max-width: 515px;
     }
 }
 
@@ -617,7 +614,8 @@ footer p {
     }
 
     .intern-info h3,
-    .program-description h3 {
+    .program-description h3,
+    #form-info h3 {
         font-size: 1.3em;
     }
 
@@ -645,7 +643,8 @@ footer p {
         margin-right: 30px;
     }
    
-    #home, #hero-container {
+    #home, 
+    #hero-container {
         height: 600px;
     }
 
@@ -684,7 +683,7 @@ footer p {
     }
 
     #form-info {
-        max-width: 480px;
+        max-width: 630px;
     }
 }
 
@@ -748,5 +747,4 @@ footer p {
     #main-name h1 {
         font-size: 8em;
     }
-
 }
