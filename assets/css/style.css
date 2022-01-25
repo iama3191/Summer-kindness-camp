@@ -490,17 +490,6 @@ footer p {
 
 /*media queries min-width: 420px*/
 @media screen and  (min-width: 420px) {
- 
-    #header,
-    #navbar {
-        height: 50px;
-    }
-
-    #navbar a {
-        padding-left: 5px;
-        padding-right: 5px;
-        font-size: 0.8em;
-    }
 
     #typical-day {
         max-width: 80%;
@@ -528,19 +517,9 @@ footer p {
     }
 }
 
-/*media queries min-width: 550px*/
-
-@media screen and  (min-width: 550px) {
-
-    
-   
-}
-
 /*media queries min-width: 660px*/
 
 @media screen and  (min-width: 660px) {
-
-    
 
     .title-container hr {
         width: 28%;
@@ -566,6 +545,29 @@ footer p {
 /*media queries min-width: 800px*/
 
 @media screen and  (min-width: 800px) {
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    nav {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        margin-bottom: 0;
+        display: inline-block;
+        height: 50px;
+    }
+    nav a {
+        opacity: 1;    
+        display: inline-block;
+        height: 50px;
+        padding: 10px 0;
+    }
 
     #home,
     #hero-container {
