@@ -139,7 +139,7 @@ nav a:hover {
 #hero-container { 
     height: 380px;
     width: 100%;
-    background-image: url(../images/hero-image-kids-together.jpg);
+    background-image: url(../images/hero-image-kids-smiling-outside.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -389,7 +389,7 @@ tr:nth-child(odd) {
 #form-container {
     margin: 40px auto 0;
     width: 100%; 
-    background-image: url(../../assets/images/kids-spelling-word-team-with-cards-small.jpg);
+    background-image: url(../../assets/images/kids-spelling-word-team-with-cards.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
