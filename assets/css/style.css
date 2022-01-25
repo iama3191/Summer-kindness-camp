@@ -194,7 +194,7 @@ nav a:hover {
 #about-container {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     margin: 20px auto 40px;
     background-color: rgba(242, 213, 61, 0.8)
 }
@@ -222,7 +222,7 @@ nav a:hover {
 #values-container {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     margin: 0 auto 20px;
     background-color: rgba(40, 207, 123, 0.7);
     justify-content: center;
@@ -248,7 +248,7 @@ nav a:hover {
 }
 
 .value p {
-    font-weight: bold;
+    font-family: 'Sniglet', sans-serif;
 }
 
 /*Program*/
@@ -261,16 +261,16 @@ nav a:hover {
 #program-container {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    margin: 20px auto;
+    width: 90%;
+    margin: 20px auto 40px;
     justify-content: center;
     background-color: rgba(242, 213, 61, 0.8);
 }
 
 .program-description {
-    width: 192px;
+    max-width: 210px;
     height: auto;
-    margin: 20px auto;
+    margin: 20px 30px;
     position: relative;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -280,8 +280,8 @@ nav a:hover {
 
 .day {
     position: absolute;
-    right: -30px;
-    top: -20px;
+    right: -27px;
+    top: -17px;
     width: 50px;
     height: 50px;
     background-color: rgb(104, 221, 162);
@@ -306,7 +306,7 @@ nav a:hover {
 }
 
 #typical-day {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(40, 207, 123, 0.7);
@@ -365,7 +365,7 @@ tr:nth-child(odd) {
     column-count: 1;
     column-gap: normal;
     margin: 40px auto ;
-    width: 70%;
+    width: 90%;
 }
 
 #photos > img {
@@ -490,10 +490,6 @@ footer p {
 
 /*media queries min-width: 420px*/
 @media screen and  (min-width: 420px) {
-
-    #typical-day {
-        max-width: 80%;
-    }
     
     #form-info {
         max-width: 360px;
@@ -506,10 +502,6 @@ footer p {
 
     * {
         font-size: 1em;
-    }
-
-    .intern-info {
-        max-width: 240px;
     }
 
     #form-info {
@@ -529,16 +521,8 @@ footer p {
         font-size: 3.3em;
     }
 
-    .intern-info {
-        max-width: 225px;
-    }
-
     #photos {
         column-count: 3;
-    }
-
-    .program-description {
-        width: 215px;
     }
 }
 
@@ -635,6 +619,23 @@ footer p {
         width: 130px;
         height: 130px;
     }
+
+    .value p {
+        font-size: 1.2em;
+    }
+
+    .intern-info h3,
+    .program-description h3 {
+        font-size: 1.3em;
+    }
+
+    .day {
+        right: -40px;
+    }
+
+    table {
+        font-size: 1.2em;
+    }
 }
 
 /*media queries min-width: 1270px*/
@@ -664,7 +665,7 @@ footer p {
         max-width: 250px;
     }
 
-    .intern-info h3 {
+    p {
         font-size: 1.2em;
     }
 
@@ -674,9 +675,9 @@ footer p {
     }
 
     .program-description {
-        width: 220px;
-        margin-left: 70px;
-        margin-right: 70px;
+        max-width: 250px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
 
     .day {
@@ -708,6 +709,10 @@ footer p {
     .value {
         width: 187px;
         height: 187px;
+    }
+
+    .value p {
+        font-size: 1.7em;
     }
 
     table {
