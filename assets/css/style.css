@@ -532,18 +532,7 @@ footer p {
 
 @media screen and  (min-width: 550px) {
 
-    #navbar a {
-        font-size: 1em;
-    }
-
-    #header,
-    #navbar {
-            height: 55px;
-    }
-
-    #navbar li, #navbar a {
-        height: 40px;
-    }
+    
    
 }
 
@@ -551,10 +540,7 @@ footer p {
 
 @media screen and  (min-width: 660px) {
 
-    #navbar a {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+    
 
     .title-container hr {
         width: 28%;
@@ -603,10 +589,6 @@ footer p {
 
 @media screen and  (min-width: 900px) {
 
-    #navbar a {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .title-container hr {
         width: 31.5%;
@@ -625,15 +607,7 @@ footer p {
 
 @media screen and  (min-width: 1020px) {
 
-    header,
-    #navbar {
-        height: 60px;
-    }
-
-    #navbar li,
-    #navbar a {
-        height: 48px;
-    }
+    
 
     #home, 
     #hero-container {
@@ -662,10 +636,7 @@ footer p {
 
 @media screen and  (min-width: 1270px) {
 
-    #navbar a {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
+   
 
     #home, #hero-container {
         height: 600px;
@@ -734,9 +705,7 @@ footer p {
 
 @media screen and  (min-width: 1660px) {
 
-    #navbar a {
-        font-size: 1.5em;
-    }
+    
 
     .title-container hr {
         width: 30%;
