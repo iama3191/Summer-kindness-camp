@@ -56,7 +56,7 @@ header {
 nav {
     position: absolute;
     text-align: center;
-    top: 100%;
+    top: 99%;
     left: 0;
     background-color: ivory;
     width: 100%;
@@ -174,7 +174,9 @@ nav a:hover {
 
 .title-container {
     display: flex;
-    width: 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -182,7 +184,7 @@ nav a:hover {
 
 .title-container hr {
     border: 2px solid rgb(255, 103, 0);
-    width: 24%;
+    width: 46.5%;
 }
 
 .title-container h2 {
@@ -194,6 +196,7 @@ nav a:hover {
 #about-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 90%;
     margin: 20px auto 40px;
     background-color: rgba(242, 213, 61, 0.8)
@@ -202,7 +205,7 @@ nav a:hover {
 .intern-info {
     max-width: 210px;
     height: auto;
-    margin: 20px auto;
+    margin: 20px 30px;
     border-radius: 10%;
     box-shadow: -11px 11px 2px 2px rgb(255 121 31);
     background-color: rgb(255, 255, 255);
@@ -235,7 +238,7 @@ nav a:hover {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 26px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -513,10 +516,6 @@ footer p {
 
 @media screen and  (min-width: 660px) {
 
-    .title-container hr {
-        width: 28%;
-    }
-
     #main-name h1 {
         font-size: 3.3em;
     }
@@ -571,10 +570,6 @@ footer p {
         font-size: 4em;
     }
 
-    .title-container hr {
-        width: 30%;
-    }
-
     #form-info {
         max-width: 410px;
     }
@@ -583,11 +578,6 @@ footer p {
 /*media queries min-width: 900px*/
 
 @media screen and  (min-width: 900px) {
-
-
-    .title-container hr {
-        width: 31.5%;
-    }
 
     table {
         width: 80%;
@@ -609,10 +599,6 @@ footer p {
     
     #main-name h1 {
         font-size: 4.7em;
-    }
-
-    .title-container hr {
-        width: 32.5%;
     }
 
     .value {
@@ -663,6 +649,8 @@ footer p {
 
     .intern-info {
         max-width: 250px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
 
     p {
@@ -733,14 +721,11 @@ footer p {
         font-size: 1.5em;
     }
 
-    .title-container hr {
-        width: 30%;
-    }
-
     #main-name h1 {
         font-size: 7em;
     }
 
+    .title-container,
     #about-container,
     #values-container, 
     #program-container,
@@ -754,19 +739,8 @@ footer p {
 
 @media screen and  (min-width: 1930px) {
 
-    #about-container,
-    #values-container,
-    #program-container,
-    #typical-day,
-    #photos {
-        width: 67%;
-    }
-
     #main-name h1 {
         font-size: 8em;
     }
 
-    .title-container hr {
-        width: 30%;
-    }
 }
