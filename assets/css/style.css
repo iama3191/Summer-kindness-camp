@@ -95,10 +95,6 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-.nav-toggle {
-    display: none;
-}
-
 .nav-toggle-label {
     position: absolute;
     top: 0;
@@ -107,6 +103,10 @@ nav a:hover {
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.nav-toggle {
+    display: none;
 }
 
 .nav-toggle-label span,
@@ -140,7 +140,7 @@ nav a:hover {
 #hero-container { 
     height: 380px;
     width: 100%;
-    background-image: url(../images/hero-image-kids-smiling-outside.jpg);
+    background-image: url(../images/hero-image-kids-smiling-outside-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -396,7 +396,7 @@ tr:nth-child(odd) {
 #form-container {
     margin: 40px auto 0;
     width: 100%; 
-    background-image: url(../../assets/images/kids-spelling-word-team-with-cards.jpg);
+    background-image: url(../../assets/images/kids-spelling-word-team-with-cards-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -582,8 +582,16 @@ footer p {
 
 @media screen and  (min-width: 900px) {
 
+    #hero-container { 
+        background-image: url(../images/hero-image-kids-smiling-outside.jpg);
+    }
+
     table {
         width: 80%;
+    }
+
+    #form-container { 
+        background-image: url(../../assets/images/kids-spelling-word-team-with-cards-mobile.jpg);
     }
 
     #form-info {
