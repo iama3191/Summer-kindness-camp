@@ -71,7 +71,6 @@ nav ul {
 
 nav li {
     margin-bottom: 1em;
-    margin-left: 1em;
 }
 
 nav a {
@@ -80,6 +79,7 @@ nav a {
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+    font-size: 1em;
 }
 
 nav a:hover {
@@ -561,6 +561,8 @@ footer p {
         margin-bottom: 0;
         display: inline-block;
         height: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     nav a {
         opacity: 1;    
