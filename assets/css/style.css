@@ -363,17 +363,23 @@ tr:nth-child(odd) {
 
 /*Code from Love Running and modify the column-count, the column-gap, margin and padding*/
 #photos {
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*clear: both;
     line-height: 0;
     column-count: 1;
-    column-gap: normal;
+    column-gap: normal;*/
     margin: 40px auto ;
     width: 90%;
 }
 
 #photos > img {
     width: 100%;
-    margin: 5px auto;
+    max-width: 360px;
+    height: auto;
+    max-height: 240px;
+    margin: 15px;
     border-radius: 7%;
 }
 /*End of using the code from Love Running*/
