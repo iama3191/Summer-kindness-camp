@@ -314,6 +314,7 @@ nav a:hover {
     margin-right: auto;
     background-color: rgba(40, 207, 123, 0.7);
     padding: 20px 0;
+    text-align: center;
 }
 
 caption {
@@ -332,7 +333,6 @@ tr,
 td {
     border-collapse: collapse;
     padding: 0 3px;
-    
 }
 
 table {
