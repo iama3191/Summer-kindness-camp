@@ -401,11 +401,6 @@ tr:nth-child(odd) {
     background-position: center;
 }
 
-#form-container label {
-    font-size: 0.9em;
-    font-weight: bold;
-}
-
 #form-info {
     max-width: 300px;
     height: auto;
@@ -472,8 +467,7 @@ footer {
 }
 
 footer p {
-    font-size: 0.6em;
-    font-weight: bold;
+    font-size: 0.8em;
 }
 
 #social-media {
@@ -605,11 +599,11 @@ footer p {
     }
 
     #form-container { 
-        background-image: url(../../assets/images/kids-spelling-word-team-with-cards-mobile.webp);
+        background-image: url(../../assets/images/kids-spelling-word-team-with-cards.webp);
     }
 
     #form-info {
-        max-width: 515px;
+        max-width: 630px;
     }
 }
 
@@ -687,6 +681,11 @@ footer p {
     .value {
         width: 150px;
         height: 150px;
+        margin: 31px;
+    }
+
+    .value p {
+        font-size: 1.4em;
     }
 
     .program-description {
@@ -702,10 +701,6 @@ footer p {
 
     table {
         width: 73%;
-    }
-
-    #form-info {
-        max-width: 630px;
     }
 }
 
