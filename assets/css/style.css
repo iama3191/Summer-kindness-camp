@@ -17,7 +17,6 @@
     font-family: 'Lato', sans-serif;
     font-size: 1em;
     font-weight: bold;
-    /*outline: 1px solid red;*/
 }
 
 *,
@@ -56,6 +55,7 @@ header {
     background-color: var(--light);
 }
 
+/*Code from Kevin Powell*/
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     content: '';
@@ -136,6 +136,7 @@ nav a:hover {
 .nav-toggle-label span::after {
     top: 7px;
 }
+/*End of Kevin Powell's code*/
 
 /*hero image*/
 
@@ -373,9 +374,6 @@ tr:nth-child(odd) {
 /*Code from Love Running and modify the column-count, the column-gap, margin and padding*/
 
 #photos {
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: center;*/
     clear: both;
     line-height: 0;
     column-count: 1;
