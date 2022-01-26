@@ -207,7 +207,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
+    max-width: 85%;
     margin: 20px auto 40px;
     background-color: var(--primary-clr);
 }
@@ -234,7 +234,7 @@ nav a:hover {
 #values-container {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    max-width: 85%;
     margin: 0 auto 20px;
     background-color: var(--secundary-clr);
     justify-content: center;
@@ -273,7 +273,7 @@ nav a:hover {
 #program-container {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    max-width: 85%;
     margin: 20px auto 40px;
     justify-content: center;
     background-color: var(--primary-clr);
@@ -318,7 +318,7 @@ nav a:hover {
 }
 
 #typical-day {
-    width: 90%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--secundary-clr);
@@ -381,7 +381,7 @@ tr:nth-child(odd) {
     column-count: 1;
     column-gap: normal;
     margin: 40px auto ;
-    width: 80%;
+    max-width: 85%;
 }
 
 #photos > img {
@@ -410,7 +410,7 @@ tr:nth-child(odd) {
 }
 
 #form-info {
-    max-width: 300px;
+    max-width: 280px;
     height: auto;
     text-align: center;
     padding: 3px;
