@@ -140,7 +140,7 @@ nav a:hover {
 #hero-container { 
     height: 380px;
     width: 100%;
-    background-image: url(../images/hero-image-kids-smiling-outside-mobile.jpg);
+    background-image: url(../images/hero-image-kids-smiling-outside-mobile.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -363,24 +363,23 @@ tr:nth-child(odd) {
 }
 
 /*Code from Love Running and modify the column-count, the column-gap, margin and padding*/
+
 #photos {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /*clear: both;
+    justify-content: center;*/
+    clear: both;
     line-height: 0;
     column-count: 1;
-    column-gap: normal;*/
+    column-gap: normal;
     margin: 40px auto ;
-    width: 90%;
+    width: 80%;
 }
 
 #photos > img {
     width: 100%;
-    max-width: 360px;
     height: auto;
-    max-height: 240px;
-    margin: 15px;
+    margin: 10px auto;
     border-radius: 7%;
 }
 /*End of using the code from Love Running*/
@@ -396,7 +395,7 @@ tr:nth-child(odd) {
 #form-container {
     margin: 40px auto 0;
     width: 100%; 
-    background-image: url(../../assets/images/kids-spelling-word-team-with-cards-mobile.jpg);
+    background-image: url(../../assets/images/kids-spelling-word-team-with-cards-mobile.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -518,6 +517,16 @@ footer p {
     }
 }
 
+/*media queries min-width: 550px*/
+
+@media screen and  (min-width: 550px) {
+
+    #photos {
+
+        column-count: 2;
+    }
+}
+
 /*media queries min-width: 660px*/
 
 @media screen and  (min-width: 660px) {
@@ -583,15 +592,20 @@ footer p {
 @media screen and  (min-width: 900px) {
 
     #hero-container { 
-        background-image: url(../images/hero-image-kids-smiling-outside.jpg);
+        background-image: url(../images/hero-image-kids-smiling-outside.webp);
     }
 
     table {
         width: 80%;
     }
 
+    #photos {
+
+        column-count: 3;
+    }
+
     #form-container { 
-        background-image: url(../../assets/images/kids-spelling-word-team-with-cards-mobile.jpg);
+        background-image: url(../../assets/images/kids-spelling-word-team-with-cards-mobile.webp);
     }
 
     #form-info {
