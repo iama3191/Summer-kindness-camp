@@ -262,7 +262,7 @@ The website is responsive in all the browsers without any issue and maintains th
 
 I used Lighthouse for testing: Performance, Best Practices, Accessibility, and SEO.
 
-    <img src="documentation/testing/table-performance-lighthouse.png" style="display:block; margin-left:auto; margin-right:auto;">
+  <img src="documentation/testing/table-performance-lighthouse.png" style="display:block; margin-left:auto; margin-right:auto;">
     <br>
 
 The previous chart shows the results from Lighthouse from the different browsers, and the comparison before and after adding the 
@@ -279,6 +279,27 @@ The Grammarly extension causes the result for Google Chrome accessibility of 92.
 
 Google Chrome was the only browser that warned about how extensions could affect the website's performance. For these reasons, the Accessibility score changed in private mode.
  
+<img src="documentation/testing/google-chrome-mobile.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
+ 
+## DEPLOYMENT
+
+* ### HOW THIS SITE WAS DEPLOYED 
+
+1. 
+
+* ### HOW TO CLONE THIS SITE
+
+## CREDITS
+
+* ### CONTENT
+
+* ### CODE
+
+* ### MEDIA
+
+
+## ACKNOWLEDGMENTS
 
 
 
