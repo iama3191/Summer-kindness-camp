@@ -2,8 +2,10 @@
 
 [View the live project here](https://iama3191.github.io/Summer-kindness-camp/)
 
-## ABOUT THE PROJECT 
 <br>
+
+## ABOUT THE PROJECT 
+
 Summer Kindness Camp is an unreal project created for my PP1 with Code Institute.
 Summer Kindness Camp is a project for children focused on helping them bring more kindness and love to those in need while participating in social programs for a week during the summer. Each day targets a different concern with multiple activities inside and outside the facilities in Zagreb, Croatia. 
 The main goal of this project is for kids to get knowledge of social problems in the world and how they can make a difference even with a small gesture.
@@ -164,14 +166,21 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
  * ### NAVIGATION BAR
 
     A hamburger menu for small screens until 800px was created with CSS. It is shown in a column divided into sections. For bigger screens, the navigation bar changes into a horizontal display of the same areas in the same order: Home, About, Program, Gallery, and Contact. The navigation bar has a sticky position to avoid scrolling up and down. 
-
-    [Hamburger menu for max-width: 800px and below]()
-
-    [Navigation bar for min-width: 800px and above]()
+<img src="documentation/menu-bigger-screens.png">
+<img src="documentation/menu-smaller screens.png" style="display:block; margin-left:auto; margin-right:auto;">
+<br>
 
 * ### HOME SECTION
 
     This section features a hero image with the main title centered, and its shows in the same way in every screen size. The purpose of the hero image is to make an emotional impact on the user and make them stay longer.
+
+    <img src="documentation/home-section.png" style="display:block; margin-left:auto; margin-right:auto;">
+
+
+* ### ABOUT SECTION
+    This section features two parts: The first one has three cards with general information about the camp, and the second one, has the name of the reinforced values during the camp. Both parts are shown in rows for the wider screen, and they are in columns for small devices.     
+
+<img src="documentation/about-section.png" style="display:block; margin-left:auto; margin-right:auto;">
 
 * ### PROGRAM SECTION
 
@@ -181,13 +190,21 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 
     The table's width changes for every screen size while maintaining its general structure. 
 
+<img src="documentation/program-section.png" style="display:block; margin-left:auto; margin-right:auto;">
+
+
 * ### GALLERY SECTION
 
     This section features 12 photos arranged into one column for smaller devices (from 320px), two columns for medium devices (550px), and three for wider screens (from 1270px). 
 
-    <img src="assets/images/images-documentation/gallery-1-column.png">    
-    <img src="assets/images/images-documentation/gallery-2-columns.png">
-    <img src="assets/images/images-documentation/gallery-3-columns.png">
+<h3 style="text-align:center">From 320px devices <h3>
+<img src="documentation/gallery-1-column.png" style="display:block; margin-left:auto; margin-right:auto;">
+
+<h3 style="text-align:center">From 550px devices <h3>
+<img src="documentation/gallery-2-columns.png" style="display:block; margin-left:auto; margin-right:auto;">
+
+<h3 style="text-align:center">From 1270px devices <h3>
+<img src="documentation/gallery-3-columns.png" style="display:block; margin-left:auto; margin-right:auto;">
 
 * ### CONTACT SECTION
 
@@ -195,14 +212,13 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 
     The form has method= "post"  and action="https://formspree.io/f/xpzbqalv" for collecting data. Every user's data is sent to the selected email.
 
-    <img src="assets/images/images-documentation/form-color-change.png">
+<img src="documentation/form-color-change.png" style="display:block; margin-left:auto; margin-right:auto;">
 
 * ### FOOTER
 
     This area features the social media icons with links that open in a new tab for better UX and copyright information.
 
-
-
+<img src="documentation/footer-section.png" style="display:block; margin-left:auto; margin-right:auto;">
 
 
 
