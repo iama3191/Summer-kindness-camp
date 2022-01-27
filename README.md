@@ -20,10 +20,10 @@ The social programs are:
 
 5. Sport's Program focuses on kids living in an orphanage.
 
-<img src=assets/images/images-documentation/responsive-design.png> <br>
+<img src="documentation/responsive-design.png">
 
 ## ABOUT THE WEBSITE
-<br>
+
 
 The one-page website is a colorful and straightforward experience for parents searching for a new and meaningful opportunity for their kids to grow up during the summer. It includes a top menu for easy navigation, general information about the camp, a description of the social programs with a specific schedule, a gallery's photos of different events and activities, a contact form, and a footer with social media information. 
 
@@ -111,7 +111,7 @@ The hero-image and the form's background have been chosen because they are joyfu
 
 The color scheme is based on the two most significant images on the website (the hero image and the form image). The Safety Yellow, the Safety Orange Blaze Orange, and the Medium Aquamarine make a perfect match for bringing the website to life. The Ivory is for the body's background for a simple look, and the shade Rich Black FOGRA 39 is for the font. 
 
-<img src=assets/images/images-documentation/color-scheme.png>
+<img src="documentation/color-scheme.png">
 
 ### TYPOGRAPHY
 
@@ -165,6 +165,10 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 
     A hamburger menu for small screens until 800px was created with CSS. It is shown in a column divided into sections. For bigger screens, the navigation bar changes into a horizontal display of the same areas in the same order: Home, About, Program, Gallery, and Contact. The navigation bar has a sticky position to avoid scrolling up and down. 
 
+    [Hamburger menu for max-width: 800px and below]()
+
+    [Navigation bar for min-width: 800px and above]()
+
 * ### HOME SECTION
 
     This section features a hero image with the main title centered, and its shows in the same way in every screen size. The purpose of the hero image is to make an emotional impact on the user and make them stay longer.
@@ -181,11 +185,17 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 
     This section features 12 photos arranged into one column for smaller devices (from 320px), two columns for medium devices (550px), and three for wider screens (from 1270px). 
 
+    <img src="assets/images/images-documentation/gallery-1-column.png">    
+    <img src="assets/images/images-documentation/gallery-2-columns.png">
+    <img src="assets/images/images-documentation/gallery-3-columns.png">
+
 * ### CONTACT SECTION
 
     This section has a form for requesting more info, and it only asks the user: first name, last name, email address, and any comment or feedback. It's a short form to allow the user to give only the essential information he is willing to share. Every text field is required, so if any input is empty, it will ask to complete the blank space. Also, I added a placeholder to every empty input.
 
     The form has method= "post"  and action="https://formspree.io/f/xpzbqalv" for collecting data. Every user's data is sent to the selected email.
+
+    <img src="assets/images/images-documentation/form-color-change.png">
 
 * ### FOOTER
 
