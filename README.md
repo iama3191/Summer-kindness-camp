@@ -197,13 +197,13 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 
     This section features 12 photos arranged into one column for smaller devices (from 320px), two columns for medium devices (550px), and three for wider screens (from 1270px). 
 
-<h3 style="text-align:center">From 320px devices <h3>
+<p style="text-align:center">From 320px devices <p>
 <img src="documentation/gallery-1-column.png" style="display:block; margin-left:auto; margin-right:auto;">
 
-<h3 style="text-align:center">From 550px devices <h3>
+<p style="text-align:center">From 550px devices <p>
 <img src="documentation/gallery-2-columns.png" style="display:block; margin-left:auto; margin-right:auto;">
 
-<h3 style="text-align:center">From 1270px devices <h3>
+<p style="text-align:center">From 1270px devices <p>
 <img src="documentation/gallery-3-columns.png" style="display:block; margin-left:auto; margin-right:auto;">
 
 * ### CONTACT SECTION
@@ -221,19 +221,70 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 <img src="documentation/footer-section.png" style="display:block; margin-left:auto; margin-right:auto;">
 
 
+   ## TESTING
+
+1. VALIDATORS
+
+    * [MARKUP VALIDATION SERVICE:](https://validator.w3.org/) didn't show any errors from the code.
+
+    <img src="documentation/testing/w3-validator.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
+
+    * [CSS VALIDATION SERVICE:](https://jigsaw.w3.org/css-validator/) didn't show any errors from the code, only a warning indicating:  "imported style sheets are not checked in direct input and file upload modes." This warning refers to the imported fonts from Google Fonts.
 
 
+    <img src="documentation/testing/css-validator.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
+
+    <img src="documentation/testing/warning-css-validator.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
+
+2. BROWSERS
+
+I tested how the website looks in these different browsers while using Google Chrome as the main browser for testing and the DevTools for any appropriate change.
+
+- Google Chrome Version 97.0.4692.99 (Build Oficial) (64 bits)
+
+- Mozilla Firefox Version 96.0.2 (64-bit)
+
+- Microsoft Edge Version 97.0.1072.69 (Official Build) (64-bit)
 
 
+The website's presentation doesn't change in the browsers except for the font in Mozilla Firefox. The 'Lato' font looks smaller and bolder.
 
+<p style="text-align:center">Google Chrome</p>
+<img src="documentation/testing/google-desktop-font.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
 
+<p style="text-align:center">Mozilla Firefox</p>
+<img src="documentation/testing/firefox-desktop-font.png" style="display:block; margin-left:auto; margin-right:auto;">
 
+<p style="text-align:center">Microsoft Edge</p>
+<img src="documentation/testing/google-desktop-font.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
 
+The website is responsive in all the browsers without any issue and maintains the whole structure from a 320px screen.
 
+3. LIGHTHOUSE
 
+I used Lighthouse for testing: Performance, Best Practices, Accessibility, and SEO.
 
+<img src="documentation/testing/table-performance-lighthouse.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
 
+The previous chart shows the results from Lighthouse from the different browsers, and the comparison before and after adding the 
 
+<img src="documentation/testing/main-suggestion-devtools.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
+
+These were suggestions to improve the mobile performance in Google Chrome, and they worked; the performance went from 73 to 97. Mozilla Firefox also shows an improvement, from 89 to 92. Microsoft Edge offers a different result for mobiles, from 90 to 89, but for desktop went from 52 to 99.   
+These tests are from regular navigation tabs. In the incognito mode, results were above 90.
+
+The Grammarly extension causes the result for Google Chrome accessibility of 92. 
+<img src="documentation/testing/google-chrome-grammarly.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
+
+Google Chrome was the only browser that warned about how extensions could affect the website's performance. For these reasons, the Accessibility score changed in private mode.
  
 
 
