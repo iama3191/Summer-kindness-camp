@@ -134,7 +134,7 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 
     * [Coolors:](https://coolors.co/) Was used to find the color scheme from a photo and check the color contrast between the background and the text. 
 
-    * [Font Awesome:](https://r.search.yahoo.com/_ylt=A0geKel0yvJhcqYA_jVXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1643330292/RO=10/RU=https%3a%2f%2ffontawesome.com%2f/RK=2/RS=ybPMBZwtzd62ezGl.tP140dviM0-): Was used to add icons for a more playful website.
+    * [Font Awesome:](https://fontawesome.com/): Was used to add icons for a more playful website.
 
     * [TinyPNG:](https://tinypng.com/) Was used to compress images.
 
@@ -170,19 +170,19 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 A hamburger menu for small screens until 800px was created with CSS. It is shown in a column divided into sections. For bigger screens, the navigation bar changes into a horizontal display of the same areas in the same order: Home, About, Program, Gallery, and Contact. The navigation bar has a sticky position to avoid scrolling up and down. 
 <img src="documentation/menu-bigger-screens.png">
  <br>
-<img src="documentation/menu-smaller screens.png" style="display:block; margin-left:auto; margin-right:auto;">
+<img src="documentation/menu-smaller screens.png">
 <br>
 
 * ### HOME SECTION
     This section features a hero image with the main title centered, and its shows in the same way in every screen size. The purpose of the hero image is to make an emotional impact on the user and make them stay longer.
 
-    <img src="documentation/home-section.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <img src="documentation/home-section.png">
 
 
 * ### ABOUT SECTION
     This section features two parts: The first one has three cards with general information about the camp, and the second one, has the name of the reinforced values during the camp. Both parts are shown in rows for the wider screen, and they are in columns for small devices.     
 
-    <img src="documentation/about-section.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <img src="documentation/about-section.png">
 
 * ### PROGRAM SECTION
     This section also has two parts: The first one features five cards with each social Program and its explanation. Every title has an icon to add a little bit of fun, and in the top-right corner is the number of the day on which the activity is happening to give the user more information in a playful way.
@@ -191,48 +191,47 @@ A hamburger menu for small screens until 800px was created with CSS. It is shown
 
     The table's width changes for every screen size while maintaining its general structure. 
 
-     <img src="documentation/program-section.png" style="display:block; margin-left:auto; margin-right:auto;">
+     <img src="documentation/program-section.png">
 
 * ### GALLERY SECTION
 
     This section features 12 photos arranged into one column for smaller devices (from 320px), two columns for medium devices (550px), and three for wider screens (from 1270px). 
 
-<p style="text-align:center">From 320px devices <p>
-    <img src="documentation/gallery-1-column.png" style="display:block; margin-left:auto; margin-right:auto;">
+* From 320px devices <br>
+    <img src="documentation/gallery-1-column.png">
 
-<p style="text-align:center">From 550px devices <p>
-    <img src="documentation/gallery-2-columns.png" style="display:block; margin-left:auto; margin-right:auto;">
+* From 550px devices<br>
+    <img src="documentation/gallery-2-columns.png">
 
-<p style="text-align:center">From 1270px devices <p>
-    <img src="documentation/gallery-3-columns.png" style="display:block; margin-left:auto; margin-right:auto;">
+* From 1270px devices
+    <img src="documentation/gallery-3-columns.png">
 
 * ### CONTACT SECTION
     This section has a form for requesting more info, and it only asks the user: first name, last name, email address, and any comment or feedback. It's a short form to allow the user to give only the essential information he is willing to share. Every text field is required, so if any input is empty, it will ask to complete the blank space. Also, I added a placeholder to every empty input.
 
     The form has method= "post"  and action="https://formspree.io/f/xpzbqalv" for collecting data. Every user's data is sent to the selected email.
 
-<img src="documentation/form-color-change.png" style="display:block; margin-left:auto; margin-right:auto;">
+<img src="documentation/form-color-change.png">
 
 * ### FOOTER
     This area features the social media icons with links that open in a new tab for better UX and copyright information.
 
-    <img src="documentation/footer-section.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <img src="documentation/footer-section.png">
 
    ## TESTING
 
 1. VALIDATORS
     * [MARKUP VALIDATION SERVICE:](https://validator.w3.org/) didn't show any errors from the code.
 
-    <img src="documentation/testing/w3-validator.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <img src="documentation/testing/w3-validator.png">
     <br>
 
     * [CSS VALIDATION SERVICE:](https://jigsaw.w3.org/css-validator/) didn't show any errors from the code, only a warning indicating:  "imported style sheets are not checked in direct input and file upload modes." This warning refers to the imported fonts from Google Fonts.
 
     <img src="documentation/testing/css-validator.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
-
-    <img src="documentation/testing/warning-css-validator.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
+   <br>
+    <img src="documentation/testing/warning-css-validator.png">
+  
 
 2. BROWSERS
 
@@ -247,16 +246,15 @@ I tested how the website looks in these different browsers while using Google Ch
 
 The website's presentation doesn't change in the browsers except for the font in Mozilla Firefox. The 'Lato' font looks smaller and bolder.
 
-<p style="text-align:center">Google Chrome</p>
-    <img src="documentation/testing/google-desktop-font.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
+Google Chrome
+    <img src="documentation/testing/google-desktop-font.png">
+    
 
-<p style="text-align:center">Mozilla Firefox</p>
-    <img src="documentation/testing/firefox-desktop-font.png" style="display:block; margin-left:auto; margin-right:auto;">
+Mozilla Firefox
+    <img src="documentation/testing/firefox-desktop-font.png">
 
-<p style="text-align:center">Microsoft Edge</p>
-    <img src="documentation/testing/google-desktop-font.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
+Microsoft Edge
+    <img src="documentation/testing/google-desktop-font.png">
 
 The website is responsive in all the browsers without any issue and maintains the whole structure from a 320px screen.
 
@@ -264,24 +262,21 @@ The website is responsive in all the browsers without any issue and maintains th
 
 I used Lighthouse for testing: Performance, Best Practices, Accessibility, and SEO.
 
-  <img src="documentation/testing/table-performance-lighthouse.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
+  <img src="documentation/testing/table-performance-lighthouse.png">
 
 The previous chart shows the results from Lighthouse from the different browsers, and the comparison before and after adding the 
 
-   <img src="documentation/testing/main-suggestion-devtools.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
+   <img src="documentation/testing/main-suggestion-devtools.png">
 
 These were suggestions to improve the mobile performance in Google Chrome, and they worked; the performance went from 73 to 97. Mozilla Firefox also shows an improvement, from 89 to 92. Microsoft Edge offers a different result for mobiles, from 90 to 89, but for desktop went from 52 to 99.   
 These tests are from regular navigation tabs. In the incognito mode, results were above 90.
 
 The Grammarly extension causes the result for Google Chrome accessibility of 92. 
-    <img src="documentation/testing/google-chrome-grammarly.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
+    <img src="documentation/testing/google-chrome-grammarly.png">
 
 Google Chrome was the only browser that warned about how extensions could affect the website's performance. For these reasons, the Accessibility score changed in private mode to 100.
  
-<img src="documentation/testing/google-chrome-mobile.png" style="display:block; margin-left:auto; margin-right:auto;">
+<img src="documentation/testing/google-chrome-mobile.png">
     <br>
 
 4. FORM TESTING
@@ -305,7 +300,7 @@ I wrote the CSS code first for small screen devices (from 320px), specifically f
 
 My mentor Brian Macharia tested in his computer and looked good. Probably this is a Google Chrome issue.
 
-<img src="documentation/320px-without-overflow.png" style="display:block; margin-left:auto; margin-right:auto;">
+<img src="documentation/320px-without-overflow.png">
  
 ## DEPLOYMENT
 
@@ -321,7 +316,7 @@ My mentor Brian Macharia tested in his computer and looked good. Probably this i
 
 5. Save and automatically the site is published. 
 
-<img src="documentation/website-deployed.png" style="display:block; margin-left:auto; margin-right:auto;">
+<img src="documentation/website-deployed.png">
 
 * ### HOW TO FORK THE REPOSITORY
 
