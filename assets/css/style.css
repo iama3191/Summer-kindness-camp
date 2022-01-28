@@ -7,6 +7,8 @@
     --primary-clr: #f1d33b;
     --secundary-clr: #68dd9e;
     --blue-brd: #009e86;
+    --light-form: #f0f8ffe6;
+    --bg-clr-form: #28cf7b1a;
 }
 
 * {
@@ -42,7 +44,7 @@ h2 {
     font-size: 1.5em;
 }
 
-/* Header and nagivation links */
+/* HEADER AND NAVIGATION LINKS*/
 header {
     width: 100%;
     height: 55px;
@@ -53,7 +55,7 @@ header {
     background-color: var(--light);
 }
 
-/*Code from Kevin Powell*/
+/*CODE FROM KEVIN POWELL FOR HAMBURGER MENU*/
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     content: '';
@@ -134,9 +136,9 @@ nav a:hover {
 .nav-toggle-label span::after {
     top: 7px;
 }
+/*END OF KEVIN POWELL'S CODE*/
 
-/*End of Kevin Powell's code*/
-/*hero image*/
+/*HERO IMAGE*/
 #home {
     height: 380px;
     width: 100%;
@@ -158,11 +160,11 @@ nav a:hover {
     background-color: rgba(233, 235, 238, 0.5);
     text-align: center;
     position: absolute;
-    /*W3schools code for position*/
+    /*W3SCHOOL'S CODE FOR POSITION*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*End of code I use*/
+    /*END OF THE CODE*/
 }
 
 #main-name h1 {
@@ -173,7 +175,7 @@ nav a:hover {
     letter-spacing: 2px;
 }
 
-/*About us section*/
+/*ABOUT SECTION*/
 #about-us {
     position: relative;
     margin-top: 20px;
@@ -260,7 +262,7 @@ nav a:hover {
     font-family: 'Sniglet', sans-serif;
 }
 
-/*Program*/
+/*PROGRAM SECTION*/
 #program {
     position: relative;
     margin-top: 20px;
@@ -354,7 +356,7 @@ tr {
     height: 50px;
 }
 
-/* Code from W3schools*/
+/*CODE FROM W3SCHOOLS*/
 tr:nth-child(odd) {
     background-color: var(--light);
 }
@@ -362,15 +364,15 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background-color: var(--primary-clr);
 }
+/*END OF USED CODE*/
 
-/*End of code from W3schools*/
-/*Gallery*/
+/*GALLERY SECTION*/
 #gallery {
     position: relative;
     margin-top: 20px;
 }
 
-/*Code from Love Running and modify the column-count, the column-gap, margin and padding*/
+/*CODE FROM THE LOVE RUNNING PROJECT AND EDITED*/
 #photos {
     clear: both;
     line-height: 0;
@@ -388,9 +390,9 @@ tr:nth-child(even) {
     margin: 10px auto;
     border-radius: 7%;
 }
+/*END OF USED CODE*/
 
-/*End of using the code from Love Running*/
-/*Contact*/
+/*CONTACT SECTION*/
 #contact {
     width: 100%;
     margin-left: auto;
@@ -412,7 +414,7 @@ tr:nth-child(even) {
     text-align: center;
     padding: 3px;
     margin: 0 auto;
-    background-color: rgb(240, 248, 255, 0.9);
+    background-color: var(--light-form);
 }
 
 .form-input {
@@ -420,7 +422,7 @@ tr:nth-child(even) {
     margin: 5px auto 20px;
     width: 70%;
     padding: 5px;
-    background-color: rgb(40, 207, 123, 0.1);
+    background-color: var(--bg-clr-form);
 }
 
 .form-input:focus {
@@ -438,7 +440,7 @@ tr:nth-child(even) {
     padding: 5px;
     resize: none;
     border: 2px solid var(--blue-brd);
-    background-color: rgb(40, 207, 123, 0.1);
+    background-color: var(--bg-clr-form);
 }
 
 #add-comment:focus {
@@ -461,7 +463,7 @@ tr:nth-child(even) {
     border-color: var(--dark);
 }
 
-/*Footer*/
+/*FOOTER*/
 footer {
     width: 100%;
     margin: 0 auto;
