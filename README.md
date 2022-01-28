@@ -355,6 +355,8 @@ Irene Mendez created and edited all the text shown on the website using [Grammar
 
   * The color of the table in the Program's section was taken from [W3 Schools](schools.com/cssref/sel_nth-child.asp) using CSS:nth-child() Selector.
 
+  * The code to maintain the title center inside the container was taken from [W3 Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_align_transform) using transform and position.
+
   * The CSS style for the gallery was initially taken from the project [Love Running](https://github.com/Code-Institute-Org/love-running-rebuild/blob/master/unit-18-added-gallery-contents/assets/css/style.css) by [Code Institute](https://codeinstitute.net/global/) and edited for this project.
 
 * ### MEDIA
