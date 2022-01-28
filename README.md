@@ -284,6 +284,21 @@ Google Chrome was the only browser that warned about how extensions could affect
 <img src="documentation/testing/google-chrome-mobile.png" style="display:block; margin-left:auto; margin-right:auto;">
     <br>
 
+4. FORM TESTING
+
+As I mentioned before, the form has method= "post"  and action="https://formspree.io/f/xpzbqalv" for collecting data. 
+So, I proceeded to test the form by adding my personal information to request more information, and it worked properly.
+
+1. I filled in the requested inputs and click "REQUEST INFO"
+<img src="documentation/testing/form-inputs.png">
+
+2. Redirect me to a different page to inform me that the form was submitted successfully and with an optional "Go Back."
+<img src="documentation/testing/form-result-test.png">
+
+3. I received an email with all the user's submitted information because this is established in my Formspree's account.
+<img src="documentation/testing/email-form-result.png">
+
+
 ## ISSUES DURING TESTING
 
 I wrote the CSS code first for small screen devices (from 320px), specifically for iPhone 5/SE, and I have noticed that sometimes it may look like an overflow is present, but after checking the code and refreshing the page, it doesn't show any overflow. This case is very sporadic, and I don't know why it's happening. I use the ["Unicorn Revealer"](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) extension to see any overflow, and didn't show any.
