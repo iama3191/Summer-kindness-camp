@@ -203,7 +203,7 @@ A hamburger menu for small screens until 800px was created with CSS. It is shown
 * From 550px devices<br>
     <img src="documentation/gallery-2-columns.png">
 
-* From 1270px devices
+* From 1270px devices <br>
     <img src="documentation/gallery-3-columns.png">
 
 * ### CONTACT SECTION
@@ -211,7 +211,7 @@ A hamburger menu for small screens until 800px was created with CSS. It is shown
 
     The form has method= "post"  and action="https://formspree.io/f/xpzbqalv" for collecting data. Every user's data is sent to the selected email.
 
-<img src="documentation/form-color-change.png">
+  <img src="documentation/form-color-change.png">
 
 * ### FOOTER
     This area features the social media icons with links that open in a new tab for better UX and copyright information.
@@ -246,14 +246,14 @@ I tested how the website looks in these different browsers while using Google Ch
 
 The website's presentation doesn't change in the browsers except for the font in Mozilla Firefox. The 'Lato' font looks smaller and bolder.
 
-Google Chrome
+Google Chrome <br>
     <img src="documentation/testing/google-desktop-font.png">
     
 
-Mozilla Firefox
+Mozilla Firefox <br>
     <img src="documentation/testing/firefox-desktop-font.png">
 
-Microsoft Edge
+Microsoft Edge <br>
     <img src="documentation/testing/google-desktop-font.png">
 
 The website is responsive in all the browsers without any issue and maintains the whole structure from a 320px screen.
@@ -270,6 +270,15 @@ The previous chart shows the results from Lighthouse from the different browsers
 
 These were suggestions to improve the mobile performance in Google Chrome, and they worked; the performance went from 73 to 97. Mozilla Firefox also shows an improvement, from 89 to 92. Microsoft Edge offers a different result for mobiles, from 90 to 89, but for desktop went from 52 to 99.   
 These tests are from regular navigation tabs. In the incognito mode, results were above 90.
+
+* Google Chrome <br>
+    <img src="documentation/google-chrome-mobile-preconnect.png">
+
+* Mozilla Firefoz <br>
+    <img src="documentation/firefox-mobile-preconnect.png">
+
+* Microsoft Edge <br>
+    <img src="documentation/edge-mobile-preconnect.png">
 
 The Grammarly extension causes the result for Google Chrome accessibility of 92. 
     <img src="documentation/testing/google-chrome-grammarly.png">
