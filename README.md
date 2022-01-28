@@ -272,13 +272,13 @@ These were suggestions to improve the mobile performance in Google Chrome, and t
 These tests are from regular navigation tabs. In the incognito mode, results were above 90.
 
 * Google Chrome <br>
-    <img src="documentation/google-chrome-mobile-preconnect.png">
+    <img src="documentation/testing/google-chrome-mobile-preconnect.png">
 
 * Mozilla Firefoz <br>
-    <img src="documentation/firefox-mobile-preconnect.png">
+    <img src="documentation/testing/firefox-mobile-preconnect.png">
 
 * Microsoft Edge <br>
-    <img src="documentation/edge-mobile-preconnect.png">
+    <img src="documentation/testing/edge-mobile-preconnect.png">
 
 The Grammarly extension causes the result for Google Chrome accessibility of 92. 
     <img src="documentation/testing/google-chrome-grammarly.png">
