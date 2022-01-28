@@ -144,6 +144,10 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 
     * [Favicon Generator:](https://favicon.io/favicon-generator/) Was used to create the favicon for the tab.
 
+    * [Git:](https://git-scm.com/) Was used for version control by employing the Gitpod terminal to commit to Git and Push to GitHub.
+
+    * [GitHub:](https://github.com/) Was used as the repository for the project's code after being pushed from Git.
+
 
     ## FEATURES
 
@@ -164,6 +168,7 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
 
 A hamburger menu for small screens until 800px was created with CSS. It is shown in a column divided into sections. For bigger screens, the navigation bar changes into a horizontal display of the same areas in the same order: Home, About, Program, Gallery, and Contact. The navigation bar has a sticky position to avoid scrolling up and down. 
 <img src="documentation/menu-bigger-screens.png">
+ <br>
 <img src="documentation/menu-smaller screens.png" style="display:block; margin-left:auto; margin-right:auto;">
 <br>
 
@@ -179,7 +184,6 @@ A hamburger menu for small screens until 800px was created with CSS. It is shown
     <img src="documentation/about-section.png" style="display:block; margin-left:auto; margin-right:auto;">
 
 * ### PROGRAM SECTION
-
     This section also has two parts: The first one features five cards with each social Program and its explanation. Every title has an icon to add a little bit of fun, and in the top-right corner is the number of the day on which the activity is happening to give the user more information in a playful way.
 
     The second part features a table with the specific schedule of the "TYPICAL DAY" at the camp. It's divided into three columns: time, activity, and description. 
@@ -187,7 +191,6 @@ A hamburger menu for small screens until 800px was created with CSS. It is shown
     The table's width changes for every screen size while maintaining its general structure. 
 
      <img src="documentation/program-section.png" style="display:block; margin-left:auto; margin-right:auto;">
-
 
 * ### GALLERY SECTION
 
@@ -214,7 +217,6 @@ A hamburger menu for small screens until 800px was created with CSS. It is shown
 
     <img src="documentation/footer-section.png" style="display:block; margin-left:auto; margin-right:auto;">
 
-
    ## TESTING
 
 1. VALIDATORS
@@ -224,7 +226,6 @@ A hamburger menu for small screens until 800px was created with CSS. It is shown
     <br>
 
     * [CSS VALIDATION SERVICE:](https://jigsaw.w3.org/css-validator/) didn't show any errors from the code, only a warning indicating:  "imported style sheets are not checked in direct input and file upload modes." This warning refers to the imported fonts from Google Fonts.
-
 
     <img src="documentation/testing/css-validator.png" style="display:block; margin-left:auto; margin-right:auto;">
     <br>
@@ -282,9 +283,10 @@ Google Chrome was the only browser that warned about how extensions could affect
 <img src="documentation/testing/google-chrome-mobile.png" style="display:block; margin-left:auto; margin-right:auto;">
     <br>
 
-## KNOWN BUGS
+## ISSUES DURING TESTING
 
 I wrote the CSS code first for small screen devices (from 320px), specifically for iPhone 5/SE, and I have noticed that sometimes it may look like an overflow is present, but after checking the code and refreshing the page, it doesn't show any overflow. This case is very sporadic, and I don't know why it's happening. I use the ["Unicorn Revealer"](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) extension to see any overflow, and didn't show any.
+My mentor Brian Macharia tested in his browser and looked good. Probably this is a Google Chrome issue.
 
 <img src="documentation/320px-without-overflow.png" style="display:block; margin-left:auto; margin-right:auto;">
     <br>
@@ -329,6 +331,17 @@ I wrote the CSS code first for small screen devices (from 320px), specifically f
 
 6. Type git clone, and then paste the URL you copied earlier.
 
+7. To make changes to the website: 
+
+    7.1. Update the code as needed.
+
+    7.2. Go to the terminal and add <em>git add .</em>
+
+    7.3. Add <em>git commit -m "brief description of the update"</em>
+
+    7.4. Add <em> git push </em> 
+
+    Any updates commited to the Main Branch inmediately reflect in the hosted site.
 ## CREDITS
 
 * ### CONTENT
@@ -342,8 +355,7 @@ Irene Mendez created and edited all the text shown on the website using [Grammar
 
   * The color of the table in the Program's section was taken from [W3 Schools](schools.com/cssref/sel_nth-child.asp) using CSS:nth-child() Selector.
 
-  * The CSS style for the gallery was initially taken from the project [Love Running](https://github.com/Code-Institute-Org/love-running-rebuild/blob/master/unit-18-added-gallery-contents/assets/css/style.css) by [Code Institute.](https://r.search.yahoo.com/_ylt=AwrJ7FjfyPNhebsAQnJXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1643395424/RO=10/RU=https%3a%2f%2fcodeinstitute.net%2f/RK=2/RS=HNtcJNEPxH_TxlVgJGp2sBnMzkQ-) and edited for this project.
-
+  * The CSS style for the gallery was initially taken from the project [Love Running](https://github.com/Code-Institute-Org/love-running-rebuild/blob/master/unit-18-added-gallery-contents/assets/css/style.css) by [Code Institute](https://codeinstitute.net/global/) and edited for this project.
 
 * ### MEDIA
 
@@ -352,5 +364,12 @@ Irene Mendez created and edited all the text shown on the website using [Grammar
 ## ACKNOWLEDGMENTS
 
 
+ * I received the inspiration for this project from my daughter and how I want her to perceive the world. I left my country and family four years ago because of the social-political crisis, and I haven't returned. I have faced many obstacles in this period, and I wasn't prepared for that. I want her to know how lucky she can be, but at the same time, the problems in the world and that it only takes a small gesture to make a difference and change somebody's world.
+
+ * My mentor Brian Macharia guided me in all my concerns and introduced me to the CSS Evangelist, Kevin Powell.  He helped me understand how I can create a hamburger menu without JavaScript.
+
+  ## Disclaimer
+  
+The content of this Website is for educational purposes only.
 
 
