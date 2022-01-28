@@ -389,7 +389,9 @@ tr:nth-child(odd) {
 
 #photos > img {
     width: 100%;
+    max-width: 500px;
     height: auto;
+    max-height: 333px;
     margin: 10px auto;
     border-radius: 7%;
 }
