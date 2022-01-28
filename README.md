@@ -147,6 +147,7 @@ Fonts 'Lato' and 'Sniglet' were imported from Google Fonts. 'Sniglet' is used in
     * [Git:](https://git-scm.com/) Was used for version control by employing the Gitpod terminal to commit to Git and Push to GitHub.
 
     * [GitHub:](https://github.com/) Was used as the repository for the project's code after being pushed from Git.
+    * [Beautifier:](https://beautifier.io/) Was used to organize in a better way the codes.
 
 
     ## FEATURES
@@ -286,10 +287,10 @@ Google Chrome was the only browser that warned about how extensions could affect
 ## ISSUES DURING TESTING
 
 I wrote the CSS code first for small screen devices (from 320px), specifically for iPhone 5/SE, and I have noticed that sometimes it may look like an overflow is present, but after checking the code and refreshing the page, it doesn't show any overflow. This case is very sporadic, and I don't know why it's happening. I use the ["Unicorn Revealer"](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) extension to see any overflow, and didn't show any.
-My mentor Brian Macharia tested in his browser and looked good. Probably this is a Google Chrome issue.
+
+My mentor Brian Macharia tested in his computer and looked good. Probably this is a Google Chrome issue.
 
 <img src="documentation/320px-without-overflow.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
  
 ## DEPLOYMENT
 
@@ -306,7 +307,6 @@ My mentor Brian Macharia tested in his browser and looked good. Probably this is
 5. Save and automatically the site is published. 
 
 <img src="documentation/website-deployed.png" style="display:block; margin-left:auto; margin-right:auto;">
-    <br>
 
 * ### HOW TO FORK THE REPOSITORY
 
