@@ -328,13 +328,18 @@ nav a:hover {
 }
 
 caption {
-    font-family: 'Finger Paint', cursive;
+    font-family: 'Sniglet', cursive;
     text-transform: uppercase;
-    background-color: var(--primary-clr);
+    background-color: var(--light);
     border-bottom: none;
     font-weight: bold;
     font-size: 1.1em;
     padding: 4px 0;
+}
+
+thead th{
+    background-color: var(--primary-clr);
+    font-weight: bold;
 }
 
 table, 
@@ -342,7 +347,7 @@ th,
 tr, 
 td {
     border-collapse: collapse;
-    padding: 0 3px;
+    padding: 10px 3px;
 }
 
 table {
