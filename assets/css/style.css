@@ -407,7 +407,7 @@ tr:nth-child(even) {
 }
 
 #form-info {
-    max-width: 280px;
+    max-width: 290px;
     height: auto;
     text-align: center;
     padding: 3px;
@@ -417,7 +417,7 @@ tr:nth-child(even) {
 
 .form-input {
     border: 2px solid var(--blue-brd);
-    margin: 0 auto 20px;
+    margin: 5px auto 20px;
     width: 70%;
     padding: 5px;
     background-color: rgb(40, 207, 123, 0.1);
@@ -434,7 +434,7 @@ tr:nth-child(even) {
 
 #add-comment {
     width: 70%;
-    margin: 0 0 15px;
+    margin: 5px 0 15px;
     padding: 5px;
     resize: none;
     border: 2px solid var(--blue-brd);
