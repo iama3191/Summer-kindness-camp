@@ -277,27 +277,77 @@ The Grammarly extension causes the result for Google Chrome accessibility of 92.
     <img src="documentation/testing/google-chrome-grammarly.png" style="display:block; margin-left:auto; margin-right:auto;">
     <br>
 
-Google Chrome was the only browser that warned about how extensions could affect the website's performance. For these reasons, the Accessibility score changed in private mode.
+Google Chrome was the only browser that warned about how extensions could affect the website's performance. For these reasons, the Accessibility score changed in private mode to 100.
  
 <img src="documentation/testing/google-chrome-mobile.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
+
+## KNOWN BUGS
+
+I wrote the CSS code first for small screen devices (from 320px), specifically for iPhone 5/SE, and I have noticed that sometimes it may look like an overflow is present, but after checking the code and refreshing the page, it doesn't show any overflow. This case is very sporadic, and I don't know why it's happening. I use the ["Unicorn Revealer"](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) extension to see any overflow, and didn't show any.
+
+<img src="documentation/320px-without-overflow.png" style="display:block; margin-left:auto; margin-right:auto;">
     <br>
  
 ## DEPLOYMENT
 
 * ### HOW THIS SITE WAS DEPLOYED 
 
-1. 
+1. In the GitHub repository of the website, go to the "Settings", and click.
+
+2. In the menu on the left side of the screen, go to the "Code and Automation" and click on "Pages".
+
+3. Under the GitHub Pages,  select the Main Branch from the dropdown menu.
+
+4. Optionally select the folder in the following dropdown menu.
+
+5. Save and automatically the site is published. 
+
+<img src="documentation/website-deployed.png" style="display:block; margin-left:auto; margin-right:auto;">
+    <br>
+
+* ### HOW TO FORK THE REPOSITORY
+
+1. Go to the website's repository on Github.
+
+2. Go to the "Fork" button on the right side of the screen and click.
+
+3. Now you have a copy of the repository into your own GitHub account to make changes without affecting the original repository.
+
 
 * ### HOW TO CLONE THIS SITE
+
+1. Go to the website's repository https://github.com/iama3191/Summer-kindness-camp  on GitHub.
+
+2. Click the "Code" button on the left side of the green "Gitpod" button.
+
+3. Click the HTTPS and copy the link.
+
+4. Open Gitbash.
+
+5. Change the current working directory to where you want the cloned directory to be.
+
+6. Type git clone, and then paste the URL you copied earlier.
 
 ## CREDITS
 
 * ### CONTENT
 
+Irene Mendez created and edited all the text shown on the website using [Grammarly](https://app.grammarly.com/). 
+
 * ### CODE
+
+  * The hamburger menu for the small screens using only HTML and CSS  was taken initially from [Create a responsive navigation nav with no JS!
+](https://codepen.io/kevinpowell/pen/jxppmr) by [Kevin Powell.](https://www.kevinpowell.co/)
+
+  * The color of the table in the Program's section was taken from [W3 Schools](schools.com/cssref/sel_nth-child.asp) using CSS:nth-child() Selector.
+
+  * The CSS style for the gallery was initially taken from the project [Love Running](https://github.com/Code-Institute-Org/love-running-rebuild/blob/master/unit-18-added-gallery-contents/assets/css/style.css) by [Code Institute.](https://r.search.yahoo.com/_ylt=AwrJ7FjfyPNhebsAQnJXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1643395424/RO=10/RU=https%3a%2f%2fcodeinstitute.net%2f/RK=2/RS=HNtcJNEPxH_TxlVgJGp2sBnMzkQ-) and edited for this project.
+
 
 * ### MEDIA
 
+   * All the photos used in this project were from [rawpixel](https://www.rawpixel.com/)  and [pexels](https://www.pexels.com/es-es/).
 
 ## ACKNOWLEDGMENTS
 
