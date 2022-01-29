@@ -409,7 +409,8 @@ tr:nth-child(even) {
 }
 
 #form-info {
-    max-width: 290px;
+    width: 95%;
+    max-width: 630px;
     height: auto;
     text-align: center;
     padding: 3px;
@@ -500,21 +501,10 @@ footer p {
     color: var(--secundary-clr);
 }
 
-/*media queries min-width: 420px*/
-@media screen and (min-width: 420px) {
-    #form-info {
-        max-width: 360px;
-    }
-}
-
 /*media queries min-width: 470px*/
 @media screen and (min-width: 470px) {
     * {
         font-size: 1em;
-    }
-
-    #form-info {
-        max-width: 425px;
     }
 }
 
@@ -574,10 +564,6 @@ footer p {
     #main-name h1 {
         font-size: 4em;
     }
-
-    #form-info {
-        max-width: 500px;
-    }
 }
 
 /*media queries min-width: 900px*/
@@ -592,10 +578,6 @@ footer p {
 
     #form-container {
         background-image: url(../../assets/images/kids-spelling-word-team-with-cards.webp);
-    }
-
-    #form-info {
-        max-width: 630px;
     }
 }
 
