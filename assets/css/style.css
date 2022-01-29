@@ -156,7 +156,6 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 
 #main-name {
@@ -180,7 +179,6 @@ nav a:hover {
 
 /*ABOUT SECTION*/
 #about-us {
-    position: relative;
     margin-top: 20px;
 }
 
@@ -269,7 +267,6 @@ nav a:hover {
 
 /*PROGRAM SECTION*/
 #program {
-    position: relative;
     margin-top: 20px;
 }
 
@@ -376,7 +373,6 @@ tr:nth-child(even) {
 /*END OF USED CODE*/
 /*GALLERY SECTION*/
 #gallery {
-    position: relative;
     margin-top: 20px;
 }
 
