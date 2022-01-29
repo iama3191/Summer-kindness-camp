@@ -41,9 +41,12 @@ h3 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
+h3 {
+    font-size: 1.2rem;
+}
 /* HEADER AND NAVIGATION LINKS*/
 header {
     width: 100%;
@@ -289,7 +292,7 @@ nav a:hover {
 
 .day {
     position: absolute;
-    right: -27px;
+    right: -31px;
     top: -17px;
     width: 50px;
     height: 50px;
@@ -418,11 +421,12 @@ tr:nth-child(even) {
 }
 
 .form-input {
+    background-color: var(--bg-clr-form);
     border: 2px solid var(--blue-brd);
     margin: 5px auto 20px;
     width: 70%;
     padding: 5px;
-    background-color: var(--bg-clr-form);
+    font-size: 1.1rem; 
 }
 
 .form-input:focus {
@@ -435,12 +439,13 @@ tr:nth-child(even) {
 }
 
 #add-comment {
+    background-color: var(--bg-clr-form);
+    border: 2px solid var(--blue-brd);
     width: 70%;
     margin: 5px 0 15px;
     padding: 5px;
     resize: none;
-    border: 2px solid var(--blue-brd);
-    background-color: var(--bg-clr-form);
+    font-size: 1.1rem;
 }
 
 #add-comment:focus {
@@ -514,7 +519,7 @@ footer p {
 /*media queries min-width: 660px*/
 @media screen and (min-width: 660px) {
     #main-name h1 {
-        font-size: 3.3em;
+        font-size: 3.3rem;
     }
 }
 
@@ -558,7 +563,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 4em;
+        font-size: 4rem;
     }
 }
 
@@ -586,7 +591,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 4.7em;
+        font-size: 4.7rem;
     }
 
     .value {
@@ -595,13 +600,13 @@ footer p {
     }
 
     .value p {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 
     .intern-info h3,
     .program-description h3,
     #form-info h3 {
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
 
     .day {
@@ -609,19 +614,23 @@ footer p {
     }
 
     table {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 }
 
 /*media queries min-width: 1270px*/
 @media screen and (min-width: 1270px) {
+    * {
+        font-size: 22px;
+    }
+    
     header {
         height: 70px;
     }
 
     nav a {
         height: 38px;
-        font-size: 1.3em;
+        font-size: 1.3rem;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -632,7 +641,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 5.7em;
+        font-size: 5rem;
     }
 
     .intern-info {
@@ -641,18 +650,10 @@ footer p {
         margin-right: 60px;
     }
 
-    p {
-        font-size: 1.2em;
-    }
-
     .value {
         width: 150px;
         height: 150px;
         margin: 31px;
-    }
-
-    .value p {
-        font-size: 1.4em;
     }
 
     .program-description {
@@ -684,7 +685,7 @@ footer p {
     }
 
     #main-name h1 {
-        font-size: 6.5em;
+        font-size: 5.5rem;
     }
 
     .value {
@@ -693,7 +694,7 @@ footer p {
     }
 
     .value p {
-        font-size: 1.7em;
+        font-size: 1.5rem;
     }
 
     table {
@@ -708,12 +709,8 @@ footer p {
         margin-right: 30px;
     }
 
-    nav a {
-        font-size: 1.5em;
-    }
-
     #main-name h1 {
-        font-size: 7em;
+        font-size: 6.3rem;
     }
 
     .title-container,
@@ -729,6 +726,6 @@ footer p {
 /*media queries min-width: 1930px*/
 @media screen and (min-width: 1930px) {
     #main-name h1 {
-        font-size: 8em;
+        font-size: 7em;
     }
 }
