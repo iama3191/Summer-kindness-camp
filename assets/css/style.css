@@ -210,13 +210,15 @@ nav a:hover {
     justify-content: center;
     max-width: 85%;
     margin: 20px auto 40px;
+    padding-bottom: 20px;
     background-color: var(--primary-clr);
 }
 
 .intern-info {
-    max-width: 210px;
+    width: 80%;
+    max-width: 250px;
     height: auto;
-    margin: 20px 30px;
+    margin: 20px;
     border-radius: 10%;
     box-shadow: -11px 11px 2px 2px var(--contrast-clr);
     background-color: var(--light);
@@ -275,12 +277,14 @@ nav a:hover {
     flex-wrap: wrap;
     max-width: 85%;
     margin: 20px auto 40px;
+    padding-bottom: 20px;
     justify-content: center;
     background-color: var(--primary-clr);
 }
 
 .program-description {
-    max-width: 210px;
+    width: 80%;
+    max-width: 250px;
     height: auto;
     margin: 20px 30px;
     position: relative;
@@ -321,6 +325,7 @@ nav a:hover {
     max-width: 85%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     background-color: var(--secundary-clr);
     padding: 20px 0;
     text-align: center;
@@ -610,7 +615,7 @@ footer p {
     }
 
     .day {
-        right: -40px;
+        right: -43px;
     }
 
     table {
@@ -644,8 +649,8 @@ footer p {
         font-size: 5rem;
     }
 
-    .intern-info {
-        max-width: 250px;
+    .intern-info,
+    .program-description {
         margin-left: 60px;
         margin-right: 60px;
     }
@@ -654,12 +659,6 @@ footer p {
         width: 150px;
         height: 150px;
         margin: 31px;
-    }
-
-    .program-description {
-        max-width: 250px;
-        margin-left: 60px;
-        margin-right: 60px;
     }
 
     .day {
