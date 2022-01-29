@@ -291,12 +291,12 @@ Google Chrome was the only browser that warned about how extensions could affect
 4. FORM TESTING
 
 As I mentioned before, the form has method= "post"  and action="https://formspree.io/f/xpzbqalv" for collecting data. 
-So, I proceeded to test the form by adding my personal information to request more information, and it worked properly.
+So, I proceeded to test the form by submitting my personal information, and it worked properly.
 
-1. I filled in the requested inputs and click "REQUEST INFO"
+1. I filled in the requested inputs and click "REQUEST INFO."
 <img src="documentation/testing/form-inputs.png">
 
-2. Redirect me to a different page to inform me that the form was submitted successfully and with an optional "Go Back."
+2. Redirect me to a different page to inform me that the form was submitted successfully and with an optional "Go Back" link.
 <img src="documentation/testing/form-result-test.png">
 
 3. I received an email with all the user's submitted information because this is established in my Formspree's account.
