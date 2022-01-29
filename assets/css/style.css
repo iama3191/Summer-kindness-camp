@@ -16,7 +16,7 @@
     padding: 0;
     color: var(--dark);
     font-family: 'Lato', sans-serif;
-    font-size: 1em;
+   /* font-size: 1em;*/
     font-weight: bold;
 }
 
@@ -84,11 +84,10 @@ nav li {
 
 nav a {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
-    font-size: 1em;
 }
 
 nav a:hover {
@@ -171,7 +170,7 @@ nav a:hover {
     color: var(--primary-clr);
     text-shadow: 3px 3px 0 var(--dark);
     width: 8ch;
-    font-size: 3em;
+    font-size: 3rem;
     letter-spacing: 2px;
 }
 
@@ -330,7 +329,7 @@ caption {
     background-color: var(--light);
     border-bottom: none;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.2rem;
     padding: 4px 0;
 }
 
@@ -455,7 +454,7 @@ tr:nth-child(even) {
     border: none;
     font-weight: bold;
     font-family: 'Sniglet', cursive;
-    font-size: 0.9em;
+    font-size: 1.1rem;
     text-transform: uppercase;
 }
 
@@ -473,8 +472,12 @@ footer {
     padding: 15px;
 }
 
+footer h3 {
+    font-size: 1rem;
+}
+
 footer p {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 #social-media {
@@ -499,13 +502,6 @@ footer p {
 
 #social-media i:hover {
     color: var(--secundary-clr);
-}
-
-/*media queries min-width: 470px*/
-@media screen and (min-width: 470px) {
-    * {
-        font-size: 1em;
-    }
 }
 
 /*media queries min-width: 550px*/
