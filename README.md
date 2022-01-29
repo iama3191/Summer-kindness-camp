@@ -12,7 +12,7 @@ The social programs are:
 
 1. Senior's Program focuses on seniors living in nursing homes.
 
-2. Protector's Program focuses on recycling and the environment.
+2. Earth's Program focuses on recycling and the environment.
 
 3. Animal's Program focuses on abandoned pets living in shelters.
 
