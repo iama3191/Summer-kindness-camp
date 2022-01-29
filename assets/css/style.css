@@ -382,7 +382,7 @@ tr:nth-child(even) {
     line-height: 0;
     column-count: 1;
     column-gap: normal;
-    margin: 40px auto;
+    margin: 20px auto 40px;
     max-width: 85%;
 }
 
@@ -404,7 +404,7 @@ tr:nth-child(even) {
 }
 
 #form-container {
-    margin: 40px auto 0;
+    margin: 20px auto;
     width: 100%;
     background-image: url(../../assets/images/kids-spelling-word-team-with-cards-mobile.webp);
     background-repeat: no-repeat;
